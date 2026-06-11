@@ -183,7 +183,7 @@ export const projectsData = [
     title: "Enactus Student Organization",
     description: "Enactus is a global organization that empowers university students to develop entrepreneurial projects that create positive social and economic impact while enhancing their leadership, teamwork, and problem-solving skills.",
     story: "By taking entrepreneurial action to empower people and improve livelihoods, Enactus student leaders have successfully created real social impact in their communities. They represent a global network of leaders committed to shaping a better, more sustainable world.",
-    teamLogo: "/enactus_1.jpeg",
+    teamLogo: "/enactus.png",
     image: "/enactus_2.jpeg",
     badgeText: "Global Organization",
     badgeClass: "badge-innovation"
