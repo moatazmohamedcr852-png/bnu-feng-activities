@@ -189,6 +189,18 @@ export const projectsData = [
     badgeClass: "badge-innovation"
   },
   {
+    id: "nasig-alamal",
+    category: "entrepreneurship",
+    title: "Nasig Alamal — Enactus BNU 2026",
+    description: "A website designed to market and sell products created by women in need of income and girls with special abilities.",
+    story: "The platform provides them with an accessible marketplace to showcase and sell their products, helping expand their customer reach and support their economic empowerment as part of the Enactus BNU 2026 project.",
+    image: "/nasig el amal Nahed Tamer.jpeg",
+    teamPhoto: "/Nahed Tamer.jpeg",
+    badgeText: "Social Enterprise",
+    badgeClass: "badge-innovation",
+    teamMembers: ["Nahed Tamer"]
+  },
+  {
     id: "rally-society",
     category: "entrepreneurship",
     title: "Rally Society — Engineering Entrepreneurship",
