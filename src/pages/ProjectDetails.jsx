@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { projectsData } from '../data';
-import ActivityCard from '../components/ActivityCard';
 
 const ProjectDetails = () => {
   const { id } = useParams();
@@ -153,9 +152,40 @@ const ProjectDetails = () => {
           {childProjects.length > 0 && (
             <section className="details-section">
               <h2>Enactus Projects</h2>
-              <div className="activities-grid details-child-grid">
+              <div className="details-child-projects">
                 {childProjects.map(childProject => (
-                  <ActivityCard key={childProject.id} project={childProject} />
+                  <article key={childProject.id} className="details-child-project">
+                    <div className="details-child-project-media">
+                      {childProject.image && (
+                        <img src={childProject.image} alt={childProject.title} />
+                      )}
+                    </div>
+                    <div className="details-child-project-content">
+                      {childProject.badgeText && (
+                        <span className={`activity-badge ${childProject.badgeClass || 'badge-competition'}`}>
+                          {childProject.badgeText}
+                        </span>
+                      )}
+                      {childProject.teamPhoto && (
+                        <img src={childProject.teamPhoto} alt="Team Photo" className="details-team-photo" />
+                      )}
+                      <h3>{childProject.title}</h3>
+                      <p>{childProject.description}</p>
+                      <p>{childProject.story}</p>
+                      {childProject.teamMembers && childProject.teamMembers.length > 0 && (
+                        <div className="details-team-members">
+                          {childProject.teamMembers.map((member, idx) => (
+                            <div key={idx} className="details-team-member">
+                              <div className="member-avatar">
+                                <span className="material-icons">person</span>
+                              </div>
+                              <span>{member}</span>
+                            </div>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                  </article>
                 ))}
               </div>
             </section>
