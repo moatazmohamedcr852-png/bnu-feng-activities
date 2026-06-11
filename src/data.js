@@ -32,7 +32,10 @@ export const projectsData = [
     competition: "Benha University Hackathon",
     organizer: "Benha University",
     date: "Nov 2, 2024",
-    teamMembers: ["Abdelrahman Ahmed Ibrahim Nayef"]
+    teamMembers: [
+      "Abdelrahman Nayef", "Kirolos Maged", "Karen Sameh", 
+      "Pierre Samir", "Youssef Walid"
+    ]
   },
   {
     id: "remove",
@@ -46,14 +49,14 @@ export const projectsData = [
     teamPhoto: "/team_nahed.jpeg",
     badgeText: "Competition",
     badgeClass: "badge-competition",
-    achievement: "4th Place at University Level (Top 5)",
-    competition: "Rally Egypt",
-    organizer: "Rally Egypt",
-    date: "Oct 4, 2026",
-    extraAchievement: "3rd Place",
-    extraCompetition: "Creativa Hub Benha's Industry Innovators Hackathon",
-    extraOrganizer: "Creativa",
-    extraDate: "Oct 5, 2026",
+    achievement: "3rd Place",
+    competition: "Creativa Hub Benha's Industry Innovators Hackathon",
+    organizer: "Creativa",
+    date: "Oct 5, 2026",
+    extraAchievement: "4th Place at University Level (Top 5)",
+    extraCompetition: "Rally Egypt",
+    extraOrganizer: "Rally Egypt",
+    extraDate: "Oct 4, 2026",
     teamMembers: [
       "Nahed Tamer", "Marina George", "Mohamed Alaa", 
       "Giovanni Al-Amir", "Mina Bahgat", "Youssef Waleed"
@@ -73,7 +76,10 @@ export const projectsData = [
     competition: "Science Day",
     organizer: "Benha National University",
     date: "Dec 6, 2025",
-    teamMembers: ["Abdelrahman Nayef"]
+    teamMembers: [
+      "Abdelrahman Nayef", "Ammar Ashraf", "Adham Abdelkader", 
+      "Pierre Samir", "Salma Samer", "Farida Zyada"
+    ]
   },
   {
     id: "robocore",
@@ -190,7 +196,10 @@ export const projectsData = [
     image: "/medtech.jpeg",
     badgeText: "Startup Potential",
     badgeClass: "badge-innovation",
-    teamMembers: ["Abdelrahman Nayef"]
+    teamMembers: [
+      "Abdelrahman Nayef", "Ammar Ashraf", "Adham Abdelkader", 
+      "Pierre Samir", "Salma Samer", "Farida Zyada"
+    ]
   },
   {
     id: "smart-guide-startup",
@@ -201,6 +210,9 @@ export const projectsData = [
     image: "/smart_guide.jpeg",
     badgeText: "Social Impact",
     badgeClass: "badge-innovation",
-    teamMembers: ["Abdelrahman Nayef"]
+    teamMembers: [
+      "Abdelrahman Nayef", "Kirolos Maged", "Karen Sameh", 
+      "Pierre Samir", "Youssef Walid"
+    ]
   }
 ];
