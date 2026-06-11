@@ -583,6 +583,13 @@ a {
   color: var(--primary-dark);
 }
 
+.details-child-grid {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 420px));
+  justify-content: flex-start;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
 .member-avatar {
   width: 36px;
   height: 36px;

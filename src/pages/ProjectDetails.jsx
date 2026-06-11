@@ -1,10 +1,12 @@
 import React, { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { projectsData } from '../data';
+import ActivityCard from '../components/ActivityCard';
 
 const ProjectDetails = () => {
   const { id } = useParams();
   const project = projectsData.find(p => p.id === id);
+  const childProjects = projectsData.filter(p => p.parentId === id);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -143,6 +145,17 @@ const ProjectDetails = () => {
                     </div>
                     <span>{member}</span>
                   </div>
+                ))}
+              </div>
+            </section>
+          )}
+
+          {childProjects.length > 0 && (
+            <section className="details-section">
+              <h2>Enactus Projects</h2>
+              <div className="activities-grid details-child-grid">
+                {childProjects.map(childProject => (
+                  <ActivityCard key={childProject.id} project={childProject} />
                 ))}
               </div>
             </section>

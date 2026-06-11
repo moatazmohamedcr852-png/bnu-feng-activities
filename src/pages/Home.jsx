@@ -20,7 +20,7 @@ const Home = () => {
     return () => observer.disconnect();
   }, []);
 
-  const getProjectsByCategory = (category) => projectsData.filter(p => p.category === category);
+  const getProjectsByCategory = (category) => projectsData.filter(p => p.category === category && !p.parentId);
 
   return (
     <>

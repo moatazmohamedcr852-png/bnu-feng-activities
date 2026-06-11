@@ -190,7 +190,8 @@ export const projectsData = [
   },
   {
     id: "nasig-alamal",
-    category: "technical",
+    parentId: "enactus",
+    category: "entrepreneurship",
     title: "Nasig Alamal — Enactus BNU 2026",
     description: "A website designed to market and sell products created by women in need of income and girls with special abilities.",
     story: "The platform provides them with an accessible marketplace to showcase and sell their products, helping expand their customer reach and support their economic empowerment as part of the Enactus BNU 2026 project.",
