@@ -2,13 +2,14 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <section className="hero">
+    <section className="hero" id="home">
       <div className="hero-content">
         <span className="hero-subtitle">Benha National University</span>
-        <h1 className="hero-title">FENG Student Activities</h1>
+        <h1 className="hero-title">Faculty of Engineering Student Activities</h1>
         <p className="hero-description">
-          Empowering the next generation of engineers through innovation, teamwork, and hands-on technical experience. Discover our vibrant student clubs and groundbreaking projects.
+          Empowering the next generation of engineers through innovation, competition, sports excellence, and entrepreneurial thinking. Discover our students' achievements.
         </p>
+
       </div>
     </section>
   );

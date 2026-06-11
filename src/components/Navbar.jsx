@@ -2,15 +2,16 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <nav className="navbar">
-      <a href="#" className="nav-brand">
+    <nav className="navbar" id="main-navbar">
+      <a href="#home" className="nav-brand">
         <img src="/bnu.png" alt="BNU Logo" className="nav-logo" />
         <span>FENG Activities</span>
       </a>
       <div className="nav-links">
-        <a href="#robotics" className="nav-link">Robotics</a>
-        <a href="#entrepreneurship" className="nav-link">Entrepreneurship</a>
-        <a href="#tech" className="nav-link">Tech</a>
+        <a href="#technical" className="nav-link">Technical</a>
+        <a href="#sports" className="nav-link">Sports</a>
+        <a href="#seminars" className="nav-link">Seminars</a>
+        <a href="#entrepreneurship" className="nav-link">Innovation</a>
       </div>
     </nav>
   );
