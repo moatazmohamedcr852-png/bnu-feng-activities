@@ -245,7 +245,7 @@ export const projectsData = [
     category: "sports",
     title: "Ahmed Hany — Robotics Coach & Judge",
     description: "2nd Place Champion's Award (FLL 2023) / 1st Place National Championship twice (2022 Egypt & 2019 Programming) / International Robot Challenge Judge (2025–2026).",
-    story: "COACHING EXPERIENCE – FIRST LEGO League (2019–2025)\n• Led multiple teams in FLL Challenge & Explore programs across Egypt & internationally\n• Mentored students in STEM, robotics, and innovation",
+    story: "A champion-tier robotics mentor and international judge, Ahmed drives excellence and inspires the next generation of STEM innovators.",
     achievement: "Key Teams: Ctrl+Alt+Elite (2nd – Champion's Award) · Cypher (Core Values) · Ripple (Best Strategy)",
     extraAchievement: "Team Infinity: 2× 1st Place Championship · 2× 1st Place Robot Performance · 1st Place Programming Award",
     competition: "FLL Challenge & FLL Explore (Egypt & International)",
