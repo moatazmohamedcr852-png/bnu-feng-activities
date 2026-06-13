@@ -68,7 +68,7 @@ const ProjectDetails = () => {
           <div className="details-grid">
             <div className="details-info-card">
               <h3>Project Information</h3>
-              <p><strong>Description:</strong> {project.description}</p>
+              <p style={{whiteSpace: 'pre-line'}}><strong>Description:</strong> {project.description}</p>
               
               {project.achievement && (
                 <div className="details-achievement mt-4">
