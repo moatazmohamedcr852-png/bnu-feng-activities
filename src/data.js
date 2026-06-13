@@ -241,7 +241,7 @@ export const projectsData = [
   },
   {
     id: "ahmed-hany",
-    category: "technical",
+    category: "sports",
     title: "Ahmed Hany — Robotics Coach & Judge",
     description: "Extensive coaching and judging experience in FIRST LEGO League, leading multiple teams to victory. Mentored students in STEM, robotics, and innovation from 2019 to 2026.",
     story: "COACHING EXPERIENCE – FIRST LEGO League (2019–2025)\n• Led multiple teams in FLL Challenge & Explore programs across Egypt & internationally\n• Mentored students in STEM, robotics, and innovation\n\nKey Teams:\n• Team Ctrl+Alt+Elite (2023): 2nd Place – Champion’s Award\n• Team Cypher (2024): Core Values Recognition (Egypt)\n• Team Ripple (2025): Best Strategy Award\n• FLL Explore (2019–2026): STEM-based youth mentoring",

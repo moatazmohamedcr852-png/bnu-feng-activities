@@ -46,11 +46,11 @@ const Home = () => {
       <section id="sports" className="category-section cat-sports">
         <div className="category-header">
           <div className="category-icon">
-            <span className="material-icons">sports_martial_arts</span>
+            <span className="material-icons">emoji_events</span>
           </div>
-          <h2 className="category-title">Sports Activities & Championships</h2>
+          <h2 className="category-title">Sports & Individual Achievements</h2>
           <p className="category-description">
-            Celebrating athletic excellence and competitive spirit across university championships and national tournaments.
+            Celebrating athletic excellence, individual accomplishments, and competitive spirit across university championships and national tournaments.
           </p>
         </div>
         <div className="activities-grid">
