@@ -246,6 +246,8 @@ export const projectsData = [
     description: "Extensive coaching and judging experience in FIRST LEGO League, leading multiple teams to victory. Mentored students in STEM, robotics, and innovation from 2019 to 2026.",
     story: "COACHING EXPERIENCE – FIRST LEGO League (2019–2025)\n• Led multiple teams in FLL Challenge & Explore programs across Egypt & internationally\n• Mentored students in STEM, robotics, and innovation\n\nKey Teams:\n• Team Ctrl+Alt+Elite (2023): 2nd Place – Champion’s Award\n• Team Cypher (2024): Core Values Recognition (Egypt)\n• Team Ripple (2025): Best Strategy Award\n• FLL Explore (2019–2026): STEM-based youth mentoring",
     extraStory: "TEAM INFINITY – ACHIEVEMENTS\n• 1st Place – Programming Award (2019)\n• 2nd Place – Championship (2020)\n• 2nd Place – Core Values (2021)\n• 1st Place – Championship (2022, Egypt)\n• Pit Area Award (2021, Greece)\n• 2nd Place – Robot Performance (2020)\n• 1st Place – Robot Performance (2022)\n\nJUDGING EXPERIENCE\n• International Robot Challenge (2025, 2026)\n• We Do Challenge (2025)\n• ORCE (2025)\n• MRC – Minoan Robotsports Competition (2025, Egypt)",
+    image: "/infinty.jpeg",
+    teamPhoto: "/infinty.jpeg",
     badgeText: "Coach & Judge",
     badgeClass: "badge-competition",
     teamMembers: ["Ahmed Hany"]
