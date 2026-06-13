@@ -46,13 +46,13 @@ const ProjectDetails = () => {
 
         {project.image && (
           <div className="details-image-wrapper">
-            <img src={project.image} alt={project.title} className="details-image" />
+            <img src={project.image} alt={project.title} className={`details-image ${project.imageFit === 'contain' ? 'img-contain' : ''}`} />
           </div>
         )}
 
         {project.extraImage && (
           <div className="details-image-wrapper mt-2">
-            <img src={project.extraImage} alt={project.title} className="details-image" />
+            <img src={project.extraImage} alt={project.title} className={`details-image ${project.imageFit === 'contain' ? 'img-contain' : ''}`} />
           </div>
         )}
 

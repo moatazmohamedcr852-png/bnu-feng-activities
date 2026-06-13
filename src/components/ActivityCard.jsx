@@ -2,14 +2,14 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const ActivityCard = ({ project }) => {
-  const { id, title, description, image, badgeText, badgeClass, teamLogo, teamPhoto } = project;
+  const { id, title, description, image, badgeText, badgeClass, teamLogo, teamPhoto, imageFit } = project;
 
   return (
     <Link to={`/project/${id}`} className="activity-card-link">
       <div className={`activity-card fade-in ${!image ? 'no-image' : ''}`}>
         {image && (
           <div className="activity-image-wrapper">
-            <img src={image} alt={title} className="activity-image" loading="lazy" />
+            <img src={image} alt={title} className={`activity-image ${imageFit === 'contain' ? 'img-contain' : ''}`} loading="lazy" />
           </div>
         )}
         

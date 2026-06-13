@@ -119,6 +119,7 @@ export const projectsData = [
     description: "National karate team player representing Benha National University in the North Africa Championship.",
     story: "Omar Sherif has dedicated his life to martial arts. Competing against the best in North Africa, he has proven his mettle and brought glory to his university.",
     image: "/omar_sherif.jpg",
+    imageFit: "contain",
     teamPhoto: "/team_omar.jpg",
     badgeText: "Championship",
     badgeClass: "badge-sports",
