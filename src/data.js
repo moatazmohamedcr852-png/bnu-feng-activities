@@ -168,18 +168,7 @@ export const projectsData = [
     badgeClass: "badge-seminar",
     teamLogo: "/ieee_logo.png"
   },
-  {
-    id: "science-day",
-    category: "events",
-    title: "FENG Science Day",
-    description: "Annual science day featuring student project presentations, technical demonstrations, and awards.",
-    story: "A celebration of intellect and hard work. Science Day brings together students, faculty, and industry leaders to marvel at the innovative solutions crafted throughout the academic year.",
-    badgeText: "Annual Event",
-    badgeClass: "badge-seminar",
-    competition: "Science Day",
-    organizer: "Benha National University",
-    date: "Dec 6, 2025"
-  },
+
   {
     id: "enactus",
     category: "clubs",
@@ -262,7 +251,7 @@ export const projectsData = [
   },
   {
     id: "pcb-workshop-2025",
-    category: "events",
+    category: "workshops",
     title: "PCB Workshop (2025)",
     description: "PCB Workshop in 2025.",
     image: "",
@@ -396,6 +385,15 @@ export const projectsData = [
     badgeClass: "badge-competition"
   },
   {
+    id: "rally-teams-club",
+    category: "clubs",
+    title: "Rally Teams",
+    description: "Rally Teams participation.",
+    image: "",
+    badgeText: "Team",
+    badgeClass: "badge-competition"
+  },
+  {
     id: "rally-port-said-boot-camp",
     category: "events",
     title: "Rally Port Said Boot Camp",
@@ -405,8 +403,26 @@ export const projectsData = [
     badgeClass: "badge-seminar"
   },
   {
+    id: "rally-port-said-boot-camp-club",
+    category: "clubs",
+    title: "Rally Port Said Boot Camp",
+    description: "Rally Port Said Boot Camp.",
+    image: "",
+    badgeText: "Boot Camp",
+    badgeClass: "badge-seminar"
+  },
+  {
     id: "enactus-bue-boot-camp",
     category: "events",
+    title: "Enactus BUE Boot Camp",
+    description: "Enactus BUE Boot Camp.",
+    image: "",
+    badgeText: "Boot Camp",
+    badgeClass: "badge-seminar"
+  },
+  {
+    id: "enactus-bue-boot-camp-club",
+    category: "clubs",
     title: "Enactus BUE Boot Camp",
     description: "Enactus BUE Boot Camp.",
     image: "",
