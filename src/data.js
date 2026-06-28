@@ -239,4 +239,5 @@ export const projectsData = [
       "Abdelrahman Nayef", "Kirolos Maged", "Karen Sameh", 
       "Pierre Samir", "Youssef Walid"
     ]
+  }
 ];
