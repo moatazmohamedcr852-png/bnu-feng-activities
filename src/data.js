@@ -241,5 +241,185 @@ export const projectsData = [
       "Abdelrahman Nayef", "Kirolos Maged", "Karen Sameh", 
       "Pierre Samir", "Youssef Walid"
     ]
+  },
+  {
+    id: "arduino-course-round1-2025",
+    category: "events",
+    title: "Arduino Course – Round 1 (2025)",
+    description: "Arduino Course – Round 1 in 2025.",
+    image: "",
+    badgeText: "Course",
+    badgeClass: "badge-seminar"
+  },
+  {
+    id: "arduino-course-round2-2026",
+    category: "events",
+    title: "Arduino Course – Round 2 (2026)",
+    description: "Arduino Course – Round 2 in 2026.",
+    image: "",
+    badgeText: "Course",
+    badgeClass: "badge-seminar"
+  },
+  {
+    id: "pcb-workshop-2025",
+    category: "events",
+    title: "PCB Workshop (2025)",
+    description: "PCB Workshop in 2025.",
+    image: "",
+    badgeText: "Workshop",
+    badgeClass: "badge-seminar"
+  },
+  {
+    id: "activity-day-2026",
+    category: "events",
+    title: "Activity Day (2026)",
+    description: "Activity Day in 2026.",
+    image: "",
+    badgeText: "Event",
+    badgeClass: "badge-seminar"
+  },
+  {
+    id: "engineering-scientific-day-2025",
+    category: "events",
+    title: "Engineering Scientific Day (2025)",
+    description: "Engineering Scientific Day in 2025.",
+    image: "",
+    badgeText: "Event",
+    badgeClass: "badge-seminar"
+  },
+  {
+    id: "engineering-scientific-day-2026",
+    category: "events",
+    title: "Engineering Scientific Day (2026)",
+    description: "Engineering Scientific Day in 2026.",
+    image: "",
+    badgeText: "Event",
+    badgeClass: "badge-seminar"
+  },
+  {
+    id: "ramadan-decorations-2025",
+    category: "events",
+    title: "Ramadan Decorations (2025)",
+    description: "Ramadan Decorations in 2025.",
+    image: "",
+    badgeText: "Event",
+    badgeClass: "badge-seminar"
+  },
+  {
+    id: "ramadan-decorations-2026",
+    category: "events",
+    title: "Ramadan Decorations (2026)",
+    description: "Ramadan Decorations in 2026.",
+    image: "",
+    badgeText: "Event",
+    badgeClass: "badge-seminar"
+  },
+  {
+    id: "christmas-decorations-2025",
+    category: "events",
+    title: "Christmas Decorations (2025)",
+    description: "Christmas Decorations in 2025.",
+    image: "",
+    badgeText: "Event",
+    badgeClass: "badge-seminar"
+  },
+  {
+    id: "ideal-student-competition-2025",
+    category: "events",
+    title: "Ideal Student Competition – Fayoum University (2025)",
+    description: "Ideal Student Competition – Fayoum University in 2025.",
+    image: "",
+    badgeText: "Competition",
+    badgeClass: "badge-competition"
+  },
+  {
+    id: "students-union-elections",
+    category: "events",
+    title: "Students' Union Elections",
+    description: "Students' Union Elections.",
+    image: "",
+    badgeText: "Event",
+    badgeClass: "badge-seminar"
+  },
+  {
+    id: "ramadan-iftar-2025",
+    category: "events",
+    title: "Ramadan Iftar (2025)",
+    description: "Ramadan Iftar event in 2025.",
+    image: "",
+    badgeText: "Event",
+    badgeClass: "badge-seminar"
+  },
+  {
+    id: "ramadan-iftar-2026",
+    category: "events",
+    title: "Ramadan Iftar (2026)",
+    description: "Ramadan Iftar event in 2026.",
+    image: "",
+    badgeText: "Event",
+    badgeClass: "badge-seminar"
+  },
+  {
+    id: "fire-alarm-system-workshop-2024",
+    category: "events",
+    title: "Fire Alarm System Workshop (2024)",
+    description: "Fire Alarm System Workshop in 2024.",
+    image: "",
+    badgeText: "Workshop",
+    badgeClass: "badge-seminar"
+  },
+  {
+    id: "elevator-systems-workshop-2024",
+    category: "events",
+    title: "Elevator Systems Workshop (2024)",
+    description: "Elevator Systems Workshop in 2024.",
+    image: "",
+    badgeText: "Workshop",
+    badgeClass: "badge-seminar"
+  },
+  {
+    id: "administrative-capital-visit-2023",
+    category: "events",
+    title: "Administrative Capital Field Visit (2023)",
+    description: "Administrative Capital Field Visit in 2023 (زيارة ميدانية للعاصمة الإدارية).",
+    image: "",
+    badgeText: "Field Visit",
+    badgeClass: "badge-seminar"
+  },
+  {
+    id: "rally-teams",
+    category: "events",
+    title: "Rally Teams",
+    description: "Rally Teams participation.",
+    image: "",
+    badgeText: "Team",
+    badgeClass: "badge-competition"
+  },
+  {
+    id: "rally-port-said-boot-camp",
+    category: "events",
+    title: "Rally Port Said Boot Camp",
+    description: "Rally Port Said Boot Camp.",
+    image: "",
+    badgeText: "Boot Camp",
+    badgeClass: "badge-seminar"
+  },
+  {
+    id: "enactus-bue-boot-camp",
+    category: "events",
+    title: "Enactus BUE Boot Camp",
+    description: "Enactus BUE Boot Camp.",
+    image: "",
+    badgeText: "Boot Camp",
+    badgeClass: "badge-seminar"
+  },
+  {
+    id: "nile-university-event",
+    category: "events",
+    title: "Nile University Event",
+    description: "Nile University Event (ROV, Can Crusher, and Robotic Arm).",
+    image: "",
+    badgeText: "Event",
+    badgeClass: "badge-seminar"
   }
 ];
