@@ -37,7 +37,16 @@ const Home = () => {
           </p>
         </div>
         <div className="activities-grid">
-          {getProjectsByCategory('competitions').map(project => (
+          {projectsData.filter(p => p.category === 'competitions' && p.subcategory !== 'individual-awards' && !p.parentId).map(project => (
+            <ActivityCard key={project.id} project={project} />
+          ))}
+        </div>
+        
+        <h3 style={{ marginTop: '4rem', marginBottom: '2rem', textAlign: 'center', fontSize: '1.8rem', color: 'var(--primary-dark)' }}>
+          Individual Awards
+        </h3>
+        <div className="activities-grid">
+          {projectsData.filter(p => p.category === 'competitions' && p.subcategory === 'individual-awards' && !p.parentId).map(project => (
             <ActivityCard key={project.id} project={project} />
           ))}
         </div>
@@ -72,6 +81,23 @@ const Home = () => {
         </div>
         <div className="activities-grid">
           {getProjectsByCategory('clubs').map(project => (
+            <ActivityCard key={project.id} project={project} />
+          ))}
+        </div>
+      </section>
+
+      <section id="workshops" className="category-section cat-workshops">
+        <div className="category-header">
+          <div className="category-icon">
+            <span className="material-icons">construction</span>
+          </div>
+          <h2 className="category-title">Workshops</h2>
+          <p className="category-description">
+            Hands-on training and technical sessions led by experts and innovators.
+          </p>
+        </div>
+        <div className="activities-grid">
+          {getProjectsByCategory('workshops').map(project => (
             <ActivityCard key={project.id} project={project} />
           ))}
         </div>

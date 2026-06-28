@@ -114,7 +114,8 @@ export const projectsData = [
   },
   {
     id: "omar-sherif",
-    category: "events",
+    category: "competitions",
+    subcategory: "individual-awards",
     title: "North Africa Karate Championship",
     description: "National karate team player representing Benha National University in the North Africa Championship.",
     story: "Omar Sherif has dedicated his life to martial arts. Competing against the best in North Africa, he has proven his mettle and brought glory to his university.",
@@ -131,7 +132,8 @@ export const projectsData = [
   },
   {
     id: "malak-judo",
-    category: "events",
+    category: "competitions",
+    subcategory: "individual-awards",
     title: "University Judo Championships",
     description: "1st place in University Championship twice in a row / 3rd place in Africa / 2nd place in Open Republic Women",
     story: "Malak's sheer discipline on the mat has led to consecutive victories at the highest university and national levels, making her an inspiration to all student athletes.",
@@ -148,7 +150,7 @@ export const projectsData = [
 
   {
     id: "arduino-workshop",
-    category: "clubs",
+    category: "workshops",
     title: "Arduino & Embedded Systems Workshop",
     description: "A hands-on workshop environment where students learn the fundamentals of electronics and microcontrollers.",
     story: "From flashing their first LED to building complex IoT systems, students found a home in the Arduino workshop. It continues to be the starting point for FENG's brightest hardware engineers.",
@@ -158,7 +160,7 @@ export const projectsData = [
   },
   {
     id: "ieee-branch",
-    category: "clubs",
+    category: "workshops",
     title: "IEEE Student Branch — Technical Sessions",
     description: "The premier technical organization dedicated to advancing technology for the benefit of humanity.",
     story: "The IEEE student branch bridges the gap between academics and industry. By hosting countless seminars and workshops, they foster a culture of continuous learning and global networking.",
@@ -168,7 +170,7 @@ export const projectsData = [
   },
   {
     id: "science-day",
-    category: "clubs",
+    category: "events",
     title: "FENG Science Day",
     description: "Annual science day featuring student project presentations, technical demonstrations, and awards.",
     story: "A celebration of intellect and hard work. Science Day brings together students, faculty, and industry leaders to marvel at the innovative solutions crafted throughout the academic year.",

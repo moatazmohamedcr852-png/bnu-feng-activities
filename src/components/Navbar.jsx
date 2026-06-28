@@ -19,6 +19,7 @@ const Navbar = () => {
           <a href={getHref('#competitions')} className="nav-link">Competitions</a>
           <a href={getHref('#events')} className="nav-link">Events</a>
           <a href={getHref('#clubs')} className="nav-link">Clubs</a>
+          <a href={getHref('#workshops')} className="nav-link">Workshops</a>
           <a href={getHref('#facilities')} className="nav-link">Facilities</a>
           <a href={getHref('#announcements')} className="nav-link">Announcements</a>
           <a href={getHref('#internships')} className="nav-link">Internships</a>
@@ -37,6 +38,10 @@ const Navbar = () => {
         <a href={getHref('#clubs')} className="mobile-nav-item">
           <span className="material-icons">groups</span>
           <span>Clubs</span>
+        </a>
+        <a href={getHref('#workshops')} className="mobile-nav-item">
+          <span className="material-icons">construction</span>
+          <span>Workshops</span>
         </a>
         <a href={getHref('#facilities')} className="mobile-nav-item">
           <span className="material-icons">business</span>
