@@ -1,7 +1,7 @@
 export const projectsData = [
   {
     id: "samu",
-    category: "technical",
+    category: "competitions",
     title: "SAMU (Smart Artificial Manager for University)",
     description: "Developed a smart university management app featuring secure attendance tracking, AI assistance, student activities, and campus communication tools.",
     story: "The team noticed the inefficiencies in university administration and attendance tracking. They developed SAMU to act as an all-in-one assistant for both students and faculty, integrating AI to provide real-time assistance and a seamless university experience.",
@@ -20,7 +20,7 @@ export const projectsData = [
   },
   {
     id: "smart-guide",
-    category: "technical",
+    category: "competitions",
     title: "Smart Guide",
     description: "An AI-powered wearable assistive system designed for visually impaired individuals. It combines computer vision, object and face recognition, and haptic feedback through smart glasses and vibration bracelets to help users navigate unfamiliar environments, identify people and products, and access printed information independently.",
     story: "Driven by a desire to create a more inclusive world, Abdelrahman built Smart Guide. The system aims to give visually impaired users true independence by allowing them to navigate spaces, recognize faces, and read printed materials without external help.",
@@ -39,7 +39,7 @@ export const projectsData = [
   },
   {
     id: "remove",
-    category: "technical",
+    category: "competitions",
     title: "Re-Move",
     description: "A physical therapy device worn on the patient's arm that can record the movements of a therapy session and replay them later anytime and anywhere. It is controlled via an App containing an AI Chatbot for support, and an AI system to analyze facial expressions to ensure safety and stop the device when needed.",
     story: "Physical therapy can be arduous, and clinic visits are expensive. The Re-Move team engineered a robotic exoskeleton that bridges the gap between clinic and home, complete with AI tracking to ensure safety. This earned them a top spot at Rally Egypt.",
@@ -64,7 +64,7 @@ export const projectsData = [
   },
   {
     id: "medtech",
-    category: "technical",
+    category: "competitions",
     title: "MedTech Project",
     description: "AI-powered healthcare platform designed to improve patient care through symptom analysis, medication management, adherence monitoring, medical report interpretation, and emergency health alerts. The system ensures patients take the correct medication dosage at the right time through intelligent reminders, tracking, and compliance monitoring.",
     story: "With a vision to revolutionize digital healthcare, the team built a comprehensive AI platform. From reminding patients to take their meds to analyzing complex medical reports, MedTech acts as a 24/7 digital caregiver.",
@@ -83,7 +83,7 @@ export const projectsData = [
   },
   {
     id: "robocore",
-    category: "technical",
+    category: "competitions",
     title: "RoboCore — MATE ROV Competition",
     description: "Representing FENG in the international MATE ROV competition by building an advanced Remotely Operated Vehicle to perform intricate tasks underwater.",
     story: "RoboCore is dedicated to exploring the depths. By designing custom underwater ROVs, the team tackles complex engineering challenges while competing on an international stage.",
@@ -94,7 +94,7 @@ export const projectsData = [
   },
   {
     id: "hooligans",
-    category: "technical",
+    category: "competitions",
     title: "Hooligans — MATE ROV Competition",
     description: "A competitive robotics squad specializing in marine robotics and participating in global engineering competitions.",
     story: "The Hooligans team pushes the boundaries of marine robotics. Their advanced ROVs represent Benha National University globally, showcasing top-tier mechanical and software integration.",
@@ -105,7 +105,7 @@ export const projectsData = [
   },
   {
     id: "guardian",
-    category: "technical",
+    category: "competitions",
     title: "Guardian — Smart Police Assistance Vehicle",
     description: "A smart vehicle designed to assist police in raids, featuring advanced facial recognition and personnel identification capabilities.",
     story: "To enhance law enforcement safety, the Guardian project was born. A robust autonomous vehicle equipped with cutting-edge AI helps secure environments and identify threats before humans are put at risk.",
@@ -114,7 +114,7 @@ export const projectsData = [
   },
   {
     id: "omar-sherif",
-    category: "sports",
+    category: "events",
     title: "North Africa Karate Championship",
     description: "National karate team player representing Benha National University in the North Africa Championship.",
     story: "Omar Sherif has dedicated his life to martial arts. Competing against the best in North Africa, he has proven his mettle and brought glory to his university.",
@@ -131,7 +131,7 @@ export const projectsData = [
   },
   {
     id: "malak-judo",
-    category: "sports",
+    category: "events",
     title: "University Judo Championships",
     description: "1st place in University Championship twice in a row / 3rd place in Africa / 2nd place in Open Republic Women",
     story: "Malak's sheer discipline on the mat has led to consecutive victories at the highest university and national levels, making her an inspiration to all student athletes.",
@@ -148,7 +148,7 @@ export const projectsData = [
 
   {
     id: "arduino-workshop",
-    category: "seminars",
+    category: "clubs",
     title: "Arduino & Embedded Systems Workshop",
     description: "A hands-on workshop environment where students learn the fundamentals of electronics and microcontrollers.",
     story: "From flashing their first LED to building complex IoT systems, students found a home in the Arduino workshop. It continues to be the starting point for FENG's brightest hardware engineers.",
@@ -158,7 +158,7 @@ export const projectsData = [
   },
   {
     id: "ieee-branch",
-    category: "seminars",
+    category: "clubs",
     title: "IEEE Student Branch — Technical Sessions",
     description: "The premier technical organization dedicated to advancing technology for the benefit of humanity.",
     story: "The IEEE student branch bridges the gap between academics and industry. By hosting countless seminars and workshops, they foster a culture of continuous learning and global networking.",
@@ -168,7 +168,7 @@ export const projectsData = [
   },
   {
     id: "science-day",
-    category: "seminars",
+    category: "clubs",
     title: "FENG Science Day",
     description: "Annual science day featuring student project presentations, technical demonstrations, and awards.",
     story: "A celebration of intellect and hard work. Science Day brings together students, faculty, and industry leaders to marvel at the innovative solutions crafted throughout the academic year.",
@@ -180,7 +180,7 @@ export const projectsData = [
   },
   {
     id: "enactus",
-    category: "entrepreneurship",
+    category: "facilities",
     title: "Enactus Student Organization",
     description: "Enactus is a global organization that empowers university students to develop entrepreneurial projects that create positive social and economic impact while enhancing their leadership, teamwork, and problem-solving skills.",
     story: "By taking entrepreneurial action to empower people and improve livelihoods, Enactus student leaders have successfully created real social impact in their communities. They represent a global network of leaders committed to shaping a better, more sustainable world.",
@@ -192,7 +192,7 @@ export const projectsData = [
   {
     id: "nasig-alamal",
     parentId: "enactus",
-    category: "entrepreneurship",
+    category: "facilities",
     title: "Nasig Alamal — Enactus BNU 2026",
     description: "A website designed to market and sell products created by women in need of income and girls with special abilities.",
     story: "The platform provides them with an accessible marketplace to showcase and sell their products, helping expand their customer reach and support their economic empowerment as part of the Enactus BNU 2026 project.",
@@ -204,7 +204,7 @@ export const projectsData = [
   },
   {
     id: "rally-society",
-    category: "entrepreneurship",
+    category: "facilities",
     title: "Rally Society — Engineering Entrepreneurship",
     description: "A hub for entrepreneurial engineers working to solve real-world problems.",
     story: "Rally Society is where engineering meets business. They mentor students to think beyond the circuit board, turning wild ideas into scalable startups with real market potential.",
@@ -214,7 +214,7 @@ export const projectsData = [
   },
   {
     id: "medtech-startup",
-    category: "entrepreneurship",
+    category: "facilities",
     title: "MedTech — Healthcare Innovation",
     description: "The AI-powered platform addresses real patient needs with potential for real-world commercialization.",
     story: "Recognizing that a great project shouldn't sit on a shelf, the MedTech founders are pushing their AI platform into the commercial sector, engaging with healthcare professionals to deploy their tech in the real world.",
@@ -228,7 +228,7 @@ export const projectsData = [
   },
   {
     id: "smart-guide-startup",
-    category: "entrepreneurship",
+    category: "facilities",
     title: "Smart Guide — Assistive Technology Innovation",
     description: "An innovative solution demonstrating how engineering can directly improve quality of life.",
     story: "Smart Guide is more than code and hardware; it's a lifeline. The project team is exploring pathways to manufacture and distribute these assistive devices, turning their academic success into a social enterprise.",
@@ -242,7 +242,7 @@ export const projectsData = [
   },
   {
     id: "ahmed-hany",
-    category: "sports",
+    category: "events",
     title: "Ahmed Hany — Robotics Coach & Judge",
     description: "2nd Place Champion's Award (FLL 2023) / 1st Place National Championship twice (2022 Egypt & 2019 Programming) / International Robot Challenge Judge (2025–2026).",
     story: "A champion-tier robotics mentor and international judge, Ahmed drives excellence and inspires the next generation of STEM innovators.",

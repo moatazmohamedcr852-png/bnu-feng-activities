@@ -16,29 +16,29 @@ const Navbar = () => {
           <span>FENG Activities</span>
         </a>
         <div className="nav-links">
-          <a href={getHref('#technical')} className="nav-link">Technical</a>
-          <a href={getHref('#sports')} className="nav-link">Sports</a>
-          <a href={getHref('#seminars')} className="nav-link">Seminars</a>
-          <a href={getHref('#entrepreneurship')} className="nav-link">Innovation</a>
+          <a href={getHref('#competitions')} className="nav-link">Competitions</a>
+          <a href={getHref('#events')} className="nav-link">Events</a>
+          <a href={getHref('#clubs')} className="nav-link">Clubs</a>
+          <a href={getHref('#facilities')} className="nav-link">Facilities</a>
         </div>
       </nav>
 
       <nav className="mobile-bottom-nav">
-        <a href={getHref('#technical')} className="mobile-nav-item">
-          <span className="material-icons">engineering</span>
-          <span>Technical</span>
-        </a>
-        <a href={getHref('#sports')} className="mobile-nav-item">
+        <a href={getHref('#competitions')} className="mobile-nav-item">
           <span className="material-icons">emoji_events</span>
-          <span>Sports</span>
+          <span>Competitions</span>
         </a>
-        <a href={getHref('#seminars')} className="mobile-nav-item">
-          <span className="material-icons">school</span>
-          <span>Seminars</span>
+        <a href={getHref('#events')} className="mobile-nav-item">
+          <span className="material-icons">event</span>
+          <span>Events</span>
         </a>
-        <a href={getHref('#entrepreneurship')} className="mobile-nav-item">
-          <span className="material-icons">rocket_launch</span>
-          <span>Innovation</span>
+        <a href={getHref('#clubs')} className="mobile-nav-item">
+          <span className="material-icons">groups</span>
+          <span>Clubs</span>
+        </a>
+        <a href={getHref('#facilities')} className="mobile-nav-item">
+          <span className="material-icons">business</span>
+          <span>Facilities</span>
         </a>
       </nav>
     </>

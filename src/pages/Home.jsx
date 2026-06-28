@@ -26,69 +26,69 @@ const Home = () => {
     <>
       <Hero />
 
-      <section id="technical" className="category-section cat-technical">
-        <div className="category-header">
-          <div className="category-icon">
-            <span className="material-icons">engineering</span>
-          </div>
-          <h2 className="category-title">Technical & Art Competitions</h2>
-          <p className="category-description">
-            Showcasing engineering excellence through competitive projects, hackathons, and technical innovation challenges.
-          </p>
-        </div>
-        <div className="activities-grid">
-          {getProjectsByCategory('technical').map(project => (
-            <ActivityCard key={project.id} project={project} />
-          ))}
-        </div>
-      </section>
-
-      <section id="sports" className="category-section cat-sports">
+      <section id="competitions" className="category-section cat-competitions">
         <div className="category-header">
           <div className="category-icon">
             <span className="material-icons">emoji_events</span>
           </div>
-          <h2 className="category-title">Sports & Individual Achievements</h2>
+          <h2 className="category-title">Competitions</h2>
           <p className="category-description">
-            Celebrating athletic excellence, individual accomplishments, and competitive spirit across university championships and national tournaments.
+            Showcasing excellence through competitive projects, hackathons, and challenges.
           </p>
         </div>
         <div className="activities-grid">
-          {getProjectsByCategory('sports').map(project => (
+          {getProjectsByCategory('competitions').map(project => (
             <ActivityCard key={project.id} project={project} />
           ))}
         </div>
       </section>
 
-      <section id="seminars" className="category-section cat-seminars">
+      <section id="events" className="category-section cat-events">
         <div className="category-header">
           <div className="category-icon">
-            <span className="material-icons">school</span>
+            <span className="material-icons">event</span>
           </div>
-          <h2 className="category-title">Seminars & Scientific Courses</h2>
+          <h2 className="category-title">Events</h2>
           <p className="category-description">
-            Advancing knowledge through workshops, hands-on training, and technical seminars led by industry experts and student innovators.
+            Celebrating excellence, accomplishments, and spirit across university and national tournaments.
           </p>
         </div>
         <div className="activities-grid">
-          {getProjectsByCategory('seminars').map(project => (
+          {getProjectsByCategory('events').map(project => (
             <ActivityCard key={project.id} project={project} />
           ))}
         </div>
       </section>
 
-      <section id="entrepreneurship" className="category-section cat-entrepreneurship">
+      <section id="clubs" className="category-section cat-clubs">
         <div className="category-header">
           <div className="category-icon">
-            <span className="material-icons">rocket_launch</span>
+            <span className="material-icons">groups</span>
           </div>
-          <h2 className="category-title">Entrepreneurship & Innovation</h2>
+          <h2 className="category-title">Clubs</h2>
           <p className="category-description">
-            Transforming engineering ideas into real-world solutions, fostering startup culture and innovative thinking among students.
+            Advancing knowledge through student-led clubs and communities.
           </p>
         </div>
         <div className="activities-grid">
-          {getProjectsByCategory('entrepreneurship').map(project => (
+          {getProjectsByCategory('clubs').map(project => (
+            <ActivityCard key={project.id} project={project} />
+          ))}
+        </div>
+      </section>
+
+      <section id="facilities" className="category-section cat-facilities">
+        <div className="category-header">
+          <div className="category-icon">
+            <span className="material-icons">business</span>
+          </div>
+          <h2 className="category-title">Facilities</h2>
+          <p className="category-description">
+            Fostering innovation and learning among students with world-class facilities.
+          </p>
+        </div>
+        <div className="activities-grid">
+          {getProjectsByCategory('facilities').map(project => (
             <ActivityCard key={project.id} project={project} />
           ))}
         </div>
