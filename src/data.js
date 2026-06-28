@@ -13,6 +13,8 @@ export const projectsData = [
     competition: "Benha University Hackathon",
     organizer: "Benha University",
     date: "Sep 2, 2025",
+    extraCompetition: "Arab World Competition",
+    extraDate: "2025",
     teamMembers: [
       "Abdelrahman Ahmed Ibrahim Nayef", "Pierre Samir", "Adham Abdelqader", 
       "Kirollos Tamer", "Seif Abdelhalim", "Saleh Tamer", "Mohamed Hesham"
@@ -86,7 +88,7 @@ export const projectsData = [
     category: "clubs",
     title: "RoboCore — MATE ROV Competition",
     description: "Representing FENG in the international MATE ROV competition by building an advanced Remotely Operated Vehicle to perform intricate tasks underwater.",
-    story: "RoboCore is dedicated to exploring the depths. By designing custom underwater ROVs, the team tackles complex engineering challenges while competing on an international stage.",
+    story: "RoboCore is dedicated to exploring the depths. By designing custom underwater ROVs, the team tackles complex engineering challenges while competing on an international stage. Achievements include: Benha Robotics Competition 2025, Alexandria Entrepreneur Competition (Tourigo App 2nd place), and 6th place at Mate ROV 2026.",
     badgeText: "International Competition",
     badgeClass: "badge-competition",
     teamMembers: ["RoboCore Robotics Team"],
@@ -108,7 +110,7 @@ export const projectsData = [
     category: "clubs",
     title: "Guardian — Smart Police Assistance Vehicle",
     description: "A smart vehicle designed to assist police in raids, featuring advanced facial recognition and personnel identification capabilities.",
-    story: "To enhance law enforcement safety, the Guardian project was born. A robust autonomous vehicle equipped with cutting-edge AI helps secure environments and identify threats before humans are put at risk.",
+    story: "To enhance law enforcement safety, the Guardian project was born. A robust autonomous vehicle equipped with cutting-edge AI helps secure environments and identify threats before humans are put at risk. Achievements include: Benha Robotics Competition 2025 and Military Technical College Rover Competition 2026.",
     badgeText: "Technical Project",
     badgeClass: "badge-competition"
   },
@@ -427,5 +429,43 @@ export const projectsData = [
     image: "",
     badgeText: "Event",
     badgeClass: "badge-seminar"
+  },
+  {
+    id: "metaverse",
+    category: "competitions",
+    title: "Metaverse Team",
+    description: "Winner of the Benha Robotics Competition 2025.",
+    badgeText: "Winner",
+    badgeClass: "badge-competition",
+    competition: "Benha Robotics Competition",
+    date: "2025"
+  },
+  {
+    id: "rovengers",
+    category: "competitions",
+    title: "Rovengers",
+    description: "Rising Star at Mate ROV 2025.",
+    badgeText: "Rising Star",
+    badgeClass: "badge-competition",
+    competition: "Mate ROV",
+    date: "2025"
+  },
+  {
+    id: "aquaventures",
+    category: "competitions",
+    title: "Aquaventures",
+    description: "Best Team Spirit at Mate ROV 2026.",
+    badgeText: "Best Team Spirit",
+    badgeClass: "badge-competition",
+    competition: "Mate ROV",
+    date: "2026"
+  },
+  {
+    id: "adhd",
+    category: "competitions",
+    title: "ADHD Team",
+    description: "ADHD Team participating in competitions.",
+    badgeText: "Team",
+    badgeClass: "badge-competition"
   }
 ];
