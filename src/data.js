@@ -217,20 +217,7 @@ export const projectsData = [
       "Pierre Samir", "Salma Samer", "Farida Zyada"
     ]
   },
-  {
-    id: "smart-guide-startup",
-    category: "competitions",
-    title: "Smart Guide — Assistive Technology Innovation",
-    description: "An innovative solution demonstrating how engineering can directly improve quality of life.",
-    story: "Smart Guide is more than code and hardware; it's a lifeline. The project team is exploring pathways to manufacture and distribute these assistive devices, turning their academic success into a social enterprise.",
-    image: "/smart_guide.jpeg",
-    badgeText: "Social Impact",
-    badgeClass: "badge-innovation",
-    teamMembers: [
-      "Abdelrahman Nayef", "Kirolos Maged", "Karen Sameh", 
-      "Pierre Samir", "Youssef Walid"
-    ]
-  },
+
   {
     id: "arduino-course-round1-2025",
     category: "events",
