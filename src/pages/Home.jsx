@@ -94,6 +94,40 @@ const Home = () => {
         </div>
       </section>
 
+      <section id="announcements" className="category-section cat-announcements">
+        <div className="category-header">
+          <div className="category-icon">
+            <span className="material-icons">campaign</span>
+          </div>
+          <h2 className="category-title">Announcements</h2>
+          <p className="category-description">
+            Stay up to date with the latest news, updates, and upcoming events.
+          </p>
+        </div>
+        <div className="activities-grid">
+          {getProjectsByCategory('announcements').map(project => (
+            <ActivityCard key={project.id} project={project} />
+          ))}
+        </div>
+      </section>
+
+      <section id="internships" className="category-section cat-internships">
+        <div className="category-header">
+          <div className="category-icon">
+            <span className="material-icons">work</span>
+          </div>
+          <h2 className="category-title">Internships</h2>
+          <p className="category-description">
+            Discover opportunities to gain practical experience and kickstart your career.
+          </p>
+        </div>
+        <div className="activities-grid">
+          {getProjectsByCategory('internships').map(project => (
+            <ActivityCard key={project.id} project={project} />
+          ))}
+        </div>
+      </section>
+
       <footer className="footer">
         <p>&copy; {new Date().getFullYear()} Benha National University — Faculty of Engineering (FENG). All rights reserved.</p>
       </footer>

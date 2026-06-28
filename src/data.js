@@ -83,7 +83,7 @@ export const projectsData = [
   },
   {
     id: "robocore",
-    category: "competitions",
+    category: "clubs",
     title: "RoboCore — MATE ROV Competition",
     description: "Representing FENG in the international MATE ROV competition by building an advanced Remotely Operated Vehicle to perform intricate tasks underwater.",
     story: "RoboCore is dedicated to exploring the depths. By designing custom underwater ROVs, the team tackles complex engineering challenges while competing on an international stage.",
@@ -94,7 +94,7 @@ export const projectsData = [
   },
   {
     id: "hooligans",
-    category: "competitions",
+    category: "clubs",
     title: "Hooligans — MATE ROV Competition",
     description: "A competitive robotics squad specializing in marine robotics and participating in global engineering competitions.",
     story: "The Hooligans team pushes the boundaries of marine robotics. Their advanced ROVs represent Benha National University globally, showcasing top-tier mechanical and software integration.",
@@ -105,7 +105,7 @@ export const projectsData = [
   },
   {
     id: "guardian",
-    category: "competitions",
+    category: "clubs",
     title: "Guardian — Smart Police Assistance Vehicle",
     description: "A smart vehicle designed to assist police in raids, featuring advanced facial recognition and personnel identification capabilities.",
     story: "To enhance law enforcement safety, the Guardian project was born. A robust autonomous vehicle equipped with cutting-edge AI helps secure environments and identify threats before humans are put at risk.",
@@ -180,7 +180,7 @@ export const projectsData = [
   },
   {
     id: "enactus",
-    category: "facilities",
+    category: "clubs",
     title: "Enactus Student Organization",
     description: "Enactus is a global organization that empowers university students to develop entrepreneurial projects that create positive social and economic impact while enhancing their leadership, teamwork, and problem-solving skills.",
     story: "By taking entrepreneurial action to empower people and improve livelihoods, Enactus student leaders have successfully created real social impact in their communities. They represent a global network of leaders committed to shaping a better, more sustainable world.",
@@ -192,7 +192,7 @@ export const projectsData = [
   {
     id: "nasig-alamal",
     parentId: "enactus",
-    category: "facilities",
+    category: "competitions",
     title: "Nasig Alamal — Enactus BNU 2026",
     description: "A website designed to market and sell products created by women in need of income and girls with special abilities.",
     story: "The platform provides them with an accessible marketplace to showcase and sell their products, helping expand their customer reach and support their economic empowerment as part of the Enactus BNU 2026 project.",
@@ -204,7 +204,7 @@ export const projectsData = [
   },
   {
     id: "rally-society",
-    category: "facilities",
+    category: "clubs",
     title: "Rally Society — Engineering Entrepreneurship",
     description: "A hub for entrepreneurial engineers working to solve real-world problems.",
     story: "Rally Society is where engineering meets business. They mentor students to think beyond the circuit board, turning wild ideas into scalable startups with real market potential.",
@@ -214,7 +214,7 @@ export const projectsData = [
   },
   {
     id: "medtech-startup",
-    category: "facilities",
+    category: "competitions",
     title: "MedTech — Healthcare Innovation",
     description: "The AI-powered platform addresses real patient needs with potential for real-world commercialization.",
     story: "Recognizing that a great project shouldn't sit on a shelf, the MedTech founders are pushing their AI platform into the commercial sector, engaging with healthcare professionals to deploy their tech in the real world.",
@@ -228,7 +228,7 @@ export const projectsData = [
   },
   {
     id: "smart-guide-startup",
-    category: "facilities",
+    category: "competitions",
     title: "Smart Guide — Assistive Technology Innovation",
     description: "An innovative solution demonstrating how engineering can directly improve quality of life.",
     story: "Smart Guide is more than code and hardware; it's a lifeline. The project team is exploring pathways to manufacture and distribute these assistive devices, turning their academic success into a social enterprise.",
@@ -239,25 +239,4 @@ export const projectsData = [
       "Abdelrahman Nayef", "Kirolos Maged", "Karen Sameh", 
       "Pierre Samir", "Youssef Walid"
     ]
-  },
-  {
-    id: "ahmed-hany",
-    category: "events",
-    title: "Ahmed Hany — Robotics Coach & Judge",
-    description: "2nd Place Champion's Award (FLL 2023) / 1st Place National Championship twice (2022 Egypt & 2019 Programming) / International Robot Challenge Judge (2025–2026).",
-    story: "A champion-tier robotics mentor and international judge, Ahmed drives excellence and inspires the next generation of STEM innovators.",
-    achievement: "Key Teams: Ctrl+Alt+Elite (2nd – Champion's Award) · Cypher (Core Values) · Ripple (Best Strategy)",
-    extraAchievement: "Team Infinity: 2× 1st Place Championship · 2× 1st Place Robot Performance · 1st Place Programming Award",
-    competition: "FLL Challenge & FLL Explore (Egypt & International)",
-    extraCompetition: "Judging: IRC · We Do Challenge · ORCE · MRC – Minoan Robotsports (2025–2026)",
-    organizer: "FIRST LEGO League",
-    extraOrganizer: "International Robot Challenge / Egypt",
-    date: "2019 – 2025",
-    extraDate: "Judging: 2025 – 2026",
-    image: "/infinity.jpeg",
-    teamPhoto: "/infinity.jpeg",
-    badgeText: "Coach & Judge",
-    badgeClass: "badge-competition",
-    teamMembers: ["Ahmed Hany"]
-  }
 ];

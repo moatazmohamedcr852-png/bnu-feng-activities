@@ -20,6 +20,8 @@ const Navbar = () => {
           <a href={getHref('#events')} className="nav-link">Events</a>
           <a href={getHref('#clubs')} className="nav-link">Clubs</a>
           <a href={getHref('#facilities')} className="nav-link">Facilities</a>
+          <a href={getHref('#announcements')} className="nav-link">Announcements</a>
+          <a href={getHref('#internships')} className="nav-link">Internships</a>
         </div>
       </nav>
 
@@ -39,6 +41,14 @@ const Navbar = () => {
         <a href={getHref('#facilities')} className="mobile-nav-item">
           <span className="material-icons">business</span>
           <span>Facilities</span>
+        </a>
+        <a href={getHref('#announcements')} className="mobile-nav-item">
+          <span className="material-icons">campaign</span>
+          <span>Announcements</span>
+        </a>
+        <a href={getHref('#internships')} className="mobile-nav-item">
+          <span className="material-icons">work</span>
+          <span>Internships</span>
         </a>
       </nav>
     </>
