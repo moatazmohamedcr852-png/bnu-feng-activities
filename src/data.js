@@ -160,8 +160,8 @@ export const projectsData = [
   },
   {
     id: "ieee-branch",
-    category: "workshops",
-    title: "IEEE Student Branch — Technical Sessions",
+    category: "clubs",
+    title: "IEEE Student Branch",
     description: "The premier technical organization dedicated to advancing technology for the benefit of humanity.",
     story: "The IEEE student branch bridges the gap between academics and industry. By hosting countless seminars and workshops, they foster a culture of continuous learning and global networking.",
     badgeText: "Technical Community",
