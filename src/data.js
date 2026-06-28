@@ -386,6 +386,7 @@ export const projectsData = [
   },
   {
     id: "rally-teams-club",
+    parentId: "rally-society",
     category: "clubs",
     title: "Rally Teams",
     description: "Rally Teams participation.",
@@ -404,6 +405,7 @@ export const projectsData = [
   },
   {
     id: "rally-port-said-boot-camp-club",
+    parentId: "rally-society",
     category: "clubs",
     title: "Rally Port Said Boot Camp",
     description: "Rally Port Said Boot Camp.",
@@ -422,6 +424,7 @@ export const projectsData = [
   },
   {
     id: "enactus-bue-boot-camp-club",
+    parentId: "enactus",
     category: "clubs",
     title: "Enactus BUE Boot Camp",
     description: "Enactus BUE Boot Camp.",

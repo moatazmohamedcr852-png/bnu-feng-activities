@@ -151,7 +151,7 @@ const ProjectDetails = () => {
 
           {childProjects.length > 0 && (
             <section className="details-section">
-              <h2>Enactus Projects</h2>
+              <h2>Associated Activities & Projects</h2>
               <div className="details-child-projects">
                 {childProjects.map(childProject => (
                   <article key={childProject.id} className="details-child-project">
