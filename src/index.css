@@ -820,3 +820,45 @@ a {
 .gallery-item:hover .gallery-image {
   transform: scale(1.04);
 }
+
+/* === SUPERVISOR WIDGET === */
+.supervisor-widget {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  background: linear-gradient(135deg, var(--primary-very-light) 0%, var(--bg-card) 100%);
+  padding: 1.5rem;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--shadow-base);
+  margin-top: 1rem;
+}
+
+.supervisor-photo {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: var(--shadow-3d);
+}
+
+.supervisor-info h3 {
+  font-size: 1.5rem;
+  color: var(--primary-dark);
+  margin-bottom: 0.25rem;
+}
+
+.supervisor-info p {
+  color: var(--primary);
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .supervisor-widget {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+}

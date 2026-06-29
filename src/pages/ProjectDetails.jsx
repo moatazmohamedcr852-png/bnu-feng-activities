@@ -162,6 +162,19 @@ const ProjectDetails = () => {
             </section>
           )}
 
+          {(project.category === 'clubs' || project.category === 'competitions') && (
+            <section className="details-section supervisor-section">
+              <h2>Supervisor</h2>
+              <div className="supervisor-widget">
+                <img src="/dr_dina_hosny_el_nagar.jpeg" alt="Dr. Dina Hosny El Nagar" className="supervisor-photo" />
+                <div className="supervisor-info">
+                  <h3>Dr. Dina Hosny El Nagar</h3>
+                  <p>Project Supervisor & Mentor</p>
+                </div>
+              </div>
+            </section>
+          )}
+
           {childProjects.length > 0 && (
             <section className="details-section">
               <h2>Associated Activities & Projects</h2>

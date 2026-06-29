@@ -217,7 +217,16 @@ export const projectsData = [
     image: "/rally_logo.png",
     imageFit: "contain",
     teamLogo: "/rally_logo.png",
-    teamPhoto: "/rally_team.jpeg"
+    teamPhoto: "/rally_team.jpeg",
+    gallery: [
+      "/rally_1.jpeg",
+      "/rally_2.jpeg",
+      "/rally_3.jpeg",
+      "/rally_4.jpeg",
+      "/rally_5.jpeg",
+      "/rally_6.jpeg",
+      "/rally_7.jpeg"
+    ]
   },
   {
     id: "medtech-startup",
