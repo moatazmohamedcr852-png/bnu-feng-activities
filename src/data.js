@@ -214,7 +214,8 @@ export const projectsData = [
     story: "Rally Society is where engineering meets business. They mentor students to think beyond the circuit board, turning wild ideas into scalable startups with real market potential.",
     badgeText: "Innovation Hub",
     badgeClass: "badge-innovation",
-    image: "/rally_team.jpeg",
+    image: "/rally_logo.png",
+    imageFit: "contain",
     teamLogo: "/rally_logo.png",
     teamPhoto: "/rally_team.jpeg"
   },
@@ -392,7 +393,9 @@ export const projectsData = [
     category: "clubs",
     title: "Rally Teams",
     description: "Rally Teams participation.",
-    image: "",
+    image: "/rally_logo.png",
+    imageFit: "contain",
+    teamLogo: "/rally_logo.png",
     badgeText: "Team",
     badgeClass: "badge-competition"
   },
@@ -483,6 +486,7 @@ export const projectsData = [
     description: "ADHD Team participating in competitions.",
     badgeText: "Team",
     badgeClass: "badge-competition",
+    image: "/adhd_robot_team.jpeg",
     teamPhoto: "/adhd_robot_team.jpeg"
   },
 
@@ -499,26 +503,18 @@ export const projectsData = [
   },
 
   {
-    id: "infinity",
-    category: "competitions",
-    title: "Infinity Team",
-    description: "Infinity team competing in engineering competitions and representing FENG on a national stage.",
-    story: "The Infinity team brings creative engineering solutions to competitive environments, continuously pushing the limits of what student teams can achieve at FENG.",
-    image: "/infinity.jpeg",
-    badgeText: "Team",
-    badgeClass: "badge-competition"
-  },
-
-  {
-    id: "mohamed-khaled",
+    id: "ahmed-hany",
     category: "competitions",
     subcategory: "individual-awards",
-    title: "Mohamed Khaled",
-    description: "Individual achievement by Mohamed Khaled representing Benha National University.",
-    story: "Mohamed Khaled's dedication and hard work have led to remarkable achievements, making him a standout representative of FENG.",
-    image: "/mohamed_khaled.jpg",
-    badgeText: "Achievement",
+    title: "Ahmed Hany — Robotics Coach & International Judge",
+    description: "2nd Place Champion's Award (FLL 2023) / 1st Place National Championship twice (2022 Egypt & 2019 Programming) / International Robot Challenge Judge (2025–2026).",
+    story: "Ahmed's exceptional leadership and strategic mentoring in robotics have cultivated a culture of excellence, driving numerous teams to consecutive championship victories on both national and international stages. Beyond competition, his technical expertise as an international judge continues to shape and inspire the next generation of young STEM innovators.",
+    image: "/ahmed_hany.jpeg",
+    badgeText: "Coach & Judge",
     badgeClass: "badge-sports",
-    teamMembers: ["Mohamed Khaled"]
+    achievement: "1st Place – National Championship (2022, Egypt)",
+    extraAchievement: "2nd Place – Champion's Award | Team Ctrl+Alt+Elite (2023) \u00b7 International Judge – Robot Challenge (2025, 2026)",
+    teamMembers: ["Ahmed Hany"],
+    extraStory: "Coaching & Mentorship (FIRST LEGO League 2019–2025):\n\u2022 Team Ripple (2025): Best Strategy Award\n\u2022 Team Cypher (2024): Core Values Recognition (Egypt)\n\u2022 FLL Explore (2019–2026): Mentoring youth in STEM and innovation.\n\nTeam Infinity Achievements:\n\u2022 Championship Titles: 1st Place (2022, Egypt) & 2nd Place (2020)\n\u2022 Robot Performance: 1st Place (2022) & 2nd Place (2020)\n\u2022 Specialized Awards: 1st Place Programming (2019), 2nd Place Core Values (2021)\n\u2022 International Awards: Pit Area Award (Greece, 2021)\n\nJudging Experience:\n\u2022 MRC – Minoan Robotsports Competition (Egypt, 2025)\n\u2022 We Do Challenge & ORCE (Project Evaluator: 2025)"
   }
 ];
