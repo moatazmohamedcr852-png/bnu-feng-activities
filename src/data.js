@@ -510,6 +510,7 @@ export const projectsData = [
     description: "2nd Place Champion's Award (FLL 2023) / 1st Place National Championship twice (2022 Egypt & 2019 Programming) / International Robot Challenge Judge (2025–2026).",
     story: "Ahmed's exceptional leadership and strategic mentoring in robotics have cultivated a culture of excellence, driving numerous teams to consecutive championship victories on both national and international stages. Beyond competition, his technical expertise as an international judge continues to shape and inspire the next generation of young STEM innovators.",
     image: "/ahmed_hany.jpeg",
+    extraImage: "/infinity.jpeg",
     badgeText: "Coach & Judge",
     badgeClass: "badge-sports",
     achievement: "1st Place – National Championship (2022, Egypt)",
