@@ -56,6 +56,19 @@ const ProjectDetails = () => {
           </div>
         )}
 
+        {project.gallery && project.gallery.length > 0 && (
+          <div className="details-gallery">
+            <h3 className="gallery-heading">Photo Gallery</h3>
+            <div className="gallery-grid">
+              {project.gallery.map((img, idx) => (
+                <div key={idx} className="gallery-item">
+                  <img src={img} alt={`${project.title} — photo ${idx + 1}`} className="gallery-image" />
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
         <div className="details-content">
           <section className="details-section">
             <h2>The Story</h2>

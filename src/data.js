@@ -103,7 +103,8 @@ export const projectsData = [
     badgeText: "International Competition",
     badgeClass: "badge-competition",
     teamMembers: ["Hooligans Robotics Team"],
-    teamLogo: "/hoolgans.png"
+    teamLogo: "/hoolgans.png",
+    teamPhoto: "/hoolganis_aquaventures.jpeg"
   },
   {
     id: "guardian",
@@ -112,7 +113,8 @@ export const projectsData = [
     description: "A smart vehicle designed to assist police in raids, featuring advanced facial recognition and personnel identification capabilities.",
     story: "To enhance law enforcement safety, the Guardian project was born. A robust autonomous vehicle equipped with cutting-edge AI helps secure environments and identify threats before humans are put at risk. Achievements include: Benha Robotics Competition 2025 and Military Technical College Rover Competition 2026.",
     badgeText: "Technical Project",
-    badgeClass: "badge-competition"
+    badgeClass: "badge-competition",
+    teamPhoto: "/guardian_team.jpeg"
   },
   {
     id: "omar-sherif",
@@ -158,6 +160,9 @@ export const projectsData = [
     story: "From flashing their first LED to building complex IoT systems, students found a home in the Arduino workshop. It continues to be the starting point for FENG's brightest hardware engineers.",
     badgeText: "Workshop",
     badgeClass: "badge-seminar",
+    image: "/arduino_workshop.jpeg",
+    teamPhoto: "/arduino_team.jpeg",
+    gallery: ["/arduino_workshop3.jpeg", "/arduino_workshop4.jpeg"],
     teamLogo: "/arduino_logo.png"
   },
   {
@@ -203,7 +208,8 @@ export const projectsData = [
     story: "Rally Society is where engineering meets business. They mentor students to think beyond the circuit board, turning wild ideas into scalable startups with real market potential.",
     badgeText: "Innovation Hub",
     badgeClass: "badge-innovation",
-    teamLogo: "/rally_logo.png"
+    teamLogo: "/rally_logo.png",
+    teamPhoto: "/rally_team.jpeg"
   },
   {
     id: "medtech-startup",
@@ -438,7 +444,8 @@ export const projectsData = [
     badgeText: "Winner",
     badgeClass: "badge-competition",
     competition: "Benha Robotics Competition",
-    date: "2025"
+    date: "2025",
+    image: "/metaverse.jpeg"
   },
   {
     id: "rovengers",
@@ -448,7 +455,8 @@ export const projectsData = [
     badgeText: "Rising Star",
     badgeClass: "badge-competition",
     competition: "Mate ROV",
-    date: "2025"
+    date: "2025",
+    image: "/rovengers_rov.jpeg"
   },
   {
     id: "aquaventures",
@@ -458,7 +466,8 @@ export const projectsData = [
     badgeText: "Best Team Spirit",
     badgeClass: "badge-competition",
     competition: "Mate ROV",
-    date: "2026"
+    date: "2026",
+    image: "/hoolganis_aquaventures.jpeg"
   },
   {
     id: "adhd",
@@ -466,6 +475,43 @@ export const projectsData = [
     title: "ADHD Team",
     description: "ADHD Team participating in competitions.",
     badgeText: "Team",
+    badgeClass: "badge-competition",
+    teamPhoto: "/adhd_robot_team.jpeg"
+  },
+
+  {
+    id: "tech-beam",
+    category: "competitions",
+    title: "Tech Beam — El-Araby Competition",
+    description: "Tech Beam team representing Benha National University's Faculty of Engineering at the El-Araby competition, showcasing innovative engineering solutions.",
+    story: "The Tech Beam team stepped up to the El-Araby competition, showcasing their engineering prowess and innovative thinking on a regional stage, proudly representing FENG.",
+    image: "/tech_beam_el_araby_compettion.jpeg",
+    badgeText: "Competition",
+    badgeClass: "badge-competition",
+    competition: "El-Araby Competition"
+  },
+
+  {
+    id: "infinity",
+    category: "competitions",
+    title: "Infinity Team",
+    description: "Infinity team competing in engineering competitions and representing FENG on a national stage.",
+    story: "The Infinity team brings creative engineering solutions to competitive environments, continuously pushing the limits of what student teams can achieve at FENG.",
+    image: "/infinity.jpeg",
+    badgeText: "Team",
     badgeClass: "badge-competition"
+  },
+
+  {
+    id: "mohamed-khaled",
+    category: "competitions",
+    subcategory: "individual-awards",
+    title: "Mohamed Khaled",
+    description: "Individual achievement by Mohamed Khaled representing Benha National University.",
+    story: "Mohamed Khaled's dedication and hard work have led to remarkable achievements, making him a standout representative of FENG.",
+    image: "/mohamed_khaled.jpg",
+    badgeText: "Achievement",
+    badgeClass: "badge-sports",
+    teamMembers: ["Mohamed Khaled"]
   }
 ];
