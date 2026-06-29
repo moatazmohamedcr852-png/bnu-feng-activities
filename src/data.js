@@ -92,6 +92,8 @@ export const projectsData = [
     badgeText: "International Competition",
     badgeClass: "badge-competition",
     teamMembers: ["RoboCore Robotics Team"],
+    image: "/robocore.jpg",
+    imageFit: "contain",
     teamLogo: "/robocore.jpg"
   },
   {
@@ -103,6 +105,7 @@ export const projectsData = [
     badgeText: "International Competition",
     badgeClass: "badge-competition",
     teamMembers: ["Hooligans Robotics Team"],
+    image: "/hoolganis_aquaventures.jpeg",
     teamLogo: "/hoolgans.png",
     teamPhoto: "/hoolganis_aquaventures.jpeg"
   },
@@ -114,6 +117,7 @@ export const projectsData = [
     story: "To enhance law enforcement safety, the Guardian project was born. A robust autonomous vehicle equipped with cutting-edge AI helps secure environments and identify threats before humans are put at risk. Achievements include: Benha Robotics Competition 2025 and Military Technical College Rover Competition 2026.",
     badgeText: "Technical Project",
     badgeClass: "badge-competition",
+    image: "/guardian_team.jpeg",
     teamPhoto: "/guardian_team.jpeg"
   },
   {
@@ -173,6 +177,8 @@ export const projectsData = [
     story: "The IEEE student branch bridges the gap between academics and industry. By hosting countless seminars and workshops, they foster a culture of continuous learning and global networking.",
     badgeText: "Technical Community",
     badgeClass: "badge-seminar",
+    image: "/ieee_logo.png",
+    imageFit: "contain",
     teamLogo: "/ieee_logo.png"
   },
 
@@ -208,6 +214,7 @@ export const projectsData = [
     story: "Rally Society is where engineering meets business. They mentor students to think beyond the circuit board, turning wild ideas into scalable startups with real market potential.",
     badgeText: "Innovation Hub",
     badgeClass: "badge-innovation",
+    image: "/rally_team.jpeg",
     teamLogo: "/rally_logo.png",
     teamPhoto: "/rally_team.jpeg"
   },
