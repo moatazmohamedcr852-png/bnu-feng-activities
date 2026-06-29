@@ -862,3 +862,77 @@ a {
     gap: 1rem;
   }
 }
+
+/* === SUPERVISOR BANNER (HOME PAGE) === */
+.supervisor-banner {
+  max-width: 1000px;
+  margin: 0 auto 3rem auto;
+  background: linear-gradient(135deg, var(--bg-card) 0%, var(--primary-very-light) 100%);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--shadow-3d);
+  overflow: hidden;
+  position: relative;
+}
+
+.supervisor-banner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 100%;
+  background: var(--primary);
+}
+
+.supervisor-banner-content {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.supervisor-banner-photo {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid white;
+  box-shadow: var(--shadow-base);
+  flex-shrink: 0;
+}
+
+.supervisor-badge {
+  display: inline-block;
+  padding: 0.35rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  background: var(--primary);
+  color: white;
+  margin-bottom: 0.75rem;
+}
+
+.supervisor-banner-info h3 {
+  font-size: 2rem;
+  color: var(--primary-dark);
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+
+.supervisor-banner-info p {
+  color: var(--text-secondary);
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .supervisor-banner-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+    padding: 1.5rem;
+  }
+}

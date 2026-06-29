@@ -3,6 +3,19 @@ import Hero from '../components/Hero';
 import ActivityCard from '../components/ActivityCard';
 import { projectsData } from '../data';
 
+const SupervisorBanner = () => (
+  <div className="supervisor-banner fade-in">
+    <div className="supervisor-banner-content">
+      <img src="/dr_dina_hosny_el_nagar.jpeg" alt="Dr. Dina Hosny El Nagar" className="supervisor-banner-photo" />
+      <div className="supervisor-banner-info">
+        <span className="supervisor-badge">General Supervisor</span>
+        <h3>Dr. Dina Hosny El Nagar</h3>
+        <p>Providing visionary leadership, mentorship, and continuous support to empower students in driving innovation and achieving excellence.</p>
+      </div>
+    </div>
+  </div>
+);
+
 const Home = () => {
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -36,6 +49,9 @@ const Home = () => {
             Showcasing excellence through competitive projects, hackathons, and challenges.
           </p>
         </div>
+        
+        <SupervisorBanner />
+        
         <div className="activities-grid">
           {projectsData.filter(p => p.category === 'competitions' && p.subcategory !== 'individual-awards' && !p.parentId).map(project => (
             <ActivityCard key={project.id} project={project} />
@@ -79,6 +95,9 @@ const Home = () => {
             Advancing knowledge through student-led clubs and communities.
           </p>
         </div>
+
+        <SupervisorBanner />
+
         <div className="activities-grid">
           {getProjectsByCategory('clubs').map(project => (
             <ActivityCard key={project.id} project={project} />
