@@ -162,7 +162,7 @@ const ProjectDetails = () => {
             </section>
           )}
 
-          {(project.category === 'clubs' || project.category === 'competitions') && (
+          {(project.category === 'clubs' || project.category === 'competitions') && project.id !== 'ieee-branch' && (
             <section className="details-section supervisor-section">
               <h2>Supervisor</h2>
               <div className="supervisor-widget">
