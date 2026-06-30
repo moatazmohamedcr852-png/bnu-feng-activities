@@ -5,8 +5,8 @@ export const projectsData = [
     title: "SAMU (Smart Artificial Manager for University)",
     description: "Developed a smart university management app featuring secure attendance tracking, AI assistance, student activities, and campus communication tools.",
     story: "The team noticed the inefficiencies in university administration and attendance tracking. They developed SAMU to act as an all-in-one assistant for both students and faculty, integrating AI to provide real-time assistance and a seamless university experience.",
-    image: "/samu_screenshot.png",
-    teamPhoto: "/team_samu.jpeg",
+    image: "/team_samu.jpeg",
+    teamPhoto: "/samu_screenshot.png",
     badgeText: "Hackathon",
     badgeClass: "badge-hackathon",
     achievement: "2nd Place — Benha University Hackathon",
@@ -26,8 +26,8 @@ export const projectsData = [
     title: "Smart Guide",
     description: "An AI-powered wearable assistive system designed for visually impaired individuals. It combines computer vision, object and face recognition, and haptic feedback through smart glasses and vibration bracelets to help users navigate unfamiliar environments, identify people and products, and access printed information independently.",
     story: "Driven by a desire to create a more inclusive world, Abdelrahman built Smart Guide. The system aims to give visually impaired users true independence by allowing them to navigate spaces, recognize faces, and read printed materials without external help.",
-    image: "/smart_guide.jpeg",
-    teamPhoto: "/team_smart_guide.jpeg",
+    image: "/team_smart_guide.jpeg",
+    teamPhoto: "/smart_guide.jpeg",
     badgeText: "Hackathon",
     badgeClass: "badge-hackathon",
     achievement: "2nd Place — Benha University Hackathon",
@@ -46,9 +46,9 @@ export const projectsData = [
     description: "A physical therapy device worn on the patient's arm that can record the movements of a therapy session and replay them later anytime and anywhere. It is controlled via an App containing an AI Chatbot for support, and an AI system to analyze facial expressions to ensure safety and stop the device when needed.",
     story: "Physical therapy can be arduous, and clinic visits are expensive. The Re-Move team engineered a robotic exoskeleton that bridges the gap between clinic and home, complete with AI tracking to ensure safety. This earned them a top spot at Rally Egypt.",
     extraStory: "The physical strain of Rally Egypt was met with incredible engineering endurance. The team not only competed fiercely but demonstrated the Re-Move project's viability under intense pressure.",
-    image: "/nahed_tamer_2.jpeg",
+    image: "/team_nahed.jpeg",
     extraImage: "/nahed_tamer.jpeg",
-    teamPhoto: "/team_nahed.jpeg",
+    teamPhoto: "/nahed_tamer_2.jpeg",
     badgeText: "Competition",
     badgeClass: "badge-competition",
     achievement: "3rd Place",
@@ -70,8 +70,8 @@ export const projectsData = [
     title: "MedTech Project",
     description: "AI-powered healthcare platform designed to improve patient care through symptom analysis, medication management, adherence monitoring, medical report interpretation, and emergency health alerts. The system ensures patients take the correct medication dosage at the right time through intelligent reminders, tracking, and compliance monitoring.",
     story: "With a vision to revolutionize digital healthcare, the team built a comprehensive AI platform. From reminding patients to take their meds to analyzing complex medical reports, MedTech acts as a 24/7 digital caregiver.",
-    image: "/medtech.jpeg",
-    teamPhoto: "/team_medtech.jpeg",
+    image: "/team_medtech.jpeg",
+    teamPhoto: "/medtech.jpeg",
     badgeText: "Best Project",
     badgeClass: "badge-competition",
     achievement: "Best Project — FENG Science Day",
@@ -220,7 +220,6 @@ export const projectsData = [
     teamPhoto: "/rally_team.jpeg",
     gallery: [
       "/rally_1.jpeg",
-      "/rally_2.jpeg",
       "/rally_3.jpeg",
       "/rally_4.jpeg",
       "/rally_5.jpeg",
@@ -257,7 +256,7 @@ export const projectsData = [
     category: "events",
     title: "Arduino Course – Round 2 (2026)",
     description: "Arduino Course – Round 2 in 2026.",
-    image: "",
+    image: "arduino_workshop4.jpeg",
     badgeText: "Course",
     badgeClass: "badge-seminar"
   },
@@ -275,9 +274,14 @@ export const projectsData = [
     category: "events",
     title: "Activity Day (2026)",
     description: "Activity Day in 2026.",
-    image: "",
+    image: "/sci26_2.jpeg",
     badgeText: "Event",
-    badgeClass: "badge-seminar"
+    badgeClass: "badge-seminar",
+    gallery: [
+      "/sci26_1.jpeg",
+      "/sci26_3.jpeg"
+    ]
+
   },
   {
     id: "engineering-scientific-day-2025",
@@ -329,7 +333,8 @@ export const projectsData = [
     category: "events",
     title: "Ideal Student Competition – Fayoum University (2025)",
     description: "Ideal Student Competition – Fayoum University in 2025.",
-    image: "",
+    story: "The Ideal Student Competition at Fayoum University brings together talented students to showcase their skills and creativity. the ideal student for benha national universityis abdelrahman nayef and rawan ahmed.",
+    image: "/rawannayef_ideal.jpeg",
     badgeText: "Competition",
     badgeClass: "badge-competition"
   },
@@ -338,7 +343,7 @@ export const projectsData = [
     category: "events",
     title: "Students' Union Elections",
     description: "Students' Union Elections.",
-    image: "",
+    image: "/studentun.jpeg",
     badgeText: "Event",
     badgeClass: "badge-seminar"
   },
@@ -347,9 +352,16 @@ export const projectsData = [
     category: "events",
     title: "Ramadan Iftar (2025)",
     description: "Ramadan Iftar event in 2025.",
-    image: "",
+    image: "/iftar2.jpeg",
     badgeText: "Event",
-    badgeClass: "badge-seminar"
+    badgeClass: "badge-seminar",
+    gallery: [
+      "/iftar1.jpeg",
+      "/iftar3.jpeg",
+      "/iftar4.jpeg",
+      "/iftar5.jpeg",
+      "/iftar6.jpeg"
+    ]
   },
   {
     id: "ramadan-iftar-2026",
@@ -392,7 +404,7 @@ export const projectsData = [
     category: "events",
     title: "Rally Teams",
     description: "Rally Teams participation.",
-    image: "",
+    image: "/rally_7.jpeg",
     badgeText: "Team",
     badgeClass: "badge-competition"
   },
@@ -413,7 +425,7 @@ export const projectsData = [
     category: "events",
     title: "Rally Port Said Boot Camp",
     description: "Rally Port Said Boot Camp.",
-    image: "",
+    image: "/rally_1.jpeg",
     badgeText: "Boot Camp",
     badgeClass: "badge-seminar"
   },
@@ -432,9 +444,15 @@ export const projectsData = [
     category: "events",
     title: "Enactus BUE Boot Camp",
     description: "Enactus BUE Boot Camp.",
-    image: "",
+    image: "/got4.jpeg",
     badgeText: "Boot Camp",
-    badgeClass: "badge-seminar"
+    badgeClass: "badge-seminar",
+    gallery: [
+      "/got1.jpeg",
+      "/got3.jpeg",
+      "/got4.jpeg",
+      "/got2.jpeg"
+    ]
   },
   {
     id: "enactus-bue-boot-camp-club",
@@ -442,7 +460,7 @@ export const projectsData = [
     category: "clubs",
     title: "Enactus BUE Boot Camp",
     description: "Enactus BUE Boot Camp.",
-    image: "",
+    image: "/got4.jpeg",
     badgeText: "Boot Camp",
     badgeClass: "badge-seminar"
   },
@@ -451,7 +469,8 @@ export const projectsData = [
     category: "events",
     title: "Nile University Event",
     description: "Nile University Event (ROV, Can Crusher, and Robotic Arm).",
-    image: "",
+    image: "/nile1.jpeg",
+    extraImage: "/nile2.jpeg",
     badgeText: "Event",
     badgeClass: "badge-seminar"
   },
