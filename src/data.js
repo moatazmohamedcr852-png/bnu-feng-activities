@@ -287,10 +287,18 @@ export const projectsData = [
     id: "engineering-scientific-day-2026",
     category: "events",
     title: "Engineering Scientific Day (2026)",
-    description: "Engineering Scientific Day in 2026.",
-    image: "",
+    description: "The Faculty of Engineering Scientific Day brought together students, faculty members, and distinguished guests for a day of innovation, recognition, and celebration. The event featured insightful discussions on Artificial Intelligence and the future of the job market, showcasing the impact of emerging technologies on various industries. Attendees also explored outstanding university projects and Sumo Car projects developed by engineering students. In recognition of excellence, students who achieved remarkable success in national and international competitions throughout the year were honored, alongside faculty members for their dedication and contributions. The event concluded with engaging artistic performances, creating a vibrant and memorable experience for everyone.",
+    image: "/ori1.jpeg",
     badgeText: "Event",
-    badgeClass: "badge-seminar"
+    badgeClass: "badge-seminar",
+        gallery: [
+      "/ori1.jpeg",
+      "/ori2.jpeg",
+      "/ori3.jpeg",
+      "/ori6.jpeg",
+      "/ori7.jpeg",
+      "/ori8.jpeg"
+    ]
   },
   {
     id: "ramadan-decorations-2025",
