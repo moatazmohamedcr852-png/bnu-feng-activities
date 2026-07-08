@@ -358,10 +358,18 @@ export const projectsData = [
     id: "ramadan-iftar-2026",
     category: "events",
     title: "Ramadan Iftar (2026)",
-    description: "Ramadan Iftar event in 2026.",
-    image: "",
+    description: "Benha National University’s Annual Iftar 2026 was held at Hadramout, Obour, bringing together students, the Dean, faculty members, teaching assistants, and administrative staff in a warm and welcoming atmosphere. The gathering celebrated the spirit of Ramadan while strengthening the bonds within the university community through meaningful conversations and shared moments, creating a memorable experience for everyone.",
+    image: "/ift5.jpeg",
     badgeText: "Event",
-    badgeClass: "badge-seminar"
+    badgeClass: "badge-seminar",
+    gallery: [
+      "/ift1.jpeg",
+      "/ift2.jpeg",
+      "/ift3.jpeg",
+      "/ift4.jpeg",
+      "/ift6.jpeg",
+      "/ift7.jpeg"
+    ]
   },
   {
     id: "fire-alarm-system-workshop-2024",
