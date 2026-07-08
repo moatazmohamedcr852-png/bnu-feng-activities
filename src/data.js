@@ -44,7 +44,7 @@ export const projectsData = [
     id: "remove",
     category: "projects",
     title: "Re-Move",
-    subcategory: "outstanding",
+    subcategory: "award-winning",
     description: "A physical therapy device worn on the patient's arm that can record the movements of a therapy session and replay them later anytime and anywhere. It is controlled via an App containing an AI Chatbot for support, and an AI system to analyze facial expressions to ensure safety and stop the device when needed.",
     story: "Physical therapy can be arduous, and clinic visits are expensive. The Re-Move team engineered a robotic exoskeleton that bridges the gap between clinic and home, complete with AI tracking to ensure safety. This earned them a top spot at Rally Egypt.",
     extraStory: "The physical strain of Rally Egypt was met with incredible engineering endurance. The team not only competed fiercely but demonstrated the Re-Move project's viability under intense pressure.",
@@ -229,21 +229,6 @@ export const projectsData = [
       "/rally_5.jpeg",
       "/rally_6.jpeg",
       "/rally_7.jpeg"
-    ]
-  },
-  {
-    id: "medtech-startup",
-    category: "projects",
-    title: "MedTech — Healthcare Innovation",
-    subcategory: "outstanding",
-    description: "The AI-powered platform addresses real patient needs with potential for real-world commercialization.",
-    story: "Recognizing that a great project shouldn't sit on a shelf, the MedTech founders are pushing their AI platform into the commercial sector, engaging with healthcare professionals to deploy their tech in the real world.",
-    image: "/medtech.jpeg",
-    badgeText: "Startup Potential",
-    badgeClass: "badge-innovation",
-    teamMembers: [
-      "Abdelrahman Nayef", "Ammar Ashraf", "Adham Abdelkader", 
-      "Pierre Samir", "Salma Samer", "Farida Zyada"
     ]
   },
 
@@ -630,6 +615,35 @@ export const projectsData = [
       "/faclites/orientation_day13.jpeg", "/faclites/orientation_day14.jpeg", "/faclites/orientation_day15.jpeg", "/faclites/orientation_day16.jpeg",
       "/faclites/orientation_day17.jpeg", "/faclites/orientation_day18.jpeg", "/faclites/orientation_day19.jpeg", "/faclites/orientation_day20.jpeg",
       "/faclites/orientation_day21.jpeg", "/faclites/orientation_day22.jpeg", "/faclites/orientation_day23.jpeg", "/faclites/orientation_day24.jpeg"
+    ]
+  },
+  {
+    id: "minister-visit-1",
+    category: "visits",
+    title: "Visit of the Minister of Education & Prime Minister",
+    description: "Official visit by the Minister of Education and the Prime Minister to the Faculty of Engineering.",
+    image: "/visits/visit1_1.jpeg",
+    badgeText: "Official Visit",
+    badgeClass: "badge-seminar",
+    gallery: [
+      "/visits/visit1_1.jpeg",
+      "/visits/visit1_2.jpeg"
+    ]
+  },
+  {
+    id: "minister-visit-2",
+    category: "visits",
+    title: "Second Visit of the Minister of Education & Prime Minister",
+    description: "A follow-up official visit by the Minister of Education and the Prime Minister, reviewing the ongoing developments and projects at the Faculty of Engineering.",
+    image: "/visits/visit2_1.jpeg",
+    badgeText: "Official Visit",
+    badgeClass: "badge-seminar",
+    gallery: [
+      "/visits/visit2_1.jpeg",
+      "/visits/visit2_2.jpeg",
+      "/visits/visit2_3.jpeg",
+      "/visits/visit2_4.jpeg",
+      "/visits/visit2_5.jpeg"
     ]
   }
 ];

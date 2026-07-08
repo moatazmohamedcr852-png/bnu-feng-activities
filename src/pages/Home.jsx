@@ -133,6 +133,23 @@ const Home = () => {
         </div>
       </section>
 
+      <section id="visits" className="category-section cat-visits">
+        <div className="category-header">
+          <div className="category-icon">
+            <span className="material-icons">tour</span>
+          </div>
+          <h2 className="category-title">Visits</h2>
+          <p className="category-description">
+            Highlighting official visits, VIP tours, and high-level engagements at the Faculty of Engineering.
+          </p>
+        </div>
+        <div className="activities-grid">
+          {getProjectsByCategory('visits').map(project => (
+            <ActivityCard key={project.id} project={project} />
+          ))}
+        </div>
+      </section>
+
       <section id="announcements" className="category-section cat-announcements">
         <div className="category-header">
           <div className="category-icon">
