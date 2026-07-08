@@ -26,18 +26,31 @@ const Home = () => {
     <>
       <Hero />
 
-      <section id="competitions" className="category-section cat-competitions">
+      <section id="projects" className="category-section cat-projects">
         <div className="category-header">
           <div className="category-icon">
             <span className="material-icons">emoji_events</span>
           </div>
-          <h2 className="category-title">Competitions</h2>
+          <h2 className="category-title">Projects</h2>
           <p className="category-description">
             Showcasing excellence through competitive projects, hackathons, and challenges.
           </p>
         </div>
+
+        <h3 style={{ marginTop: '2rem', marginBottom: '2rem', textAlign: 'center', fontSize: '1.8rem', color: 'var(--primary-dark)' }}>
+          Award-Winning Projects
+        </h3>
         <div className="activities-grid">
-          {projectsData.filter(p => p.category === 'competitions' && p.subcategory !== 'individual-awards' && !p.parentId).map(project => (
+          {projectsData.filter(p => p.category === 'projects' && p.subcategory === 'award-winning' && !p.parentId).map(project => (
+            <ActivityCard key={project.id} project={project} />
+          ))}
+        </div>
+
+        <h3 style={{ marginTop: '4rem', marginBottom: '2rem', textAlign: 'center', fontSize: '1.8rem', color: 'var(--primary-dark)' }}>
+          Outstanding Projects
+        </h3>
+        <div className="activities-grid">
+          {projectsData.filter(p => p.category === 'projects' && p.subcategory === 'outstanding' && !p.parentId).map(project => (
             <ActivityCard key={project.id} project={project} />
           ))}
         </div>
@@ -46,7 +59,7 @@ const Home = () => {
           Individual Awards
         </h3>
         <div className="activities-grid">
-          {projectsData.filter(p => p.category === 'competitions' && p.subcategory === 'individual-awards' && !p.parentId).map(project => (
+          {projectsData.filter(p => p.category === 'projects' && p.subcategory === 'individual-awards' && !p.parentId).map(project => (
             <ActivityCard key={project.id} project={project} />
           ))}
         </div>

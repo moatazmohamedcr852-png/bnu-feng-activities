@@ -1,7 +1,7 @@
 export const projectsData = [
   {
     id: "samu",
-    category: "competitions",
+    category: "projects",
     title: "SAMU (Smart Artificial Manager for University)",
     description: "Developed a smart university management app featuring secure attendance tracking, AI assistance, student activities, and campus communication tools.",
     story: "The team noticed the inefficiencies in university administration and attendance tracking. They developed SAMU to act as an all-in-one assistant for both students and faculty, integrating AI to provide real-time assistance and a seamless university experience.",
@@ -22,8 +22,9 @@ export const projectsData = [
   },
   {
     id: "smart-guide",
-    category: "competitions",
+    category: "projects",
     title: "Smart Guide",
+    subcategory: "award-winning",
     description: "An AI-powered wearable assistive system designed for visually impaired individuals. It combines computer vision, object and face recognition, and haptic feedback through smart glasses and vibration bracelets to help users navigate unfamiliar environments, identify people and products, and access printed information independently.",
     story: "Driven by a desire to create a more inclusive world, Abdelrahman built Smart Guide. The system aims to give visually impaired users true independence by allowing them to navigate spaces, recognize faces, and read printed materials without external help.",
     image: "/team_smart_guide.jpeg",
@@ -41,8 +42,9 @@ export const projectsData = [
   },
   {
     id: "remove",
-    category: "competitions",
+    category: "projects",
     title: "Re-Move",
+    subcategory: "outstanding",
     description: "A physical therapy device worn on the patient's arm that can record the movements of a therapy session and replay them later anytime and anywhere. It is controlled via an App containing an AI Chatbot for support, and an AI system to analyze facial expressions to ensure safety and stop the device when needed.",
     story: "Physical therapy can be arduous, and clinic visits are expensive. The Re-Move team engineered a robotic exoskeleton that bridges the gap between clinic and home, complete with AI tracking to ensure safety. This earned them a top spot at Rally Egypt.",
     extraStory: "The physical strain of Rally Egypt was met with incredible engineering endurance. The team not only competed fiercely but demonstrated the Re-Move project's viability under intense pressure.",
@@ -66,8 +68,9 @@ export const projectsData = [
   },
   {
     id: "medtech",
-    category: "competitions",
+    category: "projects",
     title: "MedTech Project",
+    subcategory: "award-winning",
     description: "AI-powered healthcare platform designed to improve patient care through symptom analysis, medication management, adherence monitoring, medical report interpretation, and emergency health alerts. The system ensures patients take the correct medication dosage at the right time through intelligent reminders, tracking, and compliance monitoring.",
     story: "With a vision to revolutionize digital healthcare, the team built a comprehensive AI platform. From reminding patients to take their meds to analyzing complex medical reports, MedTech acts as a 24/7 digital caregiver.",
     image: "/team_medtech.jpeg",
@@ -122,7 +125,7 @@ export const projectsData = [
   },
   {
     id: "omar-sherif",
-    category: "competitions",
+    category: "projects",
     subcategory: "individual-awards",
     title: "North Africa Karate Championship",
     description: "National karate team player representing Benha National University in the North Africa Championship.",
@@ -140,7 +143,7 @@ export const projectsData = [
   },
   {
     id: "malak-judo",
-    category: "competitions",
+    category: "projects",
     subcategory: "individual-awards",
     title: "University Judo Championships",
     description: "1st place in University Championship twice in a row / 3rd place in Africa / 2nd place in Open Republic Women",
@@ -196,8 +199,9 @@ export const projectsData = [
   {
     id: "nasig-alamal",
     parentId: "enactus",
-    category: "competitions",
+    category: "projects",
     title: "Nasig Alamal — Enactus BNU 2026",
+    subcategory: "outstanding",
     description: "A website designed to market and sell products created by women in need of income and girls with special abilities.",
     story: "The platform provides them with an accessible marketplace to showcase and sell their products, helping expand their customer reach and support their economic empowerment as part of the Enactus BNU 2026 project.",
     image: "/nasig el amal Nahed Tamer.jpeg",
@@ -229,8 +233,9 @@ export const projectsData = [
   },
   {
     id: "medtech-startup",
-    category: "competitions",
+    category: "projects",
     title: "MedTech — Healthcare Innovation",
+    subcategory: "outstanding",
     description: "The AI-powered platform addresses real patient needs with potential for real-world commercialization.",
     story: "Recognizing that a great project shouldn't sit on a shelf, the MedTech founders are pushing their AI platform into the commercial sector, engaging with healthcare professionals to deploy their tech in the real world.",
     image: "/medtech.jpeg",
@@ -476,8 +481,9 @@ export const projectsData = [
   },
   {
     id: "metaverse",
-    category: "competitions",
+    category: "projects",
     title: "Metaverse Team",
+    subcategory: "award-winning",
     description: "Winner of the Benha Robotics Competition 2025.",
     badgeText: "Winner",
     badgeClass: "badge-competition",
@@ -487,8 +493,9 @@ export const projectsData = [
   },
   {
     id: "rovengers",
-    category: "competitions",
+    category: "projects",
     title: "Rovengers",
+    subcategory: "award-winning",
     description: "Rising Star at Mate ROV 2025.",
     badgeText: "Rising Star",
     badgeClass: "badge-competition",
@@ -498,8 +505,9 @@ export const projectsData = [
   },
   {
     id: "aquaventures",
-    category: "competitions",
+    category: "projects",
     title: "Aquaventures",
+    subcategory: "award-winning",
     description: "Best Team Spirit at Mate ROV 2026.",
     badgeText: "Best Team Spirit",
     badgeClass: "badge-competition",
@@ -509,8 +517,9 @@ export const projectsData = [
   },
   {
     id: "adhd",
-    category: "competitions",
+    category: "projects",
     title: "ADHD Team",
+    subcategory: "outstanding",
     description: "ADHD Team participating in competitions.",
     badgeText: "Team",
     badgeClass: "badge-competition",
@@ -520,8 +529,9 @@ export const projectsData = [
 
   {
     id: "tech-beam",
-    category: "competitions",
+    category: "projects",
     title: "Tech Beam — El-Araby Competition",
+    subcategory: "outstanding",
     description: "Tech Beam team representing Benha National University's Faculty of Engineering at the El-Araby competition, showcasing innovative engineering solutions.",
     story: "The Tech Beam team stepped up to the El-Araby competition, showcasing their engineering prowess and innovative thinking on a regional stage, proudly representing FENG.",
     image: "/tech_beam_el_araby_compettion.jpeg",
@@ -532,7 +542,7 @@ export const projectsData = [
 
   {
     id: "ahmed-hany",
-    category: "competitions",
+    category: "projects",
     subcategory: "individual-awards",
     title: "Ahmed Hany — Robotics Coach & International Judge",
     description: "2nd Place Champion's Award (FLL 2023) / 1st Place National Championship twice (2022 Egypt & 2019 Programming) / International Robot Challenge Judge (2025–2026).",
@@ -607,7 +617,7 @@ export const projectsData = [
   },
   {
     id: "orientation-day",
-    category: "facilities",
+    category: "events",
     title: "Orientation Day Gallery",
     description: "Welcoming new students to the Faculty of Engineering and showcasing our facilities and community.",
     image: "/faclites/orientation_day01.jpeg",

@@ -16,7 +16,7 @@ const Navbar = () => {
           <span>FENG Activities</span>
         </a>
         <div className="nav-links">
-          <a href={getHref('#competitions')} className="nav-link">Competitions</a>
+          <a href={getHref('#projects')} className="nav-link">Projects</a>
           <a href={getHref('#events')} className="nav-link">Events</a>
           <a href={getHref('#clubs')} className="nav-link">Clubs</a>
           <a href={getHref('#workshops')} className="nav-link">Workshops</a>
@@ -27,9 +27,9 @@ const Navbar = () => {
       </nav>
 
       <nav className="mobile-bottom-nav">
-        <a href={getHref('#competitions')} className="mobile-nav-item">
+        <a href={getHref('#projects')} className="mobile-nav-item">
           <span className="material-icons">emoji_events</span>
-          <span>Competitions</span>
+          <span>Projects</span>
         </a>
         <a href={getHref('#events')} className="mobile-nav-item">
           <span className="material-icons">event</span>
