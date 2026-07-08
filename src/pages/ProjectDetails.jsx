@@ -170,7 +170,7 @@ const ProjectDetails = () => {
                   <img src="/dr_dina_hosny_el_nagar.jpeg" alt="Dr. Dina Hosny El Nagar" className="supervisor-photo" />
                   <div className="supervisor-info">
                     <h3>Dr. Dina Hosny El Nagar</h3>
-                    <p>General Supervisor</p>
+                    <p>Project Supervisor</p>
                   </div>
                 </div>
 
