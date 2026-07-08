@@ -545,5 +545,81 @@ export const projectsData = [
     extraAchievement: "2nd Place – Champion's Award | Team Ctrl+Alt+Elite (2023) \u00b7 International Judge – Robot Challenge (2025, 2026)",
     teamMembers: ["Ahmed Hany"],
     extraStory: "Coaching & Mentorship (FIRST LEGO League 2019–2025):\n\u2022 Team Ripple (2025): Best Strategy Award\n\u2022 Team Cypher (2024): Core Values Recognition (Egypt)\n\u2022 FLL Explore (2019–2026): Mentoring youth in STEM and innovation.\n\nTeam Infinity Achievements:\n\u2022 Championship Titles: 1st Place (2022, Egypt) & 2nd Place (2020)\n\u2022 Robot Performance: 1st Place (2022) & 2nd Place (2020)\n\u2022 Specialized Awards: 1st Place Programming (2019), 2nd Place Core Values (2021)\n\u2022 International Awards: Pit Area Award (Greece, 2021)\n\nJudging Experience:\n\u2022 MRC – Minoan Robotsports Competition (Egypt, 2025)\n\u2022 We Do Challenge & ORCE (Project Evaluator: 2025)"
+  },
+  {
+    id: "chemistry-lab",
+    category: "facilities",
+    title: "Chemistry Lab",
+    description: "State-of-the-art chemistry laboratory for practical experiments.",
+    image: "/faclites/chemistry_lab01.jpeg",
+    badgeText: "Facility",
+    badgeClass: "badge-seminar",
+    gallery: ["/faclites/chemistry_lab01.jpeg", "/faclites/chemistry_lab02.jpeg", "/faclites/chemistry_lab03.jpeg"]
+  },
+  {
+    id: "computer-labs",
+    category: "facilities",
+    title: "Computer Labs",
+    description: "Modern computer labs equipped with high-performance workstations for simulation and coding.",
+    image: "/faclites/computer_labs.jpeg",
+    badgeText: "Facility",
+    badgeClass: "badge-seminar",
+    gallery: ["/faclites/computer_labs.jpeg", "/faclites/computer_labs2.jpeg"]
+  },
+  {
+    id: "fluid-mechanics-lab",
+    category: "facilities",
+    title: "Fluid Mechanics Lab",
+    description: "Advanced fluid mechanics laboratory for practical engineering applications.",
+    image: "/faclites/fluid_mechanics_lap.jpeg",
+    badgeText: "Facility",
+    badgeClass: "badge-seminar",
+    gallery: ["/faclites/fluid.jpeg", "/faclites/fluid2.jpeg", "/faclites/fluid3.jpeg", "/faclites/fluid4.jpeg", "/faclites/fluid_mechanics_lap.jpeg"]
+  },
+  {
+    id: "lecture-halls",
+    category: "facilities",
+    title: "Lecture Halls",
+    description: "Spacious and fully equipped lecture halls for academic sessions.",
+    image: "/faclites/lecture_halls.png",
+    badgeText: "Facility",
+    badgeClass: "badge-seminar"
+  },
+  {
+    id: "thermodynamics-lab",
+    category: "facilities",
+    title: "Thermodynamics Lab",
+    description: "Comprehensive thermodynamics laboratory for hands-on thermal engineering experiments.",
+    image: "/faclites/thermodynamics.jpeg",
+    badgeText: "Facility",
+    badgeClass: "badge-seminar",
+    gallery: ["/faclites/thermodynamics.jpeg", "/faclites/thermodynamics01.jpeg", "/faclites/thermodynamics02.jpeg", "/faclites/thermodynamics03.jpeg", "/faclites/thermodynamics2.jpeg", "/faclites/thermodynamic3.jpeg"]
+  },
+  {
+    id: "production-eng-workshop",
+    category: "facilities",
+    title: "Production Engineering Workshop",
+    description: "Heavy machinery and tools for production engineering practice.",
+    image: "/faclites/workshop_of_production_eng.jpeg",
+    badgeText: "Facility",
+    badgeClass: "badge-seminar",
+    gallery: ["/faclites/workshop_of prodution eng.jpeg", "/faclites/workshop_of_production_eng.jpeg"]
+  },
+  {
+    id: "orientation-day",
+    category: "facilities",
+    title: "Orientation Day Gallery",
+    description: "Welcoming new students to the Faculty of Engineering and showcasing our facilities and community.",
+    image: "/faclites/orientation_day01.jpeg",
+    badgeText: "Event Gallery",
+    badgeClass: "badge-sports",
+    gallery: [
+      "/faclites/orientation_day01.jpeg", "/faclites/orientation_day02.jpeg", "/faclites/orientation_day03.jpeg", "/faclites/orientation_day04.jpeg",
+      "/faclites/orientation_day05.jpeg", "/faclites/orientation_day06.jpeg", "/faclites/orientation_day07.jpeg", "/faclites/orientation_day08.jpeg",
+      "/faclites/orientation_day09.jpeg", "/faclites/orientation_day10.jpeg", "/faclites/orientation_day11.jpeg", "/faclites/orientation_day12.jpeg",
+      "/faclites/orientation_day13.jpeg", "/faclites/orientation_day14.jpeg", "/faclites/orientation_day15.jpeg", "/faclites/orientation_day16.jpeg",
+      "/faclites/orientation_day17.jpeg", "/faclites/orientation_day18.jpeg", "/faclites/orientation_day19.jpeg", "/faclites/orientation_day20.jpeg",
+      "/faclites/orientation_day21.jpeg", "/faclites/orientation_day22.jpeg", "/faclites/orientation_day23.jpeg", "/faclites/orientation_day24.jpeg"
+    ]
   }
 ];
