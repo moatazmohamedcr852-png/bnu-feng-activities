@@ -164,13 +164,25 @@ const ProjectDetails = () => {
 
           {((project.category === 'clubs' || project.category === 'projects') || project.id === 'arduino-workshop') && project.id !== 'ieee-branch' && (
             <section className="details-section supervisor-section">
-              <h2>Supervisor</h2>
-              <div className="supervisor-widget">
-                <img src="/dr_dina_hosny_el_nagar.jpeg" alt="Dr. Dina Hosny El Nagar" className="supervisor-photo" />
-                <div className="supervisor-info">
-                  <h3>Dr. Dina Hosny El Nagar</h3>
-                  <p>Project Supervisor & Mentor</p>
+              <h2>Supervisors</h2>
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1.5rem' }}>
+                <div className="supervisor-widget" style={{ marginTop: 0 }}>
+                  <img src="/dr_dina_hosny_el_nagar.jpeg" alt="Dr. Dina Hosny El Nagar" className="supervisor-photo" />
+                  <div className="supervisor-info">
+                    <h3>Dr. Dina Hosny El Nagar</h3>
+                    <p>General Supervisor</p>
+                  </div>
                 </div>
+
+                {project.category === 'projects' && project.id !== 'remove' && (
+                  <div className="supervisor-widget" style={{ marginTop: 0 }}>
+                    <img src="/dr_mohamed_said.jpeg" alt="Dr. Mohamed Said" className="supervisor-photo" />
+                    <div className="supervisor-info">
+                      <h3>Dr. Mohamed Said</h3>
+                      <p>Project Supervisor</p>
+                    </div>
+                  </div>
+                )}
               </div>
             </section>
           )}
