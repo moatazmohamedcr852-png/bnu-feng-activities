@@ -32,7 +32,7 @@ const ActivityCard = ({ project }) => {
           <p className="activity-description">{description}</p>
           
           <div className="click-indicator">
-            <span className="material-icons">touch_app</span> Open Project
+            <span className="material-icons">info</span> More Info
           </div>
         </div>
       </div>
