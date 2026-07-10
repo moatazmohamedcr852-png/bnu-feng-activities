@@ -1,0 +1,20 @@
+smart elderly healthcare monitor 
+system
+الفكرة بتاعته ان هو جهاز بيشتغل كا مساعد للمريضين في العناية ان هو يتابع حالة المريض و كمان بيستخدم للشخص الكبير اللي قاعد لوحدة ان حد يقدر يتابع حالته من بعيد و لو في حاجة حرجة ياخد اكشن سريع
+
+الجهاز بيعتمد على 
+Microcontrollers 
+Cloud
+Mobile application 
+Ai
+
+اسماء التيم:
+Loay Islam Mohamed 
+saif abdulhalim elsayed ahmed
+Motaz mohamed fandis
+Carol maged sawaris
+Malak ikramy
+Mai gamal fouad
+
+المشرف:
+Dr/ motaz el sherbeni

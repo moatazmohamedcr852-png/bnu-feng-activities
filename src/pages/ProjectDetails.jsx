@@ -162,12 +162,12 @@ const ProjectDetails = () => {
             </section>
           )}
 
-          {((project.category === 'clubs' || project.category === 'projects') || project.id === 'arduino-workshop') && project.id !== 'ieee-branch' && (
+          {(((project.category === 'clubs' || project.category === 'projects') || project.id === 'arduino-workshop') && project.id !== 'ieee-branch') && (
             <section className="details-section supervisor-section">
               <h2>Supervisors</h2>
               <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1.5rem' }}>
                 <div className="supervisor-widget" style={{ marginTop: 0 }}>
-                  <img src="/dr_dina_hosny_el_nagar.jpeg" alt="Dr. Dina Hosny El Nagar" className="supervisor-photo" />
+                  <img src="/supervisors/dr_dina_hosny_el_nagar.jpeg" alt="Dr. Dina Hosny El Nagar" className="supervisor-photo" />
                   <div className="supervisor-info">
                     <h3>Dr. Dina Hosny El Nagar</h3>
                     <p>Project Supervisor</p>
@@ -176,13 +176,32 @@ const ProjectDetails = () => {
 
                 {project.category === 'projects' && project.id !== 'remove' && (
                   <div className="supervisor-widget" style={{ marginTop: 0 }}>
-                    <img src="/dr_mohamed_said.jpeg" alt="Dr. Mohamed Said" className="supervisor-photo" />
+                    <img src="/supervisors/dr_mohamed_said.jpeg" alt="Dr. Mohamed Said" className="supervisor-photo" />
                     <div className="supervisor-info">
                       <h3>Dr. Mohamed Said</h3>
                       <p>Project Supervisor</p>
                     </div>
                   </div>
                 )}
+              </div>
+            </section>
+          )}
+
+          {project.supervisors && project.supervisors.length > 0 && (
+            <section className="details-section supervisor-section">
+              <h2>Supervisors</h2>
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1.5rem' }}>
+                {project.supervisors.map((sup, idx) => (
+                  <div key={idx} className="supervisor-widget" style={{ marginTop: 0 }}>
+                    <div className="supervisor-photo" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: 'var(--primary-light)', color: 'white' }}>
+                      <span className="material-icons" style={{ fontSize: '3rem' }}>person</span>
+                    </div>
+                    <div className="supervisor-info">
+                      <h3>{sup.name}</h3>
+                      <p>{sup.role}</p>
+                    </div>
+                  </div>
+                ))}
               </div>
             </section>
           )}

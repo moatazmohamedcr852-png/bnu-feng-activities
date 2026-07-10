@@ -794,5 +794,68 @@ export const projectsData = [
       "/visits/visit2_4.jpeg",
       "/visits/visit2_5.jpeg"
     ]
+  },
+  {
+    id: "gp-human-following-robot",
+    category: "graduation-projects",
+    title: "Human Following Carrying Robot",
+    description: "An AI-powered robot designed to autonomously follow a designated person while transporting loads using computer vision and wireless control.",
+    story: "This project presents an AI-powered Human Following Carrying Robot designed to autonomously follow a designated person while transporting loads. A laptop-based computer vision system detects and tracks the target using a camera and transmits movement commands wirelessly to an ESP32-S3 controller. The robot employs differential drive using two high-torque wheelchair motors driven by BTS7960 motor drivers. To ensure safe operation, ultrasonic sensors provide obstacle detection and avoidance, while additional sensors including a DHT11 temperature sensor and MPU6050 inertial measurement unit enhance environmental monitoring and future expansion capabilities. The system demonstrates reliable target tracking, smooth navigation, and real-time wireless control making it suitable for smart assistance and carrying applications.",
+    image: "/gp/human_following.jpeg",
+    badgeText: "AI & Robotics",
+    badgeClass: "badge-innovation",
+    teamMembers: [
+      "Mohamed hisham mohamed metwally",
+      "Moaz Bahaa Elthakeel",
+      "Amr Mohamed El-bayoumi",
+      "Ziad alaa",
+      "Omar Abdelghany"
+    ],
+    supervisors: [
+      { name: "Dr. Ahmed attia", role: "Supervisor" },
+      { name: "Dr. Samah samir", role: "Supervisor" }
+    ]
+  },
+  {
+    id: "gp-lumina",
+    category: "graduation-projects",
+    title: "Lumina — Smart Street Lighting",
+    description: "An intelligent, off-grid street lighting system powered entirely by renewable solar energy utilizing IoT for efficiency and monitoring.",
+    story: "This project introduces an intelligent, off-grid street lighting system powered entirely by renewable solar energy. Developed to address energy conservation needs and reduce reliance on the national power grid, the system utilizes Internet of Things (IoT) technologies for efficient, autonomous operation. It features a decentralized, motion-activated control logic utilizing PIR and LDR sensors, ensuring that the direct current (DC) LED lamps are only fully active when pedestrians or vehicles are detected. Furthermore, the system integrates a local web server to host a centralized dashboard, allowing for real-time remote monitoring, data collection, and fault detection. Designed with a scalable architecture, this solution is adaptable for both pedestrian sidewalks and high-speed highways, promoting sustainable infrastructure, energy efficiency, and enhanced public safety.",
+    image: "/gp/lumina.jpeg",
+    badgeText: "IoT & Renewable Energy",
+    badgeClass: "badge-innovation",
+    teamMembers: [
+      "Abdullah Mohamed Abdullah Khalil (Team Leader)",
+      "Mohamed Hossam Mohamed Zaki",
+      "Ziad Sherif Gamal",
+      "Bishoy Magdy Hanna Boutros",
+      "Omar Ashraf Hassan",
+      "Amr Mohamed Ahmed"
+    ],
+    supervisors: [
+      { name: "Dr. Heba Allah Adly Taj El-Din", role: "Supervisor" }
+    ]
+  },
+  {
+    id: "gp-smart-elderly-monitor",
+    category: "graduation-projects",
+    title: "Smart Elderly Healthcare Monitor",
+    description: "An IoT and AI-based system designed to assist patients in intensive care and remotely monitor elderly individuals for rapid medical response.",
+    story: "smart elderly healthcare monitor system\nالفكرة بتاعته ان هو جهاز بيشتغل كا مساعد للمريضين في العناية ان هو يتابع حالة المريض و كمان بيستخدم للشخص الكبير اللي قاعد لوحدة ان حد يقدر يتابع حالته من بعيد و لو في حاجة حرجة ياخد اكشن سريع\n\nالجهاز بيعتمد على\nMicrocontrollers\nCloud\nMobile application\nAi",
+    image: "/gp/smart_elderly.jpeg",
+    badgeText: "Healthcare Tech",
+    badgeClass: "badge-innovation",
+    teamMembers: [
+      "Loay Islam Mohamed",
+      "Saif abdulhalim elsayed ahmed",
+      "Motaz mohamed fandis",
+      "Carol maged sawaris",
+      "Malak ikramy",
+      "Mai gamal fouad"
+    ],
+    supervisors: [
+      { name: "Dr. Motaz el sherbeni", role: "Supervisor" }
+    ]
   }
 ];

@@ -1,0 +1,10 @@
+This proiect presents an Al-powered Human Following Carrying Robot designed to autonomously follow a designated person while transporting oads. A laptop-based computer vision system detects and tracks the target using a camera and transmits movement commands wirelessly to an ESP32-$3 controller. The robot employs differential drive using two high-torque wheelchair motors driven by BTS7960 motor drivers. To ensure safe operation, ultrasonic sensor provide obstacle detection and avoidance, while additional sensors including a DHT11 temperature sensor and MPU6050 inertial measurement unit enhance environmenta monitoring and future expansion capabilities. The system demonstrates reliable target tracking, smooth navigation, and real-time wireless control making it suitable for smart assistance and carrying applications.
+Members
+Mohamed hisham mohamed metwally
+Moaz Bahaa Elthakeel
+Amr Mohamed El-bayoumi
+Ziad alaa
+Omar Abdelghany
+Supervisors
+Dr. Ahmed attia
+Dr. Samah samir

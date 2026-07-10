@@ -1,0 +1,12 @@
+his project introduces an intelligent, off-grid street lighting system powered entirely by renewable solar energy. Developed to address energy conservation needs and reduce reliance on the national power grid, the system utilizes Internet of Things (IoT) technologies for efficient, autonomous operation. It features a decentralized, motion-activated control logic utilizing PIR and LDR sensors, ensuring that the direct current (DC) LED lamps are only fully active when pedestrians or vehicles are detected. Furthermore, the system integrates a local web server to host a centralized dashboard, allowing for real-time remote monitoring, data collection, and fault detection. Designed with a scalable architecture, this solution is adaptable for both pedestrian sidewalks and high-speed highways, promoting sustainable infrastructure, energy efficiency, and enhanced public safet
+team
+
+Abdullah Mohamed Abdullah Khalil (Team Leader)
+Mohamed Hossam Mohamed Zaki
+Ziad Sherif Gamal
+Bishoy Magdy Hanna Boutros
+Omar Ashraf Hassan
+Amr Mohamed Ahmed
+
+Supervisor:
+Dr. Heba Allah Adly Taj El-Din
