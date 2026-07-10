@@ -428,7 +428,7 @@ export const projectsData = [
     ]
   },
     {
-    id: "rally-teams-club2",
+    id: "rally-teams-dia-care",
     parentId: "rally-teams",
     category: "clubs",
     title: "DIA-CARE",
@@ -440,7 +440,7 @@ export const projectsData = [
     badgeClass: "badge-competition"
   },
   {
-    id: "rally-teams-club2",
+    id: "rally-teams-roboexpress",
     parentId: "rally-teams",
     category: "clubs",
     title: "RoboEXPRESS",
@@ -452,7 +452,7 @@ export const projectsData = [
     badgeClass: "badge-competition"
   },
   {
-    id: "rally-teams-club2",
+    id: "rally-teams-medmap",
     parentId: "rally-teams",
     category: "clubs",
     title: "MEDMAP",
@@ -464,7 +464,7 @@ export const projectsData = [
     badgeClass: "badge-competition"
   },
   {
-    id: "rally-teams-club2",
+    id: "rally-teams-heartguard",
     parentId: "rally-teams",
     category: "clubs",
     title: "HeartGuard",
@@ -476,7 +476,7 @@ export const projectsData = [
     badgeClass: "badge-competition"
   },
     {
-    id: "rally-teams-club2",
+    id: "rally-teams-fabtronix",
     parentId: "rally-teams",
     category: "clubs",
     title: "Fabtronix",
@@ -488,7 +488,7 @@ export const projectsData = [
     badgeClass: "badge-competition"
   },
     {
-    id: "rally-teams-club2",
+    id: "rally-teams-remove",
     parentId: "rally-teams",
     category: "clubs",
     title: "Re-Move",
@@ -500,7 +500,7 @@ export const projectsData = [
     badgeClass: "badge-competition"
   },
   {
-    id: "rally-teams-club2",
+    id: "rally-teams-tahweel",
     parentId: "rally-teams",
     category: "clubs",
     title: "TAHWEEL",
@@ -512,7 +512,7 @@ export const projectsData = [
     badgeClass: "badge-competition"
   },
   {
-    id: "rally-teams-club2",
+    id: "rally-teams-oslider",
     parentId: "rally-teams",
     category: "clubs",
     title: "O Slider",
@@ -524,7 +524,7 @@ export const projectsData = [
     badgeClass: "badge-competition"
   },
     {
-    id: "rally-teams-club2",
+    id: "rally-teams-tourigo",
     parentId: "rally-teams",
     category: "clubs",
     title: "TOURIGO",
@@ -536,7 +536,7 @@ export const projectsData = [
     badgeClass: "badge-competition"
   },
 {
-    id: "rally-teams-club2",
+    id: "rally-teams-athar",
     parentId: "rally-teams",
     category: "clubs",
     title: "Athar",

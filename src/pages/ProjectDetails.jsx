@@ -1,9 +1,10 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { projectsData } from '../data';
 
 const ProjectDetails = () => {
   const { id } = useParams();
+  const [showAllTeams, setShowAllTeams] = useState(false);
   const project = projectsData.find(p => p.id === id);
   const childProjects = projectsData.filter(p => p.parentId === id);
 
@@ -210,7 +211,7 @@ const ProjectDetails = () => {
             <section className="details-section">
               <h2>Associated Activities & Projects</h2>
               <div className="details-child-projects">
-                {childProjects.map(childProject => (
+                {(showAllTeams ? childProjects : childProjects.slice(0, 2)).map(childProject => (
                   <article key={childProject.id} className="details-child-project">
                     <div className="details-child-project-media">
                       {childProject.image && (
@@ -245,6 +246,16 @@ const ProjectDetails = () => {
                   </article>
                 ))}
               </div>
+              {childProjects.length > 2 && (
+                <div style={{ textAlign: 'center', marginTop: '2rem' }}>
+                  <button 
+                    className="btn-primary" 
+                    onClick={() => setShowAllTeams(!showAllTeams)}
+                  >
+                    {showAllTeams ? "Show Less" : `View All ${childProjects.length} Teams`}
+                  </button>
+                </div>
+              )}
             </section>
           )}
         </div>
