@@ -842,7 +842,7 @@ export const projectsData = [
     category: "graduation-projects",
     title: "Smart Elderly Healthcare Monitor",
     description: "An IoT and AI-based system designed to assist patients in intensive care and remotely monitor elderly individuals for rapid medical response.",
-    story: "smart elderly healthcare monitor system\nالفكرة بتاعته ان هو جهاز بيشتغل كا مساعد للمريضين في العناية ان هو يتابع حالة المريض و كمان بيستخدم للشخص الكبير اللي قاعد لوحدة ان حد يقدر يتابع حالته من بعيد و لو في حاجة حرجة ياخد اكشن سريع\n\nالجهاز بيعتمد على\nMicrocontrollers\nCloud\nMobile application\nAi",
+    story: "The Smart Elderly Healthcare Monitor System serves as a dedicated assistant for intensive care patients by continuously tracking their health condition. It is also highly beneficial for elderly individuals living alone, enabling remote monitoring of their vitals so that swift medical action can be taken in the event of an emergency. The system is built using Microcontrollers, Cloud technology, Mobile applications, and AI.",
     image: "/gp/smart_elderly.jpeg",
     badgeText: "Healthcare Tech",
     badgeClass: "badge-innovation",
