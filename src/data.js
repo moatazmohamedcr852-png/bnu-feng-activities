@@ -408,7 +408,6 @@ export const projectsData = [
   },
   {
     id: "rally-teams",
-    parentId: "rally-society",
     category: "events",
     title: "Rally × Bedo Collaboration (UNIVERTY FINALS",
     description: "The Rally × Bedo Finals marked the final stage of the university's selection process for the Rally Semi-Finals. Out of more than 40 submitted projects, the top 15 teams were shortlisted based on the official Rally evaluation criteria and invited to present their ideas before a distinguished judging panel, including Dr. Dina El-Naggar, Eng. Mohamed El-Amir, Dr. Wael Mamdouh, and Dr. Amr Hussein. the event, organized incollaboration with Bedo, celebrated innovation, entrepreneurship, and the outstanding potential of the university's student teams.",
@@ -430,7 +429,7 @@ export const projectsData = [
   },
     {
     id: "rally-teams-dia-care",
-    parentId: "rally-teams",
+    parentId: "rally-society",
     category: "clubs",
     title: "DIA-CARE",
     description: "A Smart Insole specifically designed for diabetic patients who aim to prevent Diabetic Foot Ulcers (DFU) and avoid the risk of amputation. We replace traditional, restrictive methods like wearing white socks or constant manual inspection with a seamless, automated monitoring system that restores the patient's freedom.",
@@ -442,7 +441,7 @@ export const projectsData = [
   },
   {
     id: "rally-teams-roboexpress",
-    parentId: "rally-teams",
+    parentId: "rally-society",
     category: "clubs",
     title: "RoboEXPRESS",
     description:"RoboExpress is an autonomous delivery robot designed for residential compounds. It enables secure package delivery from the compound gate directly to residents, reducing the need for delivery personnel to enter the community, enhancing security, minimizing safety risks, and making the delivery process faster and more convenient.",
@@ -454,7 +453,7 @@ export const projectsData = [
   },
   {
     id: "rally-teams-medmap",
-    parentId: "rally-teams",
+    parentId: "rally-society",
     category: "clubs",
     title: "MEDMAP",
     description:"MedMap platform helps users quickly find nearby hospitals, understand waiting conditions, and join emergency queues before arrival. By organizing patient flow based on case urgency and enabling pre-arrival coordination, MedMap reduces waiting time and improves response efficiency. In addition, allowing patients to scan prescriptions and request medications from partner pharmacies.",
@@ -466,7 +465,7 @@ export const projectsData = [
   },
   {
     id: "rally-teams-heartguard",
-    parentId: "rally-teams",
+    parentId: "rally-society",
     category: "clubs",
     title: "HeartGuard",
     description:"HeartGuard is an AI-powered smart wearable system designed for continuous cardiac monitoring and early detection of cardiovascular risks. By combining wearable sensors, ECG monitoring, and intelligent data analysis, the platform enables real-time alerts and proactive healthcare for high-risk patients.",
@@ -478,7 +477,7 @@ export const projectsData = [
   },
     {
     id: "rally-teams-fabtronix",
-    parentId: "rally-teams",
+    parentId: "rally-society",
     category: "clubs",
     title: "Fabtronix",
     description:"Fabtronix is an electronics prototyping and PCB services startup that helps engineers, students, and hardware startups transform their ideas into real electronic products through PCB design, manufacturing, project consultation, and assembly services.",
@@ -490,7 +489,7 @@ export const projectsData = [
   },
     {
     id: "rally-teams-remove",
-    parentId: "rally-teams",
+    parentId: "rally-society",
     category: "clubs",
     title: "Re-Move",
     description:"Re-Move is a wearable rehabilitation device that records a therapist’s arm movements and accurately reproduces them, enabling patients to continue therapy at home. Combined with a mobile app for session tracking and remote monitoring, it makes rehabilitation more accessible, consistent, and affordable.",
@@ -502,7 +501,7 @@ export const projectsData = [
   },
   {
     id: "rally-teams-tahweel",
-    parentId: "rally-teams",
+    parentId: "rally-society",
     category: "clubs",
     title: "TAHWEEL",
     description:"An affordable and intelligent Conversion Kit that transforms a user’s existing conventional bicycle into an eco-friendly electric bike, offering a fast, convenient, and low-cost mobility solution without needing to purchase a new vehicle.",
@@ -514,7 +513,7 @@ export const projectsData = [
   },
   {
     id: "rally-teams-oslider",
-    parentId: "rally-teams",
+    parentId: "rally-society",
     category: "clubs",
     title: "O Slider",
     description:"camera slider is Egypt’s first affordable, automated solution built for local creators. It combines plug-and-play simplicity with professional motion control, bridging the gap between low-quality budget sliders and expensive foreign systems to deliver cinematic shots with ease.",
@@ -526,7 +525,7 @@ export const projectsData = [
   },
     {
     id: "rally-teams-tourigo",
-    parentId: "rally-teams",
+    parentId: "rally-society",
     category: "clubs",
     title: "TOURIGO",
     description:"Tourigo is an AI-powered travel platform that addresses the inefficiencies and fragmentation in trip planning for tourists visiting Egypt. By integrating personalized itinerary generation with access to verified service providers including tour guides, and local experiences Tourigo delivers a seamless, reliable, and user-centric solution within a single mobile application.",
@@ -538,7 +537,7 @@ export const projectsData = [
   },
 {
     id: "rally-teams-athar",
-    parentId: "rally-teams",
+    parentId: "rally-society",
     category: "clubs",
     title: "Athar",
     description:"Athar is a sustainable fashion startup that transforms pre-loved clothing into unique, customized pieces. We reduce fashion waste by giving old clothes a second life through creative, eco-friendly designs. Today, customization is offered through direct chat, and in the future, our platform will enable AI-powered personalization with sustainable materials and natural dyes.",
@@ -548,37 +547,7 @@ export const projectsData = [
     badgeText: "Team",
     badgeClass: "badge-competition"
   },
-  {
-    id: "rally-teams-club",
-    parentId: "rally-society",
-    category: "clubs",
-    title: "Rally Teams",
-    description: "Rally Teams participation.",
-    image: "/rally/rally_team_main.jpeg",
-    imageFit: "contain",
-    teamLogo: "/rally_logo.png",
-    badgeText: "Team",
-    badgeClass: "badge-competition"
-  },
-  {
-    id: "rally-port-said-boot-camp",
-    category: "events",
-    title: "Rally Port Said Boot Camp",
-    description: "Rally Port Said Boot Camp.",
-    image: "/rally/rally_team.jpeg",
-    badgeText: "Boot Camp",
-    badgeClass: "badge-seminar"
-  },
-  {
-    id: "rally-port-said-boot-camp-club",
-    parentId: "rally-society",
-    category: "clubs",
-    title: "Rally Port Said Boot Camp",
-    description: "Rally Port Said Boot Camp.",
-    image: "",
-    badgeText: "Boot Camp",
-    badgeClass: "badge-seminar"
-  },
+
   {
     id: "enactus-bue-boot-camp",
     category: "events",
