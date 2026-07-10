@@ -408,6 +408,7 @@ export const projectsData = [
   },
   {
     id: "rally-teams",
+    parentId: "rally-society",
     category: "events",
     title: "Rally × Bedo Collaboration (UNIVERTY FINALS",
     description: "The Rally × Bedo Finals marked the final stage of the university's selection process for the Rally Semi-Finals. Out of more than 40 submitted projects, the top 15 teams were shortlisted based on the official Rally evaluation criteria and invited to present their ideas before a distinguished judging panel, including Dr. Dina El-Naggar, Eng. Mohamed El-Amir, Dr. Wael Mamdouh, and Dr. Amr Hussein. the event, organized incollaboration with Bedo, celebrated innovation, entrepreneurship, and the outstanding potential of the university's student teams.",
