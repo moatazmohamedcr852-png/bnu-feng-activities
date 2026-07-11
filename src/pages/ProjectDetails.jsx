@@ -184,15 +184,6 @@ const ProjectDetails = () => {
                   </div>
                 )}
 
-                {project.category === 'projects' && (
-                  <div className="supervisor-widget" style={{ marginTop: 0 }}>
-                    <img src="/supervisors/Dr Moataz el sherbiny.png" alt="Assoc. Prof. Dr. Moataz Elsherbini" className="supervisor-photo" />
-                    <div className="supervisor-info">
-                      <h3>Assoc. Prof. Dr. Moataz Elsherbini</h3>
-                      <p>Project Supervisor</p>
-                    </div>
-                  </div>
-                )}
               </div>
             </section>
           )}
@@ -203,9 +194,13 @@ const ProjectDetails = () => {
               <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1.5rem' }}>
                 {project.supervisors.map((sup, idx) => (
                   <div key={idx} className="supervisor-widget" style={{ marginTop: 0 }}>
-                    <div className="supervisor-photo" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: 'var(--primary-light)', color: 'white' }}>
-                      <span className="material-icons" style={{ fontSize: '3rem' }}>person</span>
-                    </div>
+                    {sup.photo ? (
+                      <img src={sup.photo} alt={sup.name} className="supervisor-photo" />
+                    ) : (
+                      <div className="supervisor-photo" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: 'var(--primary-light)', color: 'white' }}>
+                        <span className="material-icons" style={{ fontSize: '3rem' }}>person</span>
+                      </div>
+                    )}
                     <div className="supervisor-info">
                       <h3>{sup.name}</h3>
                       <p>{sup.role}</p>

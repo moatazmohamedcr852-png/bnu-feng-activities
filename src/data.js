@@ -825,7 +825,11 @@ export const projectsData = [
       "Mai gamal fouad"
     ],
     supervisors: [
-      { name: "Dr. Motaz el sherbeni", role: "Supervisor" }
+      {
+        name: "Assoc. Prof. Dr. Moataz Elsherbini",
+        role: "Supervisor",
+        photo: "/supervisors/Dr Moataz el sherbiny.png"
+      }
     ]
   },
     {
