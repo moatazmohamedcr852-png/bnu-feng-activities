@@ -831,7 +831,7 @@ export const projectsData = [
     {
     id: "GNC-robot",
     category: "graduation-projects",
-    title: "Human Following Carrying Robot",
+    title: "GNC-robot",
     description: "The system is an autonomous robot powered by an STM32 microcontroller that performs the complete seed planting cycle, including navigation, hole digging, precise seed dispensing, and soil covering. It integrates Mechatronics, Embedded Systems, Electronics, Mechanical Design, and Automation into a single platform, with a modular architecture that supports future features such as GPS navigation, obstacle avoidance, IoT connectivity, and soil monitoring.",
     story: "Agriculture remains one of the most essential industries, yet many farming processes still rely on manual labor, making seed planting time-consuming, physically demanding, and prone to human error. Inconsistent seed spacing and planting depth can reduce crop quality, increase seed waste, and limit overall productivity. To address these challenges, the Smart Agricultural Automation System was developed as an intelligent robotic solution that automates the entire planting process. By combining automation with precision control, the system helps farmers improve efficiency, reduce labor costs, and maximize resource utilization. The project represents a step toward smarter, more sustainable agriculture and provides a scalable foundation for future precision farming technologies.",
     image: "/gp/GNC.jpeg",
