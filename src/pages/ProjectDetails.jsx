@@ -183,6 +183,16 @@ const ProjectDetails = () => {
                     </div>
                   </div>
                 )}
+
+                {project.category === 'projects' && (
+                  <div className="supervisor-widget" style={{ marginTop: 0 }}>
+                    <img src="/supervisors/Dr Moataz el sherbiny.png" alt="Assoc. Prof. Dr. Moataz Elsherbini" className="supervisor-photo" />
+                    <div className="supervisor-info">
+                      <h3>Assoc. Prof. Dr. Moataz Elsherbini</h3>
+                      <p>Project Supervisor</p>
+                    </div>
+                  </div>
+                )}
               </div>
             </section>
           )}
