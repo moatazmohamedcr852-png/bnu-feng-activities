@@ -2,7 +2,8 @@ export const projectsData = [
   {
     id: "samu",
     category: "projects",
-    title: "SAMU (Smart Artificial Manager for University)",
+    subcategory: "award-winning",
+    title: "2nd Place — Benha University Hackathon",
     description: "Developed a smart university management app featuring secure attendance tracking, AI assistance, student activities, and campus communication tools.",
     story: "The team noticed the inefficiencies in university administration and attendance tracking. They developed SAMU to act as an all-in-one assistant for both students and faculty, integrating AI to provide real-time assistance and a seamless university experience.",
     image: "/team_samu.jpeg",
@@ -21,35 +22,13 @@ export const projectsData = [
     ]
   },
   {
-    id: "smart-guide",
-    category: "projects",
-    title: "Smart Guide",
-    subcategory: "award-winning",
-    description: "An AI-powered wearable assistive system designed for visually impaired individuals. It combines computer vision, object and face recognition, and haptic feedback through smart glasses and vibration bracelets to help users navigate unfamiliar environments, identify people and products, and access printed information independently.",
-    story: "Driven by a desire to create a more inclusive world, Abdelrahman built Smart Guide. The system aims to give visually impaired users true independence by allowing them to navigate spaces, recognize faces, and read printed materials without external help.",
-    image: "/team_smart_guide.jpeg",
-    teamPhoto: "/smart_guide.jpeg",
-    badgeText: "Hackathon",
-    badgeClass: "badge-hackathon",
-    achievement: "2nd Place — Benha University Hackathon",
-    competition: "Benha University Hackathon",
-    organizer: "Benha University",
-    date: "Nov 2, 2024",
-    teamMembers: [
-      "Abdelrahman Nayef", "Kirolos Maged", "Karen Sameh", 
-      "Pierre Samir", "Youssef Walid"
-    ]
-  },
-  {
     id: "remove",
     category: "projects",
-    title: "Re-Move",
+    title: "3rd Place — Creativa Benha Hackathon",
     subcategory: "award-winning",
-    description: "A physical therapy device worn on the patient's arm that can record the movements of a therapy session and replay them later anytime and anywhere. It is controlled via an App containing an AI Chatbot for support, and an AI system to analyze facial expressions to ensure safety and stop the device when needed.",
-    story: "Physical therapy can be arduous, and clinic visits are expensive. The Re-Move team engineered a robotic exoskeleton that bridges the gap between clinic and home, complete with AI tracking to ensure safety. This earned them a top spot at Rally Egypt.",
-    extraStory: "The physical strain of Rally Egypt was met with incredible engineering endurance. The team not only competed fiercely but demonstrated the Re-Move project's viability under intense pressure.",
+    description: "Re-Move participated in the Creativa Benha Hackathon under the Healthcare and Assistive Technology track. The project impressed the judges with its innovative approach to making physical therapy more accessible through a robotic rehabilitation exoskeleton powered by AI.",
+    story: "By combining wearable robotics with intelligent motion tracking, the team demonstrated a practical solution that enables patients to continue their rehabilitation safely at home. The project received excellent feedback for its technical innovation, real-world impact, and strong potential for commercialization, earning the team a top-ranking position in the competition.",
     image: "/team_nahed.jpeg",
-    extraImage: "/nahed_tamer.jpeg",
     teamPhoto: "/nahed_tamer_2.jpeg",
     badgeText: "Competition",
     badgeClass: "badge-competition",
@@ -66,25 +45,105 @@ export const projectsData = [
       "Giovanni Al-Amir", "Mina Bahgat", "Youssef Waleed"
     ]
   },
+  
+  {
+    id: "removee",
+    category: "projects",
+    title: "1st Place — EME Giza Hackathon",
+    subcategory: "award-winning",
+    description: "The Next Generation Hackathon, hosted by EME Giza, brought together more than 200 teams, with only 20 finalists selected to compete in the final round. Through continuous development, innovation, and teamwork, Re-Move advanced to the finals and earned 1st Place, demonstrating its potential as an innovative rehabilitation solution.",
+    story: "For the competition, the project underwent significant upgrades, including an AI-powered facial expression analysis system for pain detection, an enhanced mobile application database, a redesigned mechanical system with an optimized gearbox, and a custom PCB with improved electronics and hardware integration. These enhancements transformed Re-Move into a more reliable and intelligent rehabilitation device that bridges the gap between clinic and home.",
+    image: "/re.jpeg",
+    teamPhoto: "/nahed_tamer.jpeg",
+    badgeText: "Competition",
+    badgeClass: "badge-competition",
+    achievement: "1st Place",
+    competition: "EME Giza Hackathon",
+    organizer: "EME-Creativa Giza",
+    date: "july 8, 2026",
+    teamMembers: [
+      "Nahed Tamer", "Marina George", "Mohamed Alaa", 
+      "Abdelrahman Nayef", "Omar Othman"
+    ]
+  },
+  {
+    id: "metaverse",
+    category: "projects",
+    title: "Winner of the Benha Robotics Competition ",
+    subcategory: "award-winning",
+    description: "The VR-based Metaverse project was awarded 1st Place at the Benha Robotics Competition 2025. The competition brought together innovative robotics and emerging technology projects, where the team showcased an immersive virtual reality experience that highlighted the potential of metaverse applications.",
+    badgeText: "Winner",
+    badgeClass: "badge-competition",
+    competition: "Benha Robotics Competition",
+    date: "2025",
+    image: "/metaverse.jpeg"
+  },
+  {
+    id: "smart-guide",
+    category: "projects",
+    title: "2nd Place — Benha University Hackathon",
+    subcategory: "award-winning",
+    description: "Smart Guide participated in the Benha University Government Hackathon in the Assistive Technology and Healthcare track. The project received positive feedback from the judges for its innovative AI-powered solution and strong social impact. The team successfully presented a functional prototype, demonstrating its potential to enhance the independence and daily lives of visually impaired individuals.",
+    story: "Driven by a desire to create a more inclusive world, the team built Smart Guide. The system aims to give visually impaired users true independence by allowing them to navigate spaces, recognize faces, and read printed materials without external help.",
+    image: "/team_smart_guide.jpeg",
+    teamPhoto: "/smart_guide.jpeg",
+    badgeText: "Hackathon",
+    badgeClass: "badge-hackathon",
+    achievement: "2nd Place — Benha University Hackathon",
+    competition: "Benha University Hackathon",
+    organizer: "Benha University",
+    date: "Nov 2, 2024",
+    teamMembers: [
+      "Abdelrahman Nayef", "Kirolos Maged", "Karen Sameh", 
+      "Pierre Samir", "Youssef Walid"
+    ]
+  },
+   {
+    id: "adhd",
+    category: "projects",
+    title: "2nd Place — Benha University Hackathon",
+    subcategory: "award-winning",
+    description: " ADHD Team earned 2nd Place at the Benha University Hackathon. The Benha University Hackathon is a university-wide innovation competition that brings together multidisciplinary student teams to develop technology-driven solutions for real-world challenges. Projects are evaluated by a panel of experts based on innovation, technical implementation, feasibility, and potential impact.",
+    story: "The ADHD Team earned 2nd Place at the Benha University Hackathon with an AI-powered solution designed to support individuals with Attention-Deficit/Hyperactivity Disorder (ADHD). The project impressed the judges by addressing everyday challenges through intelligent features that enhance focus, organization, and daily task management. Its innovative concept, practical value, and strong technical execution secured the team a top position in the competition.",
+    badgeText: "Team",
+    badgeClass: "badge-competition",
+    image: "/adhd_robot_team.jpeg"
+  },
   {
     id: "medtech",
     category: "projects",
-    title: "MedTech Project",
+    title: "Best Project — FENG Scientific Day",
     subcategory: "award-winning",
-    description: "AI-powered healthcare platform designed to improve patient care through symptom analysis, medication management, adherence monitoring, medical report interpretation, and emergency health alerts. The system ensures patients take the correct medication dosage at the right time through intelligent reminders, tracking, and compliance monitoring.",
-    story: "With a vision to revolutionize digital healthcare, the team built a comprehensive AI platform. From reminding patients to take their meds to analyzing complex medical reports, MedTech acts as a 24/7 digital caregiver.",
+    description: "one of the Best Projects at FENG Scientific Day, the Faculty of Engineering's annual scientific event, where the most innovative student projects are showcased and the top three projects are selected.",
+    story: "MedTech stood out for its comprehensive approach to improving patient care through AI-driven symptom analysis, medication management, adherence monitoring, medical report interpretation, and emergency health alerts. It received outstanding feedback from the judges for its practical healthcare impact, technical innovation, and potential to improve patient safety and treatment compliance, earning a place among the event's top three projects.",
     image: "/team_medtech.jpeg",
     teamPhoto: "/medtech.jpeg",
     badgeText: "Best Project",
     badgeClass: "badge-competition",
-    achievement: "Best Project — FENG Science Day",
-    competition: "Science Day",
+    achievement: "Best Project — FENG Scientific Day",
+    competition: "Scientific Day",
     organizer: "Benha National University",
     date: "Dec 6, 2025",
     teamMembers: [
       "Abdelrahman Nayef", "Ammar Ashraf", "Adham Abdelkader", 
       "Pierre Samir", "Salma Samer", "Farida Zyada"
     ]
+  },
+    {
+    id: "plastic threads",
+    category: "projects",
+    title: "Best Project — FENG Scientific Day",
+    subcategory: "award-winning",
+    description: "One of the top projects recognized for its innovative approach to sustainable recycling and environmental impact.",
+    story: "Plastic Threads transforms discarded plastic bottles into reusable plastic filament that can be used in 3D printers and other manufacturing applications. The project stood out for promoting a practical circular economy solution by converting plastic waste into valuable materials. Its innovative recycling process, environmental impact, and potential to support sustainable manufacturing received positive recognition from the judges.",
+    image: "/pla.jpeg",
+    teamPhoto: "/pla2.JPG",
+    badgeText: "Best Project",
+    badgeClass: "badge-competition",
+    achievement: "Best Project — FENG Scientific Day",
+    competition: "Scientific Day",
+    organizer: "Benha National University",
+    date: "Dec 6, 2025"
   },
   {
     id: "robocore",
@@ -113,6 +172,16 @@ export const projectsData = [
     teamPhoto: "/hoolganis_aquaventures.jpeg"
   },
   {
+    id: "dia",
+    category: "projects",
+    subcategory: "outstanding",
+    title: "DiaCARE -Smart Insole for Diabetic Foot Care",
+    description: "Developed a smart security vehicle featuring advanced facial recognition, personnel identification, and AI-powered threat detection to assist law enforcement during high-risk operations.",
+    story: "Recognizing the growing risk of Diabetic Foot Ulcers (DFU) among diabetic patients and the limitations of traditional monitoring methods, the team developed DIA-CARE. The smart insole continuously monitors pressure and temperature to detect early warning signs, helping patients prevent serious complications while maintaining their daily mobility. The project advanced to the Benha University Rally Finals, highlighting its potential to improve diabetic foot care.",
+    badgeClass: "badge-competition",
+    image: "/dia.jpeg"
+  },
+    {
     id: "guardian",
     category: "projects",
     subcategory: "outstanding",
@@ -121,8 +190,7 @@ export const projectsData = [
     story: "To enhance law enforcement safety, the Guardian project was born. A robust autonomous vehicle equipped with cutting-edge AI helps secure environments and identify threats before humans are put at risk. Achievements include: Benha Robotics Competition 2025 and Military Technical College Rover Competition 2026.",
     badgeText: "Technical Project",
     badgeClass: "badge-competition",
-    image: "/guardian_team.jpeg",
-    teamPhoto: "/guardian_team.jpeg"
+    image: "/guardian_team.jpeg"
   },
   {
     id: "omar-sherif",
@@ -584,23 +652,12 @@ export const projectsData = [
     badgeClass: "badge-seminar"
   },
   {
-    id: "metaverse",
-    category: "projects",
-    title: "Metaverse Team",
-    subcategory: "award-winning",
-    description: "Winner of the Benha Robotics Competition 2025.",
-    badgeText: "Winner",
-    badgeClass: "badge-competition",
-    competition: "Benha Robotics Competition",
-    date: "2025",
-    image: "/metaverse.jpeg"
-  },
-  {
     id: "rovengers",
     category: "projects",
-    title: "Rovengers",
+    title: "Rising Star — Mate ROV 2025",
     subcategory: "award-winning",
-    description: "Rising Star at Mate ROV 2025.",
+    story: "the team received the Rising Star Award at MATE ROV Egypt 2025 in recognition of their outstanding performance and promising potential in underwater robotics.",
+    description: "Competing as ROVENGERS, the team earned the Rising Star Award for their remarkable performance and rapid development throughout the competition. Despite the technical challenges, they demonstrated strong engineering capabilities, effective collaboration, and a commitment to continuous improvement, establishing themselves as one of the competition's most promising emerging teams.",
     badgeText: "Rising Star",
     badgeClass: "badge-competition",
     competition: "Mate ROV",
@@ -610,25 +667,15 @@ export const projectsData = [
   {
     id: "aquaventures",
     category: "projects",
-    title: "Aquaventures",
+    title: "Best Team Spirit — Mate ROV 2026",
     subcategory: "award-winning",
-    description: "Best Team Spirit at Mate ROV 2026.",
+    story:"The team demonstrated outstanding teamwork while designing, building, and operating their ROV, consistently supporting one another under challenging conditions. Their positive attitude, dedication, and cooperative spirit distinguished them among the participating teams and earned them this special recognition.",
+    description: "Competing as AquaVentures, the team received the Best Team Spirit Award for their exceptional cooperation, communication, and positive attitude throughout the event. Their ability to work together under pressure, support one another during every stage of the competition, and maintain a high level of professionalism distinguished them from the other participating teams and earned them this special recognition.",
     badgeText: "Best Team Spirit",
     badgeClass: "badge-competition",
     competition: "Mate ROV",
     date: "2026",
     image: "/hoolganis_aquaventures.jpeg"
-  },
-  {
-    id: "adhd",
-    category: "projects",
-    title: "ADHD Team",
-    subcategory: "award-winning",
-    description: "ADHD Team participating in competitions.",
-    badgeText: "Team",
-    badgeClass: "badge-competition",
-    image: "/adhd_robot_team.jpeg",
-    teamPhoto: "/adhd_robot_team.jpeg"
   },
 
   {
