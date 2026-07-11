@@ -896,5 +896,71 @@ export const projectsData = [
       { name: "Dr. Dina Elnaggar", role: "Supervisor" },
       { name: "Dr. Hossam Ramadan", role: "Supervisor" }
     ]
+  },
+   {
+    id: "smart-car-assistant-system",
+    category: "graduation-projects",
+    title: " Smart Car Assistant System ",
+    description: "The Smart Car Assistant System (SCAS) is an IoT-based solution powered by Edge AI running on a Raspberry Pi 5. Using the MediaPipe framework, it analyzes facial landmarks to detect driver drowsiness with 97.5% accuracy. The system also integrates an MPU-6050 IMU for collision detection and a NEO-6M GPS module for real-time location tracking. A Firebase cloud infrastructure and a Flutter mobile application enable automatic SOS notifications, sending emergency alerts and GPS coordinates to predefined contacts within 2–3 seconds of a detected crash.",
+    story: "Road traffic accidents caused by driver fatigue and delayed emergency response remain a major safety challenge worldwide. The Smart Car Assistant System (SCAS) was developed to improve road safety by continuously monitoring the driver's condition and automatically responding to potential accidents. By combining Edge AI, IoT, and real-time communication, the system helps prevent fatigue-related incidents while ensuring that emergency contacts receive immediate alerts with the driver's location in the event of a crash.",
+    image: "/gp/SCA.jpeg",
+    badgeText: "IoT & AI",
+    badgeClass: "badge-innovation",
+    teamMembers: [
+      "Salah Emad",
+      "Ahmed Akram",
+      "Karen Sameh",
+      "Youssef shaaban",
+      "Eyad Amr"
+    ],
+    supervisors: [
+      { name: "Dr. Marwa Abdelrazik Elmenyawi", role: "Supervisor" }
+    ]
+  },
+     {
+    id: "Extended Educational Robotic Arm",
+    category: "graduation-projects",
+    title: "Extended Educational Robotic Arm",
+    description: "The Extended Educational Robotic Arm consists of a servo-driven robotic arm, a control box, and an interactive GUI developed using MATLAB and Python. The platform enables users to experiment with both Forward Kinematics and Inverse Kinematics by adjusting joint angles and position parameters while visualizing the robot's real-time motion. The integrated software communicates with the hardware to provide accurate motion control, creating a complete educational system for teaching robotics, kinematics, and embedded control in a practical and interactive environment.",
+    story: "Learning robotics often remains highly theoretical, making it difficult for students to understand concepts such as forward and inverse kinematics through equations alone. The Extended Educational Robotic Arm was developed as an interactive learning platform that bridges the gap between theory and hands-on practice. By allowing students to modify kinematic parameters and instantly observe the robot's movements, the system transforms complex robotics concepts into an engaging visual experience. It provides an affordable and practical educational tool for universities and training centers, helping students develop a deeper understanding of robot motion, control, and programming.",
+    image: "/gp/6dof.jpeg",
+    badgeText: "Robotics & Kinematics",
+    badgeClass: "badge-innovation",
+    teamMembers: [
+      "Mina bahgat",
+      "Giovany Alamir",
+      "Mohamed Ahmed",
+      "Saif Allah Wael",
+      "Fatma Ahmed",
+      "Haneen Ahmed",
+      "Shahd Ahmed",
+      "Passant Salah"
+    ],
+    supervisors: [
+      { name: "Dr. Amr Shafik", role: "Supervisor" }
+    ]
+  },
+    {
+    id: "Autonomous Mobile Robot",
+    category: "graduation-projects",
+    title: "Autonomous Mobile Robot",
+    description: "The Autonomous Mobile Robot (AMR) integrates a Raspberry Pi 4, ESP32, ROS 2, LiDAR, and a single-stage scissor lift to perform autonomous navigation and material handling. The robot uses SLAM Toolbox for mapping, Nav2 for path planning and localization, and a differential-drive system for precise movement. A modular electrical architecture with dedicated PCBs manages power distribution, motor control, and embedded processing, while the lifting mechanism enables vertical payload transportation. The system combines mechanical design, embedded control, computer vision, and autonomous navigation into a scalable industrial robotics platform.",
+    story: "Modern factories and warehouses require efficient material transportation solutions that reduce manual labor while improving safety and productivity. The Autonomous Mobile Robot (AMR) was developed to automate indoor material handling using intelligent navigation and autonomous mobility. By combining robotics, embedded systems, and autonomous navigation technologies, the robot is capable of transporting and lifting materials without human intervention. The project provides a practical foundation for smart industrial automation and demonstrates how autonomous robots can improve operational efficiency in structured indoor environments.",
+    image: "/gp/amr.jpeg",
+    badgeText: "Autonomous Robotics",
+    badgeClass: "badge-innovation",
+    teamMembers: [
+      "Ahmed Magdy",
+      "Hassan Tamer",
+      "Omar Mohamed",
+      "Mark Mamdouh",
+      "Mario Emad",
+      "Mohamed Gamal",
+      "Mostafa Ibrahim"
+    ],
+    supervisors: [
+      { name: "Dr. Atef Soilman", role: "Supervisor" },
+       { name: "Dr. Samer Beskales", role: "Supervisor" }
+    ]
   }
 ];
