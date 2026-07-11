@@ -828,7 +828,7 @@ export const projectsData = [
       {
         name: "Assoc. Prof. Dr. Moataz Elsherbini",
         role: "Supervisor",
-        photo: "/supervisors/Dr Moataz el sherbiny.png"
+        photo: "/supervisors/dr_moataz_elsherbini_isolated.png"
       }
     ]
   },
