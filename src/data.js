@@ -878,7 +878,7 @@ export const projectsData = [
     description: "The Hybrid Static-Dynamic Charging System integrates resonant wireless charging with an efficiency of approximately 70%, solar energy, and wind energy to charge EV batteries. The system is supported by a smart Energy Management System (EMS) that optimizes power distribution and ensures safe, efficient operation. Users can monitor and control the system via Bluetooth, while the modular architecture enables future expansion and adaptation to next-generation electric vehicle charging technologies.",
    story: "As electric vehicles become more widespread, the demand for efficient, sustainable, and flexible charging solutions continues to grow. Conventional charging methods often depend on a single power source and require fixed charging stations, limiting convenience and increasing reliance on the electrical grid. To address these challenges, the Hybrid Static-Dynamic Charging System was developed to combine multiple renewable energy sources with wireless power transfer into one intelligent charging solution. By integrating clean energy and smart energy management, the project aims to improve charging efficiency, reduce environmental impact, and support the future of sustainable electric mobility.",
     image: "/gp/hyb.jpeg",
-    badgeText: "AI & Robotics",
+    badgeText: "Energy & Sustainability",
     badgeClass: "badge-innovation",
     teamMembers: [
       "Youssef Waleed",
