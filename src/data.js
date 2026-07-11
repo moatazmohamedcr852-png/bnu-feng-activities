@@ -827,5 +827,48 @@ export const projectsData = [
     supervisors: [
       { name: "Dr. Motaz el sherbeni", role: "Supervisor" }
     ]
+  },
+    {
+    id: "GNC-robot",
+    category: "graduation-projects",
+    title: "Human Following Carrying Robot",
+    description: "The system is an autonomous robot powered by an STM32 microcontroller that performs the complete seed planting cycle, including navigation, hole digging, precise seed dispensing, and soil covering. It integrates Mechatronics, Embedded Systems, Electronics, Mechanical Design, and Automation into a single platform, with a modular architecture that supports future features such as GPS navigation, obstacle avoidance, IoT connectivity, and soil monitoring.",
+    story: "Agriculture remains one of the most essential industries, yet many farming processes still rely on manual labor, making seed planting time-consuming, physically demanding, and prone to human error. Inconsistent seed spacing and planting depth can reduce crop quality, increase seed waste, and limit overall productivity. To address these challenges, the Smart Agricultural Automation System was developed as an intelligent robotic solution that automates the entire planting process. By combining automation with precision control, the system helps farmers improve efficiency, reduce labor costs, and maximize resource utilization. The project represents a step toward smarter, more sustainable agriculture and provides a scalable foundation for future precision farming technologies.",
+    image: "/gp/GNC.jpeg",
+    badgeText: "AI & Robotics",
+    badgeClass: "badge-innovation",
+    teamMembers: [
+      "Omar Gamal tawfik",
+      "Zakaria Bekheet",
+      "Mohamed Ahmed",
+      "Rahma Mahmoud",
+      "Mostafa Mahmoud",
+      " Abdel-Rhman Ahmed",
+      " Mohamed Amr"
+    ],
+    supervisors: [
+      { name: "Dr. Ahmed attia", role: "Supervisor" },
+      { name: "Dr. Samah samir", role: "Supervisor" }
+    ]
+  },
+  {
+    id: "Smart Blind Stick",
+    category: "graduation-projects",
+    title: "Smart Blind Stick",
+    description: "The Smart Blind Stick is an intelligent assistive device equipped with sensors that detect nearby obstacles and alert the user through vibration.. It uses an embedded control system to process sensor data in real time, ensuring accurate and reliable obstacle detection. The modular design allows future integration of advanced features such as GPS navigation, emergency SOS alerts, mobile application connectivity, and AI-based object recognition, making it a scalable solution for smart assistive",
+    story: "For millions of visually impaired people, navigating safely through daily environments remains a constant challenge. Traditional white canes help detect obstacles on the ground but cannot identify hazards at different heights or provide real-time assistance in unfamiliar places. The Smart Blind Stick was developed to enhance mobility and independence by combining assistive technology with intelligent sensing. By detecting obstacles and providing immediate feedback, the device helps users move more confidently, reduces the risk of accidents, and improves their overall quality of life through a simple, affordable, and user-friendly solution.",
+    image: "/gp/blind.jpeg",
+    badgeText: "Healthcare Tech",
+    badgeClass: "badge-innovation",
+    teamMembers: [
+      "Youssef Marsis",
+      "Mahmoud Mohamed Elhamamsy",
+      "Mohamed Ashraf",
+      "kerolos hanna",
+      "Youssef ahmed Farouk"
+    ],
+    supervisors: [
+      { name: "Dr. Ashraf Yehia", role: "Supervisor" }
+    ]
   }
 ];
