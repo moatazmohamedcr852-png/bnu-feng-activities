@@ -843,6 +843,17 @@ a {
   box-shadow: var(--shadow-3d);
 }
 
+.supervisor-widget-featured {
+  grid-column: 1 / -1;
+  padding: 2rem;
+  min-height: 220px;
+}
+
+.supervisor-widget-featured .supervisor-photo {
+  width: 130px;
+  height: 130px;
+}
+
 .supervisor-info h3 {
   font-size: 1.5rem;
   color: var(--primary-dark);
@@ -860,6 +871,10 @@ a {
     flex-direction: column;
     text-align: center;
     gap: 1rem;
+  }
+
+  .supervisor-widget-featured {
+    grid-column: auto;
   }
 }
 

@@ -167,7 +167,7 @@ const ProjectDetails = () => {
               <h2>Supervisors</h2>
               <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1.5rem' }}>
                 {project.category === 'projects' && project.id !== 'remove' && (
-                  <div className="supervisor-widget" style={{ marginTop: 0 }}>
+                  <div className="supervisor-widget supervisor-widget-featured" style={{ marginTop: 0 }}>
                     <img src="/supervisors/dr_mohamed_said.jpeg" alt="Dr. Mohamed Said" className="supervisor-photo" />
                     <div className="supervisor-info">
                       <h3>Dr. Mohamed Said</h3>
@@ -192,7 +192,11 @@ const ProjectDetails = () => {
               <h2>Supervisors</h2>
               <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1.5rem' }}>
                 {project.supervisors.map((sup, idx) => (
-                  <div key={idx} className="supervisor-widget" style={{ marginTop: 0 }}>
+                  <div
+                    key={idx}
+                    className={`supervisor-widget${project.id === 'robocore' && sup.name === 'Dr. Mohamed Said' ? ' supervisor-widget-featured' : ''}`}
+                    style={{ marginTop: 0 }}
+                  >
                     {sup.photo ? (
                       <img src={sup.photo} alt={sup.name} className="supervisor-photo" />
                     ) : (
