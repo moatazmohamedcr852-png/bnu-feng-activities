@@ -8,7 +8,7 @@ export const projectsData = [
     story: "The team noticed the inefficiencies in university administration and attendance tracking. They developed SAMU to act as an all-in-one assistant for both students and faculty, integrating AI to provide real-time assistance and a seamless university experience.",
     image: "/team_samu.jpeg",
     teamPhoto: "/samu_screenshot.png",
-    badgeText: "Hackathon",
+    badgeText: "samu",
     badgeClass: "badge-hackathon",
     achievement: "2nd Place — Benha University Hackathon",
     competition: "Benha University Hackathon",
@@ -44,7 +44,7 @@ export const projectsData = [
     story: "By combining wearable robotics with intelligent motion tracking, the team demonstrated a practical solution that enables patients to continue their rehabilitation safely at home. The project received excellent feedback for its technical innovation, real-world impact, and strong potential for commercialization, earning the team a top-ranking position in the competition.",
     image: "/team_nahed.jpeg",
     teamPhoto: "/nahed_tamer_2.jpeg",
-    badgeText: "Competition",
+    badgeText: "Re-Move",
     badgeClass: "badge-competition",
     achievement: "3rd Place",
     competition: "Creativa Hub Benha's Industry Innovators Hackathon",
@@ -69,7 +69,7 @@ export const projectsData = [
     story: "For the competition, the project underwent significant upgrades, including an AI-powered facial expression analysis system for pain detection, an enhanced mobile application database, a redesigned mechanical system with an optimized gearbox, and a custom PCB with improved electronics and hardware integration. These enhancements transformed Re-Move into a more reliable and intelligent rehabilitation device that bridges the gap between clinic and home.",
     image: "/re.jpeg",
     teamPhoto: "/nahed_tamer.jpeg",
-    badgeText: "Competition",
+    badgeText: "Re-Move",
     badgeClass: "badge-competition",
     achievement: "1st Place",
     competition: "EME Giza Hackathon",
@@ -80,17 +80,23 @@ export const projectsData = [
       "Abdelrahman Nayef", "Omar Othman"
     ]
   },
-  {
-    id: "metaverse",
+
+    {
+    id: "tourigo-project",
     category: "projects",
-    title: "Winner of the Benha Robotics Competition ",
     subcategory: "awarded-outstanding-projects",
-    description: "The VR-based Metaverse project was awarded 1st Place at the Benha Robotics Competition 2025. The competition brought together innovative robotics and emerging technology projects, where the team showcased an immersive virtual reality experience that highlighted the potential of metaverse applications.",
-    badgeText: "Winner",
+    title: "2nd Place — Alexandria Entrepreneurship Competition",
+    description: "Tourigo is an AI-powered travel platform that helps tourists plan seamless trips in Egypt through personalized itineraries and verified local services.",
+    story: "Tourigo brings together itinerary creation, local experience discovery, and trusted service providers into one smart travel experience for visitors to Egypt.",
+    image: "/tourigo/tourigo.jpeg",
+    extraImage: "/tourigo/alexandria enterprenuership_competiton.jpeg",
+    badgeText: "tourigo",
     badgeClass: "badge-competition",
-    competition: "Benha Robotics Competition",
-    date: "2025",
-    image: "/metaverse.jpeg"
+    achievement: "2nd Place — دقو الشمسية Competition",
+    competition: "دقو الشمسية Competition",
+    organizer: "Rally Egypt",
+    date: "2026",
+    extraStory: "The team also showcased their work in the Alexandria Entrepreneurship Competition, highlighting the project's business impact and innovation."
   },
   {
     id: "smart-guide",
@@ -101,7 +107,7 @@ export const projectsData = [
     story: "Driven by a desire to create a more inclusive world, the team built Smart Guide. The system aims to give visually impaired users true independence by allowing them to navigate spaces, recognize faces, and read printed materials without external help.",
     image: "/team_smart_guide.jpeg",
     teamPhoto: "/smart_guide.jpeg",
-    badgeText: "Hackathon",
+    badgeText: "Smart Guide",
     badgeClass: "badge-hackathon",
     achievement: "2nd Place — Benha University Hackathon",
     competition: "Benha University Hackathon",
@@ -119,9 +125,21 @@ export const projectsData = [
     subcategory: "awarded-outstanding-projects",
     description: " ADHD Team earned 2nd Place at the Benha University Hackathon. The Benha University Hackathon is a university-wide innovation competition that brings together multidisciplinary student teams to develop technology-driven solutions for real-world challenges. Projects are evaluated by a panel of experts based on innovation, technical implementation, feasibility, and potential impact.",
     story: "The ADHD Team earned 2nd Place at the Benha University Hackathon with an AI-powered solution designed to support individuals with Attention-Deficit/Hyperactivity Disorder (ADHD). The project impressed the judges by addressing everyday challenges through intelligent features that enhance focus, organization, and daily task management. Its innovative concept, practical value, and strong technical execution secured the team a top position in the competition.",
-    badgeText: "Team",
+    badgeText: "ADHD",
     badgeClass: "badge-competition",
     image: "/adhd_robot_team.jpeg"
+  },
+  {
+    id: "metaverse",
+    category: "projects",
+    title: "Best Idea — Benha Robotics Competition",
+    subcategory: "awarded-outstanding-projects",
+    description: "The VR-based Metaverse project received the Best Idea Award at the Benha Robotics Competition 2025. The competition brought together innovative robotics and emerging technology projects, where the team showcased an immersive virtual reality experience highlighting the potential of metaverse applications.",
+    badgeText: "Metaverse",
+    badgeClass: "badge-competition",
+    competition: "Benha Robotics Competition",
+    date: "2025",
+    image: "/metaverse.jpeg"
   },
   {
     id: "medtech",
@@ -132,7 +150,7 @@ export const projectsData = [
     story: "MedTech stood out for its comprehensive approach to improving patient care through AI-driven symptom analysis, medication management, adherence monitoring, medical report interpretation, and emergency health alerts. It received outstanding feedback from the judges for its practical healthcare impact, technical innovation, and potential to improve patient safety and treatment compliance, earning a place among the event's top three projects.",
     image: "/team_medtech.jpeg",
     teamPhoto: "/medtech.jpeg",
-    badgeText: "Best Project",
+    badgeText: "MedTech",
     badgeClass: "badge-competition",
     achievement: "Best Project — FENG Scientific Day",
     competition: "Scientific Day",
@@ -152,7 +170,7 @@ export const projectsData = [
     story: "Plastic Threads transforms discarded plastic bottles into reusable plastic filament that can be used in 3D printers and other manufacturing applications. The project stood out for promoting a practical circular economy solution by converting plastic waste into valuable materials. Its innovative recycling process, environmental impact, and potential to support sustainable manufacturing received positive recognition from the judges.",
     image: "/pla.jpeg",
     teamPhoto: "/pla2.JPG",
-    badgeText: "Best Project",
+    badgeText: "Plastic Threads",
     badgeClass: "badge-competition",
     achievement: "Best Project — FENG Scientific Day",
     competition: "Scientific Day",
@@ -194,27 +212,7 @@ export const projectsData = [
       { name: "Dr. Hossam Ramadan", role: "Project Supervisor" }
     ]
   },
-  {
-    id: "dia",
-    category: "projects",
-    subcategory: "awarded-outstanding-projects",
-    title: "DiaCARE -Smart Insole for Diabetic Foot Care",
-    description: "Developed a smart security vehicle featuring advanced facial recognition, personnel identification, and AI-powered threat detection to assist law enforcement during high-risk operations.",
-    story: "Recognizing the growing risk of Diabetic Foot Ulcers (DFU) among diabetic patients and the limitations of traditional monitoring methods, the team developed DIA-CARE. The smart insole continuously monitors pressure and temperature to detect early warning signs, helping patients prevent serious complications while maintaining their daily mobility. The project advanced to the Benha University Rally Finals, highlighting its potential to improve diabetic foot care.",
-    badgeClass: "badge-competition",
-    image: "/dia.jpeg"
-  },
-    {
-    id: "guardian",
-    category: "projects",
-    subcategory: "awarded-outstanding-projects",
-    title: "Guardian — Smart Police Assistance Vehicle",
-    description: "A smart vehicle designed to assist police in raids, featuring advanced facial recognition and personnel identification capabilities.",
-    story: "To enhance law enforcement safety, the Guardian project was born. A robust autonomous vehicle equipped with cutting-edge AI helps secure environments and identify threats before humans are put at risk. Achievements include: Benha Robotics Competition 2025 and Military Technical College Rover Competition 2026.",
-    badgeText: "Technical Project",
-    badgeClass: "badge-competition",
-    image: "/guardian_team.jpeg"
-  },
+
   {
     id: "omar-sherif",
     category: "sports-tournaments",
@@ -250,7 +248,40 @@ export const projectsData = [
     date: "Jan 28, 2026",
     teamMembers: ["Malak Mohamed Seif El-Nasr"]
   },
-
+{
+  id: "khadija-speed-ball",
+  category: "sports-tournaments",
+  subcategory: "competitions",
+  title: "Egypt Speed Ball Championship",
+  description: "2 Gold Medals / 1 Silver Medal / 3 Bronze Medals at the Egyptian Republic Speed Ball Championship",
+  story: "Khadija's outstanding performance at the Egyptian Republic Speed Ball Championship reflects her dedication, resilience, and commitment to excellence, proudly representing Benha National University on the national stage.",
+  image: "/khadija.jpeg",
+  teamPhoto: "/khadija.jpeg",
+  badgeText: "Championship",
+  badgeClass: "badge-sports",
+  achievement: "2 Gold • 1 Silver • 3 Bronze Medals",
+  competition: "Egyptian Republic Speed Ball Championship",
+  organizer: "Egyptian Speed Ball Federation",
+  date: "2026",
+  teamMembers: ["Khadija Mohsen Abdelwahab"]
+},
+{
+  id: "mohamed-kickboxing",
+  category: "sports-tournaments",
+  subcategory: "competitions",
+  title: "Egyptian Kickboxing Championship",
+  description: "1 Gold Medal at the Egyptian Republic Kickboxing Championship (4th Consecutive National Title)",
+  story: "Mohamed El Araby Madan secured 1st Place at the Egyptian Republic Kickboxing Championship for the fourth consecutive year, demonstrating exceptional consistency, discipline, and determination while proudly representing Benha National University.",
+  image: "/araby.jpeg",
+  teamPhoto: "/araby.jpeg",
+  badgeText: "Championship",
+  badgeClass: "badge-sports",
+  achievement: "Gold Medal • 1st Place Nationwide",
+  competition: "Egyptian Republic Kickboxing Championship",
+  organizer: "Egyptian Kickboxing Federation",
+  date: "2026",
+  teamMembers: ["Mohamed El Araby Madan"]
+},
   {
     id: "arduino-workshop",
     category: "workshops",
@@ -655,24 +686,6 @@ export const projectsData = [
   },
 
   {
-    id: "tourigo-project",
-    category: "projects",
-    subcategory: "awarded-outstanding-projects",
-    title: "TOURIGO",
-    description: "Tourigo is an AI-powered travel platform that helps tourists plan seamless trips in Egypt through personalized itineraries and verified local services.",
-    story: "Tourigo brings together itinerary creation, local experience discovery, and trusted service providers into one smart travel experience for visitors to Egypt.",
-    image: "/tourigo/tourigo.jpeg",
-    teamPhoto: "/tourigo/team.jpeg",
-    extraImage: "/tourigo/alexandria enterprenuership_competiton.jpeg",
-    badgeText: "Startup",
-    badgeClass: "badge-competition",
-    achievement: "2nd Place — دقو الشمسية Competition",
-    competition: "دقو الشمسية Competition",
-    organizer: "Rally Egypt",
-    date: "2026",
-    extraStory: "The team also showcased their work in the Alexandria Entrepreneurship Competition, highlighting the project's business impact and innovation."
-  },
-  {
     id: "enactus-bue-boot-camp",
     category: "events",
     title: "Enactus BUE Boot Camp",
@@ -714,7 +727,7 @@ export const projectsData = [
     subcategory: "awarded-outstanding-projects",
     story: "the team received the Rising Star Award at MATE ROV Egypt 2025 in recognition of their outstanding performance and promising potential in underwater robotics.",
     description: "Competing as ROVENGERS, the team earned the Rising Star Award for their remarkable performance and rapid development throughout the competition. Despite the technical challenges, they demonstrated strong engineering capabilities, effective collaboration, and a commitment to continuous improvement, establishing themselves as one of the competition's most promising emerging teams.",
-    badgeText: "Rising Star",
+    badgeText: "Rovengers",
     badgeClass: "badge-competition",
     competition: "Mate ROV",
     date: "2025",
@@ -727,14 +740,24 @@ export const projectsData = [
     subcategory: "awarded-outstanding-projects",
     story:"The team demonstrated outstanding teamwork while designing, building, and operating their ROV, consistently supporting one another under challenging conditions. Their positive attitude, dedication, and cooperative spirit distinguished them among the participating teams and earned them this special recognition.",
     description: "Competing as AquaVentures, the team received the Best Team Spirit Award for their exceptional cooperation, communication, and positive attitude throughout the event. Their ability to work together under pressure, support one another during every stage of the competition, and maintain a high level of professionalism distinguished them from the other participating teams and earned them this special recognition.",
-    badgeText: "Best Team Spirit",
+    badgeText: "aquaventures",
     badgeClass: "badge-competition",
     competition: "Mate ROV",
     date: "2026",
     image: "/aquaventures/WhatsApp Image 2026-07-12 at 11.52.29 AM.jpeg",
     teamPhoto: "/aquaventures/WhatsApp Image 2026-07-12 at 11.52.52 AM.jpeg"
   },
-
+    {
+    id: "guardian",
+    category: "projects",
+    subcategory: "awarded-outstanding-projects",
+    title: "Guardian — Smart Police Assistance Vehicle",
+    description: "A smart vehicle designed to assist police in raids, featuring advanced facial recognition and personnel identification capabilities.",
+    story: "To enhance law enforcement safety, the Guardian project was born. A robust autonomous vehicle equipped with cutting-edge AI helps secure environments and identify threats before humans are put at risk. Achievements include: Benha Robotics Competition 2025 and Military Technical College Rover Competition 2026.",
+    badgeText: "guardian",
+    badgeClass: "badge-competition",
+    image: "/guardian_team.jpeg"
+  },
   {
     id: "tech-beam",
     category: "projects",
