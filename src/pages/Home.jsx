@@ -56,6 +56,23 @@ const Home = () => {
         ))}
       </section>
 
+      <section id="sports-tournaments" className="category-section cat-events">
+        <div className="category-header">
+          <div className="category-icon">
+            <span className="material-icons">sports_martial_arts</span>
+          </div>
+          <h2 className="category-title">Sports Tournaments</h2>
+          <p className="category-description">
+            Celebrating student athletes and championship performances in university and national competitions.
+          </p>
+        </div>
+        <div className="activities-grid">
+          {getProjectsByCategory('sports-tournaments').map(project => (
+            <ActivityCard key={project.id} project={project} />
+          ))}
+        </div>
+      </section>
+
       <section id="events" className="category-section cat-events">
         <div className="category-header">
           <div className="category-icon">

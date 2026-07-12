@@ -194,7 +194,7 @@ export const projectsData = [
   },
   {
     id: "omar-sherif",
-    category: "projects",
+    category: "sports-tournaments",
     subcategory: "competitions",
     title: "North Africa Karate Championship",
     description: "National karate team player representing Benha National University in the North Africa Championship.",
@@ -212,7 +212,7 @@ export const projectsData = [
   },
   {
     id: "malak-judo",
-    category: "projects",
+    category: "sports-tournaments",
     subcategory: "competitions",
     title: "University Judo Championships",
     description: "1st place in University Championship twice in a row / 3rd place in Africa / 2nd place in Open Republic Women",
