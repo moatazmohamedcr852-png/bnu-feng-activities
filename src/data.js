@@ -657,7 +657,8 @@ export const projectsData = [
     extraImage: "/tourigo/alexandria enterprenuership_competiton.jpeg",
     badgeText: "Startup",
     badgeClass: "badge-competition",
-    competition: "Rally Egypt",
+    achievement: "2nd Place — دقو الشمسية Competition",
+    competition: "دقو الشمسية Competition",
     organizer: "Rally Egypt",
     date: "2026",
     extraStory: "The team also showcased their work in the Alexandria Entrepreneurship Competition, highlighting the project's business impact and innovation."
