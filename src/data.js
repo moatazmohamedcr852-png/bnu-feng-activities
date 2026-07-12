@@ -637,12 +637,15 @@ export const projectsData = [
     title: "TOURIGO",
     description: "Tourigo is an AI-powered travel platform that helps tourists plan seamless trips in Egypt through personalized itineraries and verified local services.",
     story: "Tourigo brings together itinerary creation, local experience discovery, and trusted service providers into one smart travel experience for visitors to Egypt.",
-    image: "/rally/tou.jpeg",
+    image: "/tourigo/tourigo.jpeg",
+    teamPhoto: "/tourigo/team.jpeg",
+    extraImage: "/tourigo/alexandria enterprenuership_competiton.jpeg",
     badgeText: "Startup",
     badgeClass: "badge-competition",
     competition: "Rally Egypt",
     organizer: "Rally Egypt",
-    date: "2026"
+    date: "2026",
+    extraStory: "The team also showcased their work in the Alexandria Entrepreneurship Competition, highlighting the project's business impact and innovation."
   },
   {
     id: "enactus-bue-boot-camp",
