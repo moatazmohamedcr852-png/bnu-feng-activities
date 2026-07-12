@@ -168,9 +168,14 @@ export const projectsData = [
     badgeText: "International Competition",
     badgeClass: "badge-competition",
     teamMembers: ["RoboCore Robotics Team"],
-    image: "/robocore.jpg",
+    image: "/robocore/WhatsApp Image 2026-07-12 at 11.52.27 AM.jpeg",
     imageFit: "contain",
-    teamLogo: "/robocore.jpg"
+    teamLogo: "/robocore/robocore_team.jpeg",
+    teamPhoto: "/robocore/WhatsApp Image 2026-07-12 at 11.52.29 AM.jpeg",
+    supervisors: [
+      { name: "Dr. Mohamed Said", role: "Project Supervisor", photo: "/supervisors/dr_mohamed_said.jpeg" },
+      { name: "Dr. Hossam Ramadan", role: "Project Supervisor" }
+    ]
   },
   {
     id: "hooligans",
@@ -181,9 +186,13 @@ export const projectsData = [
     badgeText: "International Competition",
     badgeClass: "badge-competition",
     teamMembers: ["Hooligans Robotics Team"],
-    image: "/hoolgans.png",
+    image: "/aquaventures/WhatsApp Image 2026-07-12 at 11.52.29 AM.jpeg",
     teamLogo: "/hoolgans.png",
-    teamPhoto: "/hoolganis_aquaventures.jpeg"
+    teamPhoto: "/aquaventures/WhatsApp Image 2026-07-12 at 11.52.52 AM.jpeg",
+    supervisors: [
+      { name: "Dr. Mohamed Said", role: "Project Supervisor", photo: "/supervisors/dr_mohamed_said.jpeg" },
+      { name: "Dr. Hossam Ramadan", role: "Project Supervisor" }
+    ]
   },
   {
     id: "dia",
@@ -722,7 +731,8 @@ export const projectsData = [
     badgeClass: "badge-competition",
     competition: "Mate ROV",
     date: "2026",
-    image: "/hoolganis_aquaventures.jpeg"
+    image: "/aquaventures/WhatsApp Image 2026-07-12 at 11.52.29 AM.jpeg",
+    teamPhoto: "/aquaventures/WhatsApp Image 2026-07-12 at 11.52.52 AM.jpeg"
   },
 
   {
@@ -835,6 +845,7 @@ export const projectsData = [
     description: "A university forum focused on environmental awareness, sustainability, and student-led solutions for a greener future.",
     badgeText: "Forum",
     badgeClass: "badge-seminar",
+    image: "/the_first_environmental_forum/0109e851-0bb9-4765-9d19-8c0e8d3b5012.jpeg",
     gallery: [
       "/the_first_environmental_forum/0109e851-0bb9-4765-9d19-8c0e8d3b5012.jpeg",
       "/the_first_environmental_forum/0f4dec2f-bbe4-4d87-90ed-eab65b6a81b5.jpeg",
