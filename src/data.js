@@ -833,7 +833,20 @@ export const projectsData = [
     title: "The First Environmental Forum",
     description: "A university forum focused on environmental awareness, sustainability, and student-led solutions for a greener future.",
     badgeText: "Forum",
-    badgeClass: "badge-seminar"
+    badgeClass: "badge-seminar",
+    gallery: [
+      "/the_first_environmental_forum/0109e851-0bb9-4765-9d19-8c0e8d3b5012.jpeg",
+      "/the_first_environmental_forum/0f4dec2f-bbe4-4d87-90ed-eab65b6a81b5.jpeg",
+      "/the_first_environmental_forum/350fcb35-d68f-49dd-82e7-3947b5ede319.jpeg",
+      "/the_first_environmental_forum/3cb46120-5492-43ca-8b84-42a8397e5c1c.jpeg",
+      "/the_first_environmental_forum/4b2830e8-a102-420f-8a99-16c275830fb0.jpeg",
+      "/the_first_environmental_forum/6e5dda93-3719-434b-bf1f-518c4e37554a.jpeg",
+      "/the_first_environmental_forum/6ec777a9-238a-4d3e-a5d8-beb3d6a9417d.jpeg",
+      "/the_first_environmental_forum/b73eb713-fc02-46d7-b61b-2e62ae45af9d.jpeg",
+      "/the_first_environmental_forum/d39891c2-47e0-451a-b5b9-0d7c328ab94f.jpeg",
+      "/the_first_environmental_forum/d80c850c-b109-4461-8a4a-f587bb7478b3.jpeg",
+      "/the_first_environmental_forum/fcbbbb7f-0935-4076-8b34-c881137caff6.jpeg"
+    ]
   },
   {
     id: "gp-human-following-robot",
