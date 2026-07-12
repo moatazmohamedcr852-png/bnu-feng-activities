@@ -1,6 +1,5 @@
 Tourigo is a mobile application designed to enhance the travel experience for tourists visiting Egypt. The app connects travelers with trusted, officially verified tour guides and offers a wide range of trip packages with transparent pricing and detailed itineraries to help prevent scams. Additionally, Tourigo features exclusive offers and partnerships with hotels, resorts, and restaurants, allowing users to enjoy a seamless, safe, and convenient travel experience.
 team members
 rawan ahmed
-ahmed diaa 
 saif abouelalla
 

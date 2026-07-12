@@ -631,6 +631,20 @@ export const projectsData = [
   },
 
   {
+    id: "tourigo-project",
+    category: "projects",
+    subcategory: "awarded-outstanding-projects",
+    title: "TOURIGO",
+    description: "Tourigo is an AI-powered travel platform that helps tourists plan seamless trips in Egypt through personalized itineraries and verified local services.",
+    story: "Tourigo brings together itinerary creation, local experience discovery, and trusted service providers into one smart travel experience for visitors to Egypt.",
+    image: "/rally/tou.jpeg",
+    badgeText: "Startup",
+    badgeClass: "badge-competition",
+    competition: "Rally Egypt",
+    organizer: "Rally Egypt",
+    date: "2026"
+  },
+  {
     id: "enactus-bue-boot-camp",
     category: "events",
     title: "Enactus BUE Boot Camp",
@@ -792,22 +806,6 @@ export const projectsData = [
     gallery: [
       "/visits/visit1_1.jpeg",
       "/visits/visit1_2.jpeg"
-    ]
-  },
-  {
-    id: "minister-visit-2",
-    category: "visits",
-    title: "Second Visit of the Minister of Education & Prime Minister",
-    description: "A follow-up official visit by the Minister of Education and the Prime Minister, reviewing the ongoing developments and projects at the Faculty of Engineering.",
-    image: "/visits/visit2_1.jpeg",
-    badgeText: "Official Visit",
-    badgeClass: "badge-seminar",
-    gallery: [
-      "/visits/visit2_1.jpeg",
-      "/visits/visit2_2.jpeg",
-      "/visits/visit2_3.jpeg",
-      "/visits/visit2_4.jpeg",
-      "/visits/visit2_5.jpeg"
     ]
   },
   {
