@@ -252,7 +252,22 @@ export const projectsData = [
     badgeClass: "badge-seminar",
     image: "/arduino_workshop.jpeg",
     teamPhoto: "/arduino_team.jpeg",
-    gallery: ["/arduino_workshop3.jpeg", "/arduino_workshop4.jpeg"],
+    gallery: [
+      "/arduino_workshop3.jpeg",
+      "/arduino_workshop4.jpeg",
+      "/arduino_workshop_photos_round_2/05b13bfa-3399-4afd-a3f0-16f38591a4b3.jpeg",
+      "/arduino_workshop_photos_round_2/072a32f3-6662-4e4b-b263-c23316fe45a3.jpeg",
+      "/arduino_workshop_photos_round_2/0ea7f20d-05d7-4f05-9472-2029530003cc.jpeg",
+      "/arduino_workshop_photos_round_2/41c091fd-7629-44bb-a309-467527d9095b.jpeg",
+      "/arduino_workshop_photos_round_2/5de5574b-623b-4fc5-ac5c-4b5f4892cd24.jpeg",
+      "/arduino_workshop_photos_round_2/616a1401-a1bb-4475-98d1-fcfd400df36e.jpeg",
+      "/arduino_workshop_photos_round_2/6b7ef819-02ee-4bf8-88a0-3fdebd394cb0.jpeg",
+      "/arduino_workshop_photos_round_2/852697ac-69a4-4b68-a7fc-76042a158619.jpeg",
+      "/arduino_workshop_photos_round_2/8c3930fa-70fe-4a66-bf69-d0651e0ec0b8.jpeg",
+      "/arduino_workshop_photos_round_2/93be3e77-3368-4651-9a39-f5afdf0c048e.jpeg",
+      "/arduino_workshop_photos_round_2/c17c1e2f-55f4-4dc9-bc9b-8ed77cb00094.jpeg",
+      "/arduino_workshop_photos_round_2/f8109930-1cf3-4a47-b7e4-2b6e8fbc4f96.jpeg"
+    ],
     teamLogo: "/arduino_logo.png"
   },
   {
