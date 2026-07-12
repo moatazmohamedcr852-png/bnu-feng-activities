@@ -21,6 +21,7 @@ const Home = () => {
   }, []);
 
   const getProjectsByCategory = (category) => projectsData.filter(p => p.category === category && !p.parentId);
+  const getOrderedEvents = () => [...getProjectsByCategory('events')].sort((a, b) => Number(b.pinned || false) - Number(a.pinned || false));
 
   return (
     <>
@@ -83,7 +84,7 @@ const Home = () => {
           </p>
         </div>
         <div className="activities-grid">
-          {getProjectsByCategory('events').map(project => (
+          {getOrderedEvents().map(project => (
             <ActivityCard key={project.id} project={project} />
           ))}
         </div>
@@ -140,18 +141,18 @@ const Home = () => {
         </div>
       </section>
 
-      <section id="visits" className="category-section cat-visits">
+      <section id="internships" className="category-section cat-internships">
         <div className="category-header">
           <div className="category-icon">
-            <span className="material-icons">tour</span>
+            <span className="material-icons">work</span>
           </div>
-          <h2 className="category-title">Visits</h2>
+          <h2 className="category-title">Internships</h2>
           <p className="category-description">
-            Highlighting official visits, VIP tours, and high-level engagements at the Faculty of Engineering.
+            Discover opportunities to gain practical experience and kickstart your career.
           </p>
         </div>
         <div className="activities-grid">
-          {getProjectsByCategory('visits').map(project => (
+          {getProjectsByCategory('internships').map(project => (
             <ActivityCard key={project.id} project={project} />
           ))}
         </div>
@@ -169,23 +170,6 @@ const Home = () => {
         </div>
         <div className="activities-grid">
           {getProjectsByCategory('announcements').map(project => (
-            <ActivityCard key={project.id} project={project} />
-          ))}
-        </div>
-      </section>
-
-      <section id="internships" className="category-section cat-internships">
-        <div className="category-header">
-          <div className="category-icon">
-            <span className="material-icons">work</span>
-          </div>
-          <h2 className="category-title">Internships</h2>
-          <p className="category-description">
-            Discover opportunities to gain practical experience and kickstart your career.
-          </p>
-        </div>
-        <div className="activities-grid">
-          {getProjectsByCategory('internships').map(project => (
             <ActivityCard key={project.id} project={project} />
           ))}
         </div>

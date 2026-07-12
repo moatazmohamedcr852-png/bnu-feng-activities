@@ -815,16 +815,25 @@ export const projectsData = [
   },
   {
     id: "minister-visit-1",
-    category: "visits",
+    category: "events",
     title: "Visit of the Minister of Education & Prime Minister",
     description: "Official visit by the Minister of Education and the Prime Minister to the Faculty of Engineering.",
     image: "/visits/visit1_1.jpeg",
     badgeText: "Official Visit",
     badgeClass: "badge-seminar",
+    pinned: true,
     gallery: [
       "/visits/visit1_1.jpeg",
       "/visits/visit1_2.jpeg"
     ]
+  },
+  {
+    id: "the-first-environmental-forum",
+    category: "events",
+    title: "The First Environmental Forum",
+    description: "A university forum focused on environmental awareness, sustainability, and student-led solutions for a greener future.",
+    badgeText: "Forum",
+    badgeClass: "badge-seminar"
   },
   {
     id: "gp-human-following-robot",
