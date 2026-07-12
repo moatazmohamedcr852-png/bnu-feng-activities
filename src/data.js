@@ -736,7 +736,7 @@ export const projectsData = [
   {
     id: "aquaventures",
     category: "projects",
-    title: "Best Team Spirit — Mate ROV 2026",
+    title: "Team Spirit — Mate ROV 2026",
     subcategory: "awarded-outstanding-projects",
     story:"The team demonstrated outstanding teamwork while designing, building, and operating their ROV, consistently supporting one another under challenging conditions. Their positive attitude, dedication, and cooperative spirit distinguished them among the participating teams and earned them this special recognition.",
     description: "Competing as AquaVentures, the team received the Best Team Spirit Award for their exceptional cooperation, communication, and positive attitude throughout the event. Their ability to work together under pressure, support one another during every stage of the competition, and maintain a high level of professionalism distinguished them from the other participating teams and earned them this special recognition.",
