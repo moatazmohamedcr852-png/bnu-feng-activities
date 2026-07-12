@@ -162,7 +162,7 @@ const ProjectDetails = () => {
             </section>
           )}
 
-          {(((project.category === 'clubs' || project.category === 'projects') || project.id === 'arduino-workshop') && project.id !== 'ieee-branch') && (
+          {((project.category === 'clubs' || (project.category === 'projects' && project.subcategory !== 'graduation-projects') || project.id === 'arduino-workshop') && project.id !== 'ieee-branch') && (
             <section className="details-section supervisor-section">
               <h2>Supervisors</h2>
               <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1.5rem' }}>

@@ -24,7 +24,6 @@ const Navbar = () => {
           <a href={getHref('#visits')} className="nav-link">Visits</a>
           <a href={getHref('#announcements')} className="nav-link">Announcements</a>
           <a href={getHref('#internships')} className="nav-link">Internships</a>
-          <a href="/graduation-projects" className="nav-link">Graduation</a>
         </div>
       </nav>
 
@@ -60,10 +59,6 @@ const Navbar = () => {
         <a href={getHref('#internships')} className="mobile-nav-item">
           <span className="material-icons">work</span>
           <span>Internships</span>
-        </a>
-        <a href="/graduation-projects" className="mobile-nav-item">
-          <span className="material-icons">school</span>
-          <span>Graduation</span>
         </a>
       </nav>
     </>

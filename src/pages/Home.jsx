@@ -37,32 +37,23 @@ const Home = () => {
           </p>
         </div>
 
-        <h3 style={{ marginTop: '2rem', marginBottom: '2rem', textAlign: 'center', fontSize: '1.8rem', color: 'var(--primary-dark)' }}>
-          Award-Winning Projects
-        </h3>
-        <div className="activities-grid">
-          {projectsData.filter(p => p.category === 'projects' && p.subcategory === 'award-winning' && !p.parentId).map(project => (
-            <ActivityCard key={project.id} project={project} />
-          ))}
-        </div>
-
-        <h3 style={{ marginTop: '4rem', marginBottom: '2rem', textAlign: 'center', fontSize: '1.8rem', color: 'var(--primary-dark)' }}>
-          Outstanding Projects
-        </h3>
-        <div className="activities-grid">
-          {projectsData.filter(p => p.category === 'projects' && p.subcategory === 'outstanding' && !p.parentId).map(project => (
-            <ActivityCard key={project.id} project={project} />
-          ))}
-        </div>
-        
-        <h3 style={{ marginTop: '4rem', marginBottom: '2rem', textAlign: 'center', fontSize: '1.8rem', color: 'var(--primary-dark)' }}>
-          Individual Awards
-        </h3>
-        <div className="activities-grid">
-          {projectsData.filter(p => p.category === 'projects' && p.subcategory === 'individual-awards' && !p.parentId).map(project => (
-            <ActivityCard key={project.id} project={project} />
-          ))}
-        </div>
+        {[
+          { id: 'competitions', title: 'Competitions' },
+          { id: 'awarded-outstanding-projects', title: 'Awarded & Outstanding Projects' },
+          { id: 'academic-projects', title: 'Academic Projects' },
+          { id: 'graduation-projects', title: 'Graduation Projects' }
+        ].map((subcategory, index) => (
+          <div key={subcategory.id}>
+            <h3 style={{ marginTop: index === 0 ? '2rem' : '4rem', marginBottom: '2rem', textAlign: 'center', fontSize: '1.8rem', color: 'var(--primary-dark)' }}>
+              {subcategory.title}
+            </h3>
+            <div className="activities-grid">
+              {projectsData.filter(project => project.category === 'projects' && project.subcategory === subcategory.id && !project.parentId).map(project => (
+                <ActivityCard key={project.id} project={project} />
+              ))}
+            </div>
+          </div>
+        ))}
       </section>
 
       <section id="events" className="category-section cat-events">
