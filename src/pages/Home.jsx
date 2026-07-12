@@ -38,7 +38,6 @@ const Home = () => {
         </div>
 
         {[
-          { id: 'competitions', title: 'Competitions' },
           { id: 'awarded-outstanding-projects', title: 'Awarded & Outstanding Projects' },
           { id: 'academic-projects', title: 'Academic Projects' },
           { id: 'graduation-projects', title: 'Graduation Projects' }

@@ -2,7 +2,7 @@ export const projectsData = [
   {
     id: "samu",
     category: "projects",
-    subcategory: "academic-projects",
+    subcategory: "awarded-outstanding-projects",
     title: "2nd Place — Benha University Hackathon",
     description: "Developed a smart university management app featuring secure attendance tracking, AI assistance, student activities, and campus communication tools.",
     story: "The team noticed the inefficiencies in university administration and attendance tracking. They developed SAMU to act as an all-in-one assistant for both students and faculty, integrating AI to provide real-time assistance and a seamless university experience.",
@@ -20,6 +20,20 @@ export const projectsData = [
       "Abdelrahman Ahmed Ibrahim Nayef", "Pierre Samir", "Adham Abdelqader", 
       "Kirollos Tamer", "Seif Abdelhalim", "Saleh Tamer", "Mohamed Hesham"
     ]
+  },
+  {
+    id: "trusse-project",
+    category: "projects",
+    subcategory: "academic-projects",
+    title: "Trusse Project",
+    description: "An academic engineering project showcasing structural design and analysis concepts through a practical student-built model.",
+    story: "This academic project highlights the students' understanding of structural engineering principles, teamwork, and hands-on application in a real design challenge.",
+    image: "/acadmic_projects/trusse_project.jpeg",
+    badgeText: "Academic Project",
+    badgeClass: "badge-seminar",
+    achievement: "Academic Project",
+    organizer: "Benha National University",
+    date: "2026"
   },
   {
     id: "remove",
@@ -691,22 +705,6 @@ export const projectsData = [
     competition: "El-Araby Competition"
   },
 
-  {
-    id: "ahmed-hany",
-    category: "projects",
-    subcategory: "competitions",
-    title: "Ahmed Hany — Robotics Coach & International Judge",
-    description: "2nd Place Champion's Award (FLL 2023) / 1st Place National Championship twice (2022 Egypt & 2019 Programming) / International Robot Challenge Judge (2025–2026).",
-    story: "Ahmed's exceptional leadership and strategic mentoring in robotics have cultivated a culture of excellence, driving numerous teams to consecutive championship victories on both national and international stages. Beyond competition, his technical expertise as an international judge continues to shape and inspire the next generation of young STEM innovators.",
-    image: "/ahmed_hany.jpeg",
-    extraImage: "/infinity.jpeg",
-    badgeText: "Coach & Judge",
-    badgeClass: "badge-sports",
-    achievement: "1st Place – National Championship (2022, Egypt)",
-    extraAchievement: "2nd Place – Champion's Award | Team Ctrl+Alt+Elite (2023) \u00b7 International Judge – Robot Challenge (2025, 2026)",
-    teamMembers: ["Ahmed Hany"],
-    extraStory: "Coaching & Mentorship (FIRST LEGO League 2019–2025):\n\u2022 Team Ripple (2025): Best Strategy Award\n\u2022 Team Cypher (2024): Core Values Recognition (Egypt)\n\u2022 FLL Explore (2019–2026): Mentoring youth in STEM and innovation.\n\nTeam Infinity Achievements:\n\u2022 Championship Titles: 1st Place (2022, Egypt) & 2nd Place (2020)\n\u2022 Robot Performance: 1st Place (2022) & 2nd Place (2020)\n\u2022 Specialized Awards: 1st Place Programming (2019), 2nd Place Core Values (2021)\n\u2022 International Awards: Pit Area Award (Greece, 2021)\n\nJudging Experience:\n\u2022 MRC – Minoan Robotsports Competition (Egypt, 2025)\n\u2022 We Do Challenge & ORCE (Project Evaluator: 2025)"
-  },
   {
     id: "chemistry-lab",
     category: "facilities",
