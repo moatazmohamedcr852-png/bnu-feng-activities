@@ -73,6 +73,23 @@ const Home = () => {
         </div>
       </section>
 
+      <section id="research-publications" className="category-section cat-research-publications">
+        <div className="category-header">
+          <div className="category-icon">
+            <span className="material-icons">menu_book</span>
+          </div>
+          <h2 className="category-title">Research Publications</h2>
+          <p className="category-description">
+            Highlighting student research papers, conference presentations, and academic publications.
+          </p>
+        </div>
+        <div className="activities-grid">
+          {getProjectsByCategory('research-publications').map(project => (
+            <ActivityCard key={project.id} project={project} />
+          ))}
+        </div>
+      </section>
+
       <section id="events" className="category-section cat-events">
         <div className="category-header">
           <div className="category-icon">

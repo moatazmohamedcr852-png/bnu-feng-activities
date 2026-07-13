@@ -283,6 +283,40 @@ export const projectsData = [
   teamMembers: ["Mohamed El Araby Madan"]
 },
   {
+    id: "mtc-research-paper",
+    category: "research-publications",
+    title: "Military Technical College Conference — Research Paper Presentation",
+    description: "Students of the Faculty of Engineering at Benha National University receiving their certificates of participation at the Military Technical College Conference after presenting their research paper, which was derived from the practical component of one of their academic courses.",
+    story: "Students of the Faculty of Engineering at Benha National University received their certificates of participation at the Military Technical College Conference after successfully presenting their research paper. The work was derived from the practical component of one of their academic courses, demonstrating how classroom learning translates into real research contributions.",
+    image: "/Research_Publications/WhatsApp Image 2026-07-12 at 1.07.09 PM.jpeg",
+    teamPhoto: "/Research_Publications/publicity.jpeg",
+    badgeText: "Research Publication",
+    badgeClass: "badge-seminar",
+    achievement: "Certificate of Participation",
+    competition: "Military Technical College Conference",
+    organizer: "Military Technical College",
+    date: "2026",
+    teamMembers: [
+      "Mahmoud Mohamed El-Telbany",
+      "Mennatallah Ayman",
+      "Hamsa Yasser"
+    ],
+    supervisors: [
+      {
+        name: "Assoc. Prof. Moataz El Sherbiny",
+        role: "Academic Supervisor",
+        photo: "/supervisors/dr_moataz_elsherbini_isolated.png"
+      }
+    ],
+    gallery: [
+      "/Research_Publications/WhatsApp Image 2026-07-12 at 1.07.09 PM.jpeg",
+      "/Research_Publications/paper acceptance certficate.jpeg",
+      "/Research_Publications/publicity.jpeg",
+      "/Research_Publications/certifcate.jpeg"
+    ]
+  },
+
+  {
     id: "arduino-workshop",
     category: "workshops",
     title: "Arduino & Embedded Systems Workshop",
