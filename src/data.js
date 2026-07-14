@@ -29,11 +29,42 @@ export const projectsData = [
     description: "An academic engineering project showcasing structural design and analysis concepts through a practical student-built model.",
     story: "This academic project highlights the students' understanding of structural engineering principles, teamwork, and hands-on application in a real design challenge.",
     image: "/acadmic_projects/trusse_project.jpeg",
-    badgeText: "Academic Project",
+    badgeText: "Statics 1 Project",
     badgeClass: "badge-seminar",
     achievement: "Academic Project",
     organizer: "Benha National University",
-    date: "2026"
+    date: "2024"
+  },
+    {
+    id: "gravity-project",
+    category: "projects",
+    subcategory: "academic-projects",
+    title: "Single-Suspension Center of Gravity Determination Device",
+    description: "The Single-Suspension Center of Gravity Determination Device is an educational laboratory apparatus that calculates the center of gravity of planar objects using a single suspension point. The system consists of a rigid frame, suspension pin, pulley mechanism, calibrated force application system, measurement scale, and reference board. By applying a known external force and using the principles of force and moment equilibrium, the device determines the center of gravity without requiring multiple suspension setups. It provides a practical and efficient tool for teaching engineering mechanics and experimental statics while demonstrating an alternative approach to center of gravity measurement.",
+    story: "Determining the center of gravity is a fundamental concept in engineering mechanics, yet traditional laboratory methods often require multiple suspension points and lengthy measurement procedures. The Single-Suspension Center of Gravity Determination Device was developed to simplify this process by introducing an innovative experimental approach based on static equilibrium. Using only a single suspension point, the device enables students to determine the center of gravity of two-dimensional objects while gaining a deeper understanding of force and moment equilibrium. The project bridges theoretical analysis with hands-on experimentation, making engineering mechanics more intuitive, accurate, and engaging for students.",
+    image: "/acadmic_projects/gravity.jpeg",
+    badgeText: "Mechanics Project",
+    badgeClass: "badge-seminar",
+    achievement: "Academic Project",
+    organizer: "Benha National University",
+    date: "2024"
+  },
+    {
+    id: "Walkie-Talkie",
+    category: "projects",
+    subcategory: "academic-projects",
+    title: "Walkie Talkie",
+    description: "The Intelligent Walkie Talkie Platform is built around ESP32 and NRF24L01 modules with a custom PCB, microphone, and speaker system. It supports WiFi Full Duplex, NRF Half Duplex, NRF Full Duplex, and a Hybrid WiFi + NRF mode that extends communication range while allowing smartphones to connect through WiFi. The system incorporates digital signal processing (DSP) techniques, including audio filtering, sampling rate optimization, and voice enhancement, to improve speech clarity and overall communication performance. By integrating embedded systems, wireless communication, PCB design, and DSP, the platform delivers a scalable and intelligent voice communication solution.",
+    story: "Reliable communication is essential in emergency response, industrial operations, and outdoor activities, where conventional networks may be unavailable or unreliable. The Intelligent Walkie Talkie Platform was developed to provide a flexible communication system that adapts to different scenarios by combining multiple wireless technologies. Instead of relying on a single communication method, the platform offers various operating modes that balance audio quality, communication range, and full-duplex capability. This hybrid approach creates a versatile solution capable of delivering reliable voice communication across a wide range of applications.",
+    image: "/acadmic_projects/walkie_talkie.jpeg",
+    badgeText: "Microwave Project",
+    badgeClass: "badge-seminar",
+    achievement: "Academic Project",
+    organizer: "Benha National University",
+    date: "2026",
+        supervisors: [
+      { name: "Dr.Moataz Elsherbiny ", role: "Supervisor" }
+    ]
   },
   {
     id: "remove",
@@ -800,7 +831,7 @@ export const projectsData = [
     description: "Tech Beam team representing Benha National University's Faculty of Engineering at the El-Araby competition, showcasing innovative engineering solutions.",
     story: "The Tech Beam team stepped up to the El-Araby competition, showcasing their engineering prowess and innovative thinking on a regional stage, proudly representing FENG.",
     image: "/tech_beam_el_araby_compettion.jpeg",
-    badgeText: "Competition",
+    badgeText: "tech-beam",
     badgeClass: "badge-competition",
     competition: "El-Araby Competition"
   },
@@ -1122,6 +1153,27 @@ export const projectsData = [
     supervisors: [
       { name: "Dr. Atef Soilman", role: "Supervisor" },
        { name: "Dr. Samer Beskales", role: "Supervisor" }
+    ]
+  },
+      {
+    id: "fault injection framework",
+    category: "projects",
+    subcategory: "graduation-projects",
+    title: "fault injection framework ",
+    description: "The framework consists of three main components working together. An orchestrator acts as the command center, presenting the user with a menu-driven interface to select fault types, targets, and timing. A fault injector library sits underneath, using the GDB debugging protocol to connect to a live running target and inject faults directly into memory at runtime — without modifying the application code itself. Finally, two testing sessions allow faults to be injected into both a software emulator (QEMU) and real physical hardware simultaneously, making it possible to compare how the same fault behaves in simulation versus reality.",
+    story: "Modern embedded systems are everywhere — in cars, medical devices, industrial machines, and consumer electronics. As these systems grow more complex, the question of reliability becomes critical. What happens when a sensor fails? What happens when memory gets corrupted? What happens when a task freezes at the worst possible moment?, These are the questions that drove our team to build the Fault Injection Framework, a tool designed to deliberately break embedded systems in a controlled way, so we can prove they are strong enough to survive real-world failures.",
+    image: "/steven.jpeg",
+    badgeText: "Embedded Systems",
+    badgeClass: "badge-innovation",
+    teamMembers: [
+      "Ahmed Mohamed Saber",
+      "Patrick Akram Kawkab",
+      "Omar Tarek Aly",
+      "Steven George Ghaly",
+      "Zyad Hany Mohamed"
+    ],
+    supervisors: [
+      { name: "Asso. Prof. Essam El-Elimy", role: "Supervisor" }
     ]
   }
 ];
