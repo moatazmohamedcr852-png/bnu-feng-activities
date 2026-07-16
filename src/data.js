@@ -583,7 +583,7 @@ export const projectsData = [
   },
   {
     id: "fire-alarm-system-workshop-2024",
-    category: "events",
+    category: "workshops",
     title: "Fire Alarm System Workshop (2024)",
     description: "Fire Alarm System Workshop in 2024.",
     image: "",
@@ -592,7 +592,7 @@ export const projectsData = [
   },
   {
     id: "elevator-systems-workshop-2024",
-    category: "events",
+    category: "workshops",
     title: "Elevator Systems Workshop (2024)",
     description: "Elevator Systems Workshop in 2024.",
     image: "",
