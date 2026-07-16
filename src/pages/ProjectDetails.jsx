@@ -166,7 +166,7 @@ const ProjectDetails = () => {
             <section className="details-section supervisor-section">
               <h2>Supervisors</h2>
               <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1.5rem' }}>
-                {project.category === 'projects' && project.id !== 'remove' && (
+                {(project.category === 'projects' || project.category === 'clubs') && project.id !== 'remove' && (
                   <div className="supervisor-widget supervisor-widget-featured" style={{ marginTop: 0 }}>
                     <img src="/supervisors/dr_mohamed_said.jpeg" alt="Dr. Mohamed Said" className="supervisor-photo" />
                     <div className="supervisor-info">

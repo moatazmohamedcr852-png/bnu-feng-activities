@@ -222,7 +222,6 @@ export const projectsData = [
     teamLogo: "/robocore/robocore_team.jpeg",
     teamPhoto: "/robocore/WhatsApp Image 2026-07-12 at 11.52.29 AM.jpeg",
     supervisors: [
-      { name: "Dr. Mohamed Said", role: "Project Supervisor", photo: "/supervisors/dr_mohamed_said.jpeg" },
       { name: "Dr. Hossam Ramadan", role: "Project Supervisor" }
     ]
   },
@@ -239,7 +238,6 @@ export const projectsData = [
     teamLogo: "/hoolgans.png",
     teamPhoto: "/aquaventures/WhatsApp Image 2026-07-12 at 11.52.52 AM.jpeg",
     supervisors: [
-      { name: "Dr. Mohamed Said", role: "Project Supervisor", photo: "/supervisors/dr_mohamed_said.jpeg" },
       { name: "Dr. Hossam Ramadan", role: "Project Supervisor" }
     ]
   },
