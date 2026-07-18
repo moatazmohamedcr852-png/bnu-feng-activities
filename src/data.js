@@ -109,6 +109,11 @@ export const projectsData = [
     teamMembers: [
       "Nahed Tamer", "Marina George", "Mohamed Alaa", 
       "Abdelrahman Nayef", "Omar Othman"
+    ],
+        gallery: [
+      "/re1.jpeg",
+      "/re2.jpeg",
+      "/re3.jpeg"
     ]
   },
 
@@ -128,6 +133,21 @@ export const projectsData = [
     organizer: "Rally Egypt",
     date: "2026",
     extraStory: "The team also showcased their work in the Alexandria Entrepreneurship Competition, highlighting the project's business impact and innovation."
+  },
+  {
+    id: "dia-project",
+    category: "projects",
+    subcategory: "awarded-outstanding-projects",
+    title: "2nd Place — Faculty of Medicine Project Competition",
+    description: "The Smart Insole is a wearable biomedical device designed to help diabetic patients prevent Diabetic Foot Ulcers (DFUs) through continuous foot monitoring. Using integrated sensors and real-time data analysis, the system detects abnormal conditions and alerts users before complications develop, promoting early intervention and reducing the risk of ulcer progression and amputation.",
+    story: "Diabetic Foot Ulcers (DFUs) are among the most serious complications of diabetes and can lead to amputation if left undetected. The Smart Insole was developed to continuously monitor foot conditions and provide early warnings, replacing inconvenient traditional inspection methods with an automated and comfortable solution. The project's impact was recognized by reaching the semifinals of the Rally Egypt Entrepreneurship Competition and the Creativa Benha Incubation Program, as well as winning 2nd Place at a Medical Conference Project Competition.",
+    image: "/dia.jpeg",
+    badgeText: "Dia-Care",
+    badgeClass: "badge-competition",
+    achievement: "2nd Place — Faculty of Medicine Project Competition",
+    competition: "Faculty of Medicine Project Competition",
+    organizer: "Faculty of Medicine",
+    date: "2026",
   },
   {
     id: "smart-guide",
