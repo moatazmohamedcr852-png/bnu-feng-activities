@@ -17,7 +17,7 @@ export const projectsData = [
     extraCompetition: "Arab World Competition",
     extraDate: "2025",
     teamMembers: [
-      "Abdelrahman Ahmed Ibrahim Nayef", "Pierre Samir", "Adham Abdelqader", 
+      "Abdelrahman Ahmed Ibrahim Nayef", "Pierre Samir", "Adham Abdelqader",
       "Kirollos Tamer", "Seif Abdelhalim", "Saleh Tamer", "Mohamed Hesham"
     ]
   },
@@ -35,7 +35,7 @@ export const projectsData = [
     organizer: "Benha National University",
     date: "2024"
   },
-    {
+  {
     id: "gravity-project",
     category: "projects",
     subcategory: "academic-projects",
@@ -49,7 +49,7 @@ export const projectsData = [
     organizer: "Benha National University",
     date: "2024"
   },
-    {
+  {
     id: "Walkie-Talkie",
     category: "projects",
     subcategory: "academic-projects",
@@ -62,7 +62,7 @@ export const projectsData = [
     achievement: "Academic Project",
     organizer: "Benha National University",
     date: "2026",
-        supervisors: [
+    supervisors: [
       { name: "Dr.Moataz Elsherbiny ", role: "Supervisor" }
     ]
   },
@@ -86,11 +86,11 @@ export const projectsData = [
     extraOrganizer: "Rally Egypt",
     extraDate: "Oct 4, 2026",
     teamMembers: [
-      "Nahed Tamer", "Marina George", "Mohamed Alaa", 
+      "Nahed Tamer", "Marina George", "Mohamed Alaa",
       "Giovanni Al-Amir", "Mina Bahgat", "Youssef Waleed"
     ]
   },
-  
+
   {
     id: "removee",
     category: "projects",
@@ -107,17 +107,17 @@ export const projectsData = [
     organizer: "EME-Creativa Giza",
     date: "july 8, 2026",
     teamMembers: [
-      "Nahed Tamer", "Marina George", "Mohamed Alaa", 
+      "Nahed Tamer", "Marina George", "Mohamed Alaa",
       "Abdelrahman Nayef", "Omar Othman"
     ],
-        gallery: [
+    gallery: [
       "/re1.jpeg",
       "/re2.jpeg",
       "/re3.jpeg"
     ]
   },
 
-    {
+  {
     id: "tourigo-project",
     category: "projects",
     subcategory: "awarded-outstanding-projects",
@@ -165,11 +165,11 @@ export const projectsData = [
     organizer: "Benha University",
     date: "Nov 2, 2024",
     teamMembers: [
-      "Abdelrahman Nayef", "Kirolos Maged", "Karen Sameh", 
+      "Abdelrahman Nayef", "Kirolos Maged", "Karen Sameh",
       "Pierre Samir", "Youssef Walid"
     ]
   },
-   {
+  {
     id: "adhd",
     category: "projects",
     title: "2nd Place — Benha University Hackathon",
@@ -208,7 +208,7 @@ export const projectsData = [
     organizer: "Benha National University",
     date: "Dec 6, 2025",
     teamMembers: [
-      "Abdelrahman Nayef", "Ammar Ashraf", "Adham Abdelkader", 
+      "Abdelrahman Nayef", "Ammar Ashraf", "Adham Abdelkader",
       "Pierre Samir", "Salma Samer", "Farida Zyada"
     ]
   },
@@ -219,8 +219,8 @@ export const projectsData = [
     subcategory: "awarded-outstanding-projects",
     description: "MedTech secured a Top 5 position at the UGRAF competition hosted by Nile University, standing out for its innovative approach in healthcare technology.",
     story: "Continuing its success, MedTech impressed the judges at Nile University's UGRAF competition. The team demonstrated their AI-driven healthcare platform's potential, earning them a well-deserved spot among the top 5 projects.",
-    image: "/medtech_ugraf_top_5_nile_university/WhatsApp Image 2026-08-01 at 7.34.19 PM (2).jpeg",
-    teamPhoto: "/medtech_ugraf_top_5_nile_university/WhatsApp Image 2026-08-01 at 7.34.19 PM.jpeg",
+    image: "/team_medtech.jpeg",
+    teamPhoto: "/medtech_ugraf_top_5_nile_university/team.jpeg",
     badgeText: "MedTech",
     badgeClass: "badge-competition",
     achievement: "Top 5",
@@ -228,17 +228,17 @@ export const projectsData = [
     organizer: "Nile University",
     date: "2026",
     teamMembers: [
-      "Abdelrahman Nayef", "Ammar Ashraf", "Adham Abdelkader", 
+      "Abdelrahman Nayef", "Ammar Ashraf", "Adham Abdelkader",
       "Pierre Samir", "Salma Samer", "Farida Zyada"
     ],
     gallery: [
-      "/medtech_ugraf_top_5_nile_university/WhatsApp Image 2026-08-01 at 7.34.19 PM.jpeg",
+      "/medtech_ugraf_top_5_nile_university/team.jpeg",
       "/medtech_ugraf_top_5_nile_university/WhatsApp Image 2026-08-01 at 7.34.19 PM (1).jpeg",
       "/medtech_ugraf_top_5_nile_university/WhatsApp Image 2026-08-01 at 7.34.19 PM (2).jpeg",
       "/medtech_ugraf_top_5_nile_university/WhatsApp Image 2026-08-01 at 7.34.19 PM (3).jpeg"
     ]
   },
-    {
+  {
     id: "plastic threads",
     category: "projects",
     title: "Best Project — FENG Scientific Day",
@@ -323,40 +323,40 @@ export const projectsData = [
     date: "Jan 28, 2026",
     teamMembers: ["Malak Mohamed Seif El-Nasr"]
   },
-{
-  id: "khadija-speed-ball",
-  category: "sports-tournaments",
-  subcategory: "competitions",
-  title: "Egypt Speed Ball Championship",
-  description: "2 Gold Medals / 1 Silver Medal / 3 Bronze Medals at the Egyptian Republic Speed Ball Championship",
-  story: "Khadija's outstanding performance at the Egyptian Republic Speed Ball Championship reflects her dedication, resilience, and commitment to excellence, proudly representing Benha National University on the national stage.",
-  image: "/khadija.jpeg",
-  teamPhoto: "/khadija.jpeg",
-  badgeText: "Championship",
-  badgeClass: "badge-sports",
-  achievement: "2 Gold • 1 Silver • 3 Bronze Medals",
-  competition: "Egyptian Republic Speed Ball Championship",
-  organizer: "Egyptian Speed Ball Federation",
-  date: "2026",
-  teamMembers: ["Khadija Mohsen Abdelwahab"]
-},
-{
-  id: "mohamed-kickboxing",
-  category: "sports-tournaments",
-  subcategory: "competitions",
-  title: "Egyptian Kickboxing Championship",
-  description: "1 Gold Medal at the Egyptian Republic Kickboxing Championship (4th Consecutive National Title)",
-  story: "Mohamed El Araby Madan secured 1st Place at the Egyptian Republic Kickboxing Championship for the fourth consecutive year, demonstrating exceptional consistency, discipline, and determination while proudly representing Benha National University.",
-  image: "/araby.jpeg",
-  teamPhoto: "/araby.jpeg",
-  badgeText: "Championship",
-  badgeClass: "badge-sports",
-  achievement: "Gold Medal • 1st Place Nationwide",
-  competition: "Egyptian Republic Kickboxing Championship",
-  organizer: "Egyptian Kickboxing Federation",
-  date: "2026",
-  teamMembers: ["Mohamed El Araby Madan"]
-},
+  {
+    id: "khadija-speed-ball",
+    category: "sports-tournaments",
+    subcategory: "competitions",
+    title: "Egypt Speed Ball Championship",
+    description: "2 Gold Medals / 1 Silver Medal / 3 Bronze Medals at the Egyptian Republic Speed Ball Championship",
+    story: "Khadija's outstanding performance at the Egyptian Republic Speed Ball Championship reflects her dedication, resilience, and commitment to excellence, proudly representing Benha National University on the national stage.",
+    image: "/khadija.jpeg",
+    teamPhoto: "/khadija.jpeg",
+    badgeText: "Championship",
+    badgeClass: "badge-sports",
+    achievement: "2 Gold • 1 Silver • 3 Bronze Medals",
+    competition: "Egyptian Republic Speed Ball Championship",
+    organizer: "Egyptian Speed Ball Federation",
+    date: "2026",
+    teamMembers: ["Khadija Mohsen Abdelwahab"]
+  },
+  {
+    id: "mohamed-kickboxing",
+    category: "sports-tournaments",
+    subcategory: "competitions",
+    title: "Egyptian Kickboxing Championship",
+    description: "1 Gold Medal at the Egyptian Republic Kickboxing Championship (4th Consecutive National Title)",
+    story: "Mohamed El Araby Madan secured 1st Place at the Egyptian Republic Kickboxing Championship for the fourth consecutive year, demonstrating exceptional consistency, discipline, and determination while proudly representing Benha National University.",
+    image: "/araby.jpeg",
+    teamPhoto: "/araby.jpeg",
+    badgeText: "Championship",
+    badgeClass: "badge-sports",
+    achievement: "Gold Medal • 1st Place Nationwide",
+    competition: "Egyptian Republic Kickboxing Championship",
+    organizer: "Egyptian Kickboxing Federation",
+    date: "2026",
+    teamMembers: ["Mohamed El Araby Madan"]
+  },
   {
     id: "mtc-research-paper",
     category: "research-publications",
@@ -537,7 +537,7 @@ export const projectsData = [
     image: "/ori1.jpeg",
     badgeText: "Event",
     badgeClass: "badge-seminar",
-        gallery: [
+    gallery: [
       "/ori1.jpeg",
       "/ori2.jpeg",
       "/ori3.jpeg",
@@ -673,7 +673,7 @@ export const projectsData = [
       "/rally/rallyy10.jpeg"
     ]
   },
-    {
+  {
     id: "rally-teams-dia-care",
     parentId: "rally-society",
     category: "clubs",
@@ -690,7 +690,7 @@ export const projectsData = [
     parentId: "rally-society",
     category: "clubs",
     title: "RoboEXPRESS",
-    description:"RoboExpress is an autonomous delivery robot designed for residential compounds. It enables secure package delivery from the compound gate directly to residents, reducing the need for delivery personnel to enter the community, enhancing security, minimizing safety risks, and making the delivery process faster and more convenient.",
+    description: "RoboExpress is an autonomous delivery robot designed for residential compounds. It enables secure package delivery from the compound gate directly to residents, reducing the need for delivery personnel to enter the community, enhancing security, minimizing safety risks, and making the delivery process faster and more convenient.",
     image: "/rally/robo.jpeg",
     imageFit: "contain",
     teamLogo: "/rally_logo.png",
@@ -702,7 +702,7 @@ export const projectsData = [
     parentId: "rally-society",
     category: "clubs",
     title: "MEDMAP",
-    description:"MedMap platform helps users quickly find nearby hospitals, understand waiting conditions, and join emergency queues before arrival. By organizing patient flow based on case urgency and enabling pre-arrival coordination, MedMap reduces waiting time and improves response efficiency. In addition, allowing patients to scan prescriptions and request medications from partner pharmacies.",
+    description: "MedMap platform helps users quickly find nearby hospitals, understand waiting conditions, and join emergency queues before arrival. By organizing patient flow based on case urgency and enabling pre-arrival coordination, MedMap reduces waiting time and improves response efficiency. In addition, allowing patients to scan prescriptions and request medications from partner pharmacies.",
     image: "/rally/med.jpeg",
     imageFit: "contain",
     teamLogo: "/rally_logo.png",
@@ -714,31 +714,31 @@ export const projectsData = [
     parentId: "rally-society",
     category: "clubs",
     title: "HeartGuard",
-    description:"HeartGuard is an AI-powered smart wearable system designed for continuous cardiac monitoring and early detection of cardiovascular risks. By combining wearable sensors, ECG monitoring, and intelligent data analysis, the platform enables real-time alerts and proactive healthcare for high-risk patients.",
+    description: "HeartGuard is an AI-powered smart wearable system designed for continuous cardiac monitoring and early detection of cardiovascular risks. By combining wearable sensors, ECG monitoring, and intelligent data analysis, the platform enables real-time alerts and proactive healthcare for high-risk patients.",
     image: "/rally/heart.jpeg",
     imageFit: "contain",
     teamLogo: "/rally_logo.png",
     badgeText: "Team",
     badgeClass: "badge-competition"
   },
-    {
+  {
     id: "rally-teams-fabtronix",
     parentId: "rally-society",
     category: "clubs",
     title: "Fabtronix",
-    description:"Fabtronix is an electronics prototyping and PCB services startup that helps engineers, students, and hardware startups transform their ideas into real electronic products through PCB design, manufacturing, project consultation, and assembly services.",
+    description: "Fabtronix is an electronics prototyping and PCB services startup that helps engineers, students, and hardware startups transform their ideas into real electronic products through PCB design, manufacturing, project consultation, and assembly services.",
     image: "/rally/fab.jpeg",
     imageFit: "contain",
     teamLogo: "/rally_logo.png",
     badgeText: "Team",
     badgeClass: "badge-competition"
   },
-    {
+  {
     id: "rally-teams-remove",
     parentId: "rally-society",
     category: "clubs",
     title: "Re-Move",
-    description:"Re-Move is a wearable rehabilitation device that records a therapist’s arm movements and accurately reproduces them, enabling patients to continue therapy at home. Combined with a mobile app for session tracking and remote monitoring, it makes rehabilitation more accessible, consistent, and affordable.",
+    description: "Re-Move is a wearable rehabilitation device that records a therapist’s arm movements and accurately reproduces them, enabling patients to continue therapy at home. Combined with a mobile app for session tracking and remote monitoring, it makes rehabilitation more accessible, consistent, and affordable.",
     image: "/rally/re1.jpeg",
     imageFit: "contain",
     teamLogo: "/rally_logo.png",
@@ -750,7 +750,7 @@ export const projectsData = [
     parentId: "rally-society",
     category: "clubs",
     title: "TAHWEEL",
-    description:"An affordable and intelligent Conversion Kit that transforms a user’s existing conventional bicycle into an eco-friendly electric bike, offering a fast, convenient, and low-cost mobility solution without needing to purchase a new vehicle.",
+    description: "An affordable and intelligent Conversion Kit that transforms a user’s existing conventional bicycle into an eco-friendly electric bike, offering a fast, convenient, and low-cost mobility solution without needing to purchase a new vehicle.",
     image: "/rally/tah.jpeg",
     imageFit: "contain",
     teamLogo: "/rally_logo.png",
@@ -762,31 +762,31 @@ export const projectsData = [
     parentId: "rally-society",
     category: "clubs",
     title: "O Slider",
-    description:"camera slider is Egypt’s first affordable, automated solution built for local creators. It combines plug-and-play simplicity with professional motion control, bridging the gap between low-quality budget sliders and expensive foreign systems to deliver cinematic shots with ease.",
+    description: "camera slider is Egypt’s first affordable, automated solution built for local creators. It combines plug-and-play simplicity with professional motion control, bridging the gap between low-quality budget sliders and expensive foreign systems to deliver cinematic shots with ease.",
     image: "/rally/os.jpeg",
     imageFit: "contain",
     teamLogo: "/rally_logo.png",
     badgeText: "Team",
     badgeClass: "badge-competition"
   },
-    {
+  {
     id: "rally-teams-tourigo",
     parentId: "rally-society",
     category: "clubs",
     title: "TOURIGO",
-    description:"Tourigo is an AI-powered travel platform that addresses the inefficiencies and fragmentation in trip planning for tourists visiting Egypt. By integrating personalized itinerary generation with access to verified service providers including tour guides, and local experiences Tourigo delivers a seamless, reliable, and user-centric solution within a single mobile application.",
+    description: "Tourigo is an AI-powered travel platform that addresses the inefficiencies and fragmentation in trip planning for tourists visiting Egypt. By integrating personalized itinerary generation with access to verified service providers including tour guides, and local experiences Tourigo delivers a seamless, reliable, and user-centric solution within a single mobile application.",
     image: "/rally/tou.jpeg",
     imageFit: "contain",
     teamLogo: "/rally_logo.png",
     badgeText: "Team",
     badgeClass: "badge-competition"
   },
-{
+  {
     id: "rally-teams-athar",
     parentId: "rally-society",
     category: "clubs",
     title: "Athar",
-    description:"Athar is a sustainable fashion startup that transforms pre-loved clothing into unique, customized pieces. We reduce fashion waste by giving old clothes a second life through creative, eco-friendly designs. Today, customization is offered through direct chat, and in the future, our platform will enable AI-powered personalization with sustainable materials and natural dyes.",
+    description: "Athar is a sustainable fashion startup that transforms pre-loved clothing into unique, customized pieces. We reduce fashion waste by giving old clothes a second life through creative, eco-friendly designs. Today, customization is offered through direct chat, and in the future, our platform will enable AI-powered personalization with sustainable materials and natural dyes.",
     image: "/rally/ath.jpeg",
     imageFit: "contain",
     teamLogo: "/rally_logo.png",
@@ -847,7 +847,7 @@ export const projectsData = [
     category: "projects",
     title: "Team Spirit — Mate ROV 2026",
     subcategory: "awarded-outstanding-projects",
-    story:"The team demonstrated outstanding teamwork while designing, building, and operating their ROV, consistently supporting one another under challenging conditions. Their positive attitude, dedication, and cooperative spirit distinguished them among the participating teams and earned them this special recognition.",
+    story: "The team demonstrated outstanding teamwork while designing, building, and operating their ROV, consistently supporting one another under challenging conditions. Their positive attitude, dedication, and cooperative spirit distinguished them among the participating teams and earned them this special recognition.",
     description: "Competing as AquaVentures, the team received the Best Team Spirit Award for their exceptional cooperation, communication, and positive attitude throughout the event. Their ability to work together under pressure, support one another during every stage of the competition, and maintain a high level of professionalism distinguished them from the other participating teams and earned them this special recognition.",
     badgeText: "aquaventures",
     badgeClass: "badge-competition",
@@ -856,7 +856,7 @@ export const projectsData = [
     image: "/aquaventures/WhatsApp Image 2026-07-12 at 11.52.29 AM.jpeg",
     teamPhoto: "/aquaventures/WhatsApp Image 2026-07-12 at 11.52.52 AM.jpeg"
   },
-    {
+  {
     id: "guardian",
     category: "projects",
     subcategory: "awarded-outstanding-projects",
@@ -1062,7 +1062,7 @@ export const projectsData = [
       }
     ]
   },
-    {
+  {
     id: "GNC-robot",
     category: "projects",
     subcategory: "graduation-projects",
@@ -1107,13 +1107,13 @@ export const projectsData = [
       { name: "Dr. Ashraf Yehia", role: "Supervisor" }
     ]
   },
-   {
+  {
     id: "Hybrid Static-Dynamic Charging System",
     category: "projects",
     subcategory: "graduation-projects",
     title: "Hybrid Static-Dynamic Charging System",
     description: "The Hybrid Static-Dynamic Charging System integrates resonant wireless charging with an efficiency of approximately 70%, solar energy, and wind energy to charge EV batteries. The system is supported by a smart Energy Management System (EMS) that optimizes power distribution and ensures safe, efficient operation. Users can monitor and control the system via Bluetooth, while the modular architecture enables future expansion and adaptation to next-generation electric vehicle charging technologies.",
-   story: "As electric vehicles become more widespread, the demand for efficient, sustainable, and flexible charging solutions continues to grow. Conventional charging methods often depend on a single power source and require fixed charging stations, limiting convenience and increasing reliance on the electrical grid. To address these challenges, the Hybrid Static-Dynamic Charging System was developed to combine multiple renewable energy sources with wireless power transfer into one intelligent charging solution. By integrating clean energy and smart energy management, the project aims to improve charging efficiency, reduce environmental impact, and support the future of sustainable electric mobility.",
+    story: "As electric vehicles become more widespread, the demand for efficient, sustainable, and flexible charging solutions continues to grow. Conventional charging methods often depend on a single power source and require fixed charging stations, limiting convenience and increasing reliance on the electrical grid. To address these challenges, the Hybrid Static-Dynamic Charging System was developed to combine multiple renewable energy sources with wireless power transfer into one intelligent charging solution. By integrating clean energy and smart energy management, the project aims to improve charging efficiency, reduce environmental impact, and support the future of sustainable electric mobility.",
     image: "/gp/hyb.jpeg",
     badgeText: "Energy & Sustainability",
     badgeClass: "badge-innovation",
@@ -1130,7 +1130,7 @@ export const projectsData = [
       { name: "Dr. Hossam Ramadan", role: "Supervisor" }
     ]
   },
-   {
+  {
     id: "smart-car-assistant-system",
     category: "projects",
     subcategory: "graduation-projects",
@@ -1151,7 +1151,7 @@ export const projectsData = [
       { name: "Dr. Marwa Abdelrazik Elmenyawi", role: "Supervisor" }
     ]
   },
-     {
+  {
     id: "Extended Educational Robotic Arm",
     category: "projects",
     subcategory: "graduation-projects",
@@ -1175,7 +1175,7 @@ export const projectsData = [
       { name: "Dr. Amr Shafik", role: "Supervisor" }
     ]
   },
-    {
+  {
     id: "Autonomous Mobile Robot",
     category: "projects",
     subcategory: "graduation-projects",
@@ -1196,10 +1196,10 @@ export const projectsData = [
     ],
     supervisors: [
       { name: "Dr. Atef Soilman", role: "Supervisor" },
-       { name: "Dr. Samer Beskales", role: "Supervisor" }
+      { name: "Dr. Samer Beskales", role: "Supervisor" }
     ]
   },
-      {
+  {
     id: "fault injection framework",
     category: "projects",
     subcategory: "graduation-projects",
