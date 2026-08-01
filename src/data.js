@@ -212,6 +212,26 @@ export const projectsData = [
       "Pierre Samir", "Salma Samer", "Farida Zyada"
     ]
   },
+  {
+    id: "medtech_ugraf_top_5_nile_university",
+    category: "projects",
+    title: "Top 5 — UGRAF Nile University",
+    subcategory: "awarded-outstanding-projects",
+    description: "MedTech secured a Top 5 position at the UGRAF competition hosted by Nile University, standing out for its innovative approach in healthcare technology.",
+    story: "Continuing its success, MedTech impressed the judges at Nile University's UGRAF competition. The team demonstrated their AI-driven healthcare platform's potential, earning them a well-deserved spot among the top 5 projects.",
+    image: "/team_medtech.jpeg",
+    teamPhoto: "/medtech.jpeg",
+    badgeText: "MedTech",
+    badgeClass: "badge-competition",
+    achievement: "Top 5",
+    competition: "UGRAF",
+    organizer: "Nile University",
+    date: "2026",
+    teamMembers: [
+      "Abdelrahman Nayef", "Ammar Ashraf", "Adham Abdelkader", 
+      "Pierre Samir", "Salma Samer", "Farida Zyada"
+    ]
+  },
     {
     id: "plastic threads",
     category: "projects",
