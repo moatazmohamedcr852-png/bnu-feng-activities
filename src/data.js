@@ -230,6 +230,10 @@ export const projectsData = [
     teamMembers: [
       "Abdelrahman Nayef", "Ammar Ashraf", "Adham Abdelkader", 
       "Pierre Samir", "Salma Samer", "Farida Zyada"
+    ],
+    gallery: [
+      "/WhatsApp Image 2026-08-01 at 7.34.19 PM (2).jpeg",
+      "/WhatsApp Image 2026-08-01 at 7.34.19 PM (3).jpeg"
     ]
   },
     {
