@@ -232,8 +232,8 @@ export const projectsData = [
       "Pierre Samir", "Salma Samer", "Farida Zyada"
     ],
     gallery: [
-      "/WhatsApp Image 2026-08-01 at 7.34.19 PM (2).jpeg",
-      "/WhatsApp Image 2026-08-01 at 7.34.19 PM (3).jpeg"
+      "/medtech_ugraf_top_5_nile_university/WhatsApp Image 2026-08-01 at 7.34.19 PM (2).jpeg",
+      "/medtech_ugraf_top_5_nile_university/WhatsApp Image 2026-08-01 at 7.34.19 PM (3).jpeg"
     ]
   },
     {
