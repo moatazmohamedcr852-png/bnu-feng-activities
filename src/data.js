@@ -1007,33 +1007,6 @@ export const projectsData = [
     badgeClass: "badge-seminar"
   },
   {
-    id: "rovengers",
-    category: "projects",
-    title: "Rising Star — Mate ROV 2025",
-    subcategory: "awarded-outstanding-projects",
-    story: "the team received the Rising Star Award at MATE ROV Egypt 2025 in recognition of their outstanding performance and promising potential in underwater robotics.",
-    description: "Competing as ROVENGERS, the team earned the Rising Star Award for their remarkable performance and rapid development throughout the competition. Despite the technical challenges, they demonstrated strong engineering capabilities, effective collaboration, and a commitment to continuous improvement, establishing themselves as one of the competition's most promising emerging teams.",
-    badgeText: "Rovengers",
-    badgeClass: "badge-competition",
-    competition: "Mate ROV",
-    date: "2025",
-    image: "/rovengers_rov.jpeg"
-  },
-  {
-    id: "aquaventures",
-    category: "projects",
-    title: "Team Spirit — Mate ROV 2026",
-    subcategory: "awarded-outstanding-projects",
-    story: "The team demonstrated outstanding teamwork while designing, building, and operating their ROV, consistently supporting one another under challenging conditions. Their positive attitude, dedication, and cooperative spirit distinguished them among the participating teams and earned them this special recognition.",
-    description: "Competing as AquaVentures, the team received the Best Team Spirit Award for their exceptional cooperation, communication, and positive attitude throughout the event. Their ability to work together under pressure, support one another during every stage of the competition, and maintain a high level of professionalism distinguished them from the other participating teams and earned them this special recognition.",
-    badgeText: "aquaventures",
-    badgeClass: "badge-competition",
-    competition: "Mate ROV",
-    date: "2026",
-    image: "/aquaventures/WhatsApp Image 2026-07-12 at 11.52.29 AM.jpeg",
-    teamPhoto: "/aquaventures/WhatsApp Image 2026-07-12 at 11.52.52 AM.jpeg"
-  },
-  {
     id: "guardian",
     category: "projects",
     subcategory: "awarded-outstanding-projects",
