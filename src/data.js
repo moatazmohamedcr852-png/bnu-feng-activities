@@ -66,30 +66,33 @@ export const projectsData = [
       { name: "Dr.Moataz Elsherbiny ", role: "Supervisor" }
     ]
   },
+  
   {
-    id: "remove",
-    category: "projects",
-    title: "3rd Place — Creativa Benha Hackathon",
-    subcategory: "awarded-outstanding-projects",
-    description: "Re-Move participated in the Creativa Benha Hackathon under the Healthcare and Assistive Technology track. The project impressed the judges with its innovative approach to making physical therapy more accessible through a robotic rehabilitation exoskeleton powered by AI.",
-    story: "By combining wearable robotics with intelligent motion tracking, the team demonstrated a practical solution that enables patients to continue their rehabilitation safely at home. The project received excellent feedback for its technical innovation, real-world impact, and strong potential for commercialization, earning the team a top-ranking position in the competition.",
-    image: "/team_nahed.jpeg",
-    teamPhoto: "/nahed_tamer_2.jpeg",
-    badgeText: "Re-Move",
-    badgeClass: "badge-competition",
-    achievement: "3rd Place",
-    competition: "Creativa Hub Benha's Industry Innovators Hackathon",
-    organizer: "Creativa",
-    date: "Oct 5, 2026",
-    extraAchievement: "4th Place at University Level (Top 5)",
-    extraCompetition: "Rally Egypt",
-    extraOrganizer: "Rally Egypt",
-    extraDate: "Oct 4, 2026",
-    teamMembers: [
-      "Nahed Tamer", "Marina George", "Mohamed Alaa",
-      "Giovanni Al-Amir", "Mina Bahgat", "Youssef Waleed"
-    ]
-  },
+  id: "removee-itc",
+  category: "projects",
+  title: "2nd Place —ITC 6th International Telecommunications Conference ",
+  subcategory: "awarded-outstanding-projects",
+  description: "Re-Move achieved 2nd Place at the 6th International Telecommunications Conference (ITC), competing against more than 2,000 teams. Only 86 teams were selected to participate in the conference, making Re-Move one of the top-performing projects in the competition.",
+  story: "Re-Move participated in the 6th International Telecommunications Conference (ITC), a four-day international conference that brought together innovative projects, experts, and academic and industry leaders. From more than 2,000 competing teams, only 86 were selected to participate. The conference featured distinguished attendees including the Ministers of Defense, Health, Higher Education and Scientific Research, Industry, and Education, along with lectures delivered by experts and academics from NASA, IEEE, and British universities. Re-Move ultimately achieved 2nd Place, highlighting its innovation and potential as an advanced rehabilitation solution.",
+  image: "/ree.jpeg",
+  badgeText: "Re-Move",
+  badgeClass: "badge-competition",
+  achievement: "2nd Place",
+  competition: "6th International Telecommunications Conference (ITC)",
+  organizer: "Air Defense College",
+  date: "2026",
+  teamMembers: [
+    "Nahed Tamer",
+    "Mohamed Alaa",
+    "Abdelrahman Nayef",
+    "Omar Othman"
+  ],
+  gallery: [
+    "/ree1.jpeg",
+    "/ree3.jpeg",
+    "/ree5.jpeg"
+  ]
+},
 
   {
     id: "removee",
@@ -116,7 +119,82 @@ export const projectsData = [
       "/re3.jpeg"
     ]
   },
-
+  
+  {
+    id: "remove",
+    category: "projects",
+    title: "3rd Place — Creativa Benha Hackathon",
+    subcategory: "awarded-outstanding-projects",
+    description: "Re-Move participated in the Creativa Benha Hackathon under the Healthcare and Assistive Technology track. The project impressed the judges with its innovative approach to making physical therapy more accessible through a robotic rehabilitation exoskeleton powered by AI.",
+    story: "By combining wearable robotics with intelligent motion tracking, the team demonstrated a practical solution that enables patients to continue their rehabilitation safely at home. The project received excellent feedback for its technical innovation, real-world impact, and strong potential for commercialization, earning the team a top-ranking position in the competition.",
+    image: "/team_nahed.jpeg",
+    teamPhoto: "/nahed_tamer_2.jpeg",
+    badgeText: "Re-Move",
+    badgeClass: "badge-competition",
+    achievement: "3rd Place",
+    competition: "Creativa Hub Benha's Industry Innovators Hackathon",
+    organizer: "Creativa",
+    date: "Oct 5, 2026",
+    extraAchievement: "4th Place at University Level (Top 5)",
+    extraCompetition: "Rally Egypt",
+    extraOrganizer: "Rally Egypt",
+    extraDate: "Oct 4, 2026",
+    teamMembers: [
+      "Nahed Tamer", "Marina George", "Mohamed Alaa",
+      "Giovanni Al-Amir", "Mina Bahgat", "Youssef Waleed"
+    ]
+  },
+{
+  id: "capbattery-project",
+  category: "projects",
+  title: "4th Place — Schneider Electric x Enactus Competition",
+  subcategory: "awarded-outstanding-projects",
+  description: "Capbattery is an innovative project developed by an Enactus team as part of the Schneider Electric and Enactus competition in Egypt, which supports youth entrepreneurship, clean technology, energy efficiency, and sustainable innovation.",
+  story: "Capbattery competed in the Schneider Electric and Enactus competition, which brings together university teams across Egypt to develop innovative entrepreneurial solutions addressing sustainability challenges. The competition focuses on areas including energy efficiency, clean technology, sustainable agriculture, and the circular economy. Capbattery achieved 4th Place at the Egyptian Republic level, highlighting the team's innovation, entrepreneurial spirit, and commitment to creating a positive impact.",
+  image: "/sch.jpeg",
+  badgeText: "Capbattery",
+  badgeClass: "badge-competition",
+  achievement: "4th Place — Egyptian Republic",
+  competition: "Schneider Electric x Enactus Competition",
+  organizer: "Schneider Electric & Enactus",
+  date: "2024",
+  teamMembers: [
+    "Enactus Team"
+  ],
+  gallery: [
+    "/sch1.jpeg",
+    "/sch2.jpeg",
+    "/sch3.jpeg",
+    "/sch6.jpeg",
+    "/sch8.jpeg"
+  ]
+},
+  {
+  id: "survivals-project",
+  category: "projects",
+  title: "4th Place — Innovative Bridge Competition 2026",
+  subcategory: "awarded-outstanding-projects",
+  description: "Survivals is a truss bridge design project focused on designing and constructing a strong and efficient bridge structure capable of withstanding applied loads while maintaining structural stability.",
+  story: "Survivals was developed as part of the Innovative Bridge Competition 2026, where the team designed and built a truss bridge applying structural engineering principles to achieve strength, stability, and efficient load distribution. The project earned 4th Place in the competition.",
+  image: "/survivals.jpeg",
+  badgeText: "Survivals",
+  badgeClass: "badge-competition",
+  achievement: "4th Place",
+  competition: "Innovative Bridge Competition 2026",
+  organizer: "Shoubra Faculty of Engineering",
+  date: "2026",
+  teamMembers: [
+    "Farah Mohamed El-Bahteety",
+    "Yara Mostafa Abdel Fattah",
+    "Hana Fekry Abdelrahman",
+    "Youssef Ali Mostafa Mohamed",
+    "Ziad Mahmoud Saeed"
+  ],
+  gallery: [
+    "/survivals1.jpeg", 
+"/survivals2.jpeg"
+  ]
+},
   {
     id: "tourigo-project",
     category: "projects",
@@ -193,25 +271,33 @@ export const projectsData = [
     image: "/metaverse.jpeg"
   },
   {
-    id: "medtech",
+    id: "rovengers",
     category: "projects",
-    title: "Best Project — FENG Scientific Day",
+    title: "Rising Star — Mate ROV 2025",
     subcategory: "awarded-outstanding-projects",
-    description: "one of the Best Projects at FENG Scientific Day, the Faculty of Engineering's annual scientific event, where the most innovative student projects are showcased and the top three projects are selected.",
-    story: "MedTech stood out for its comprehensive approach to improving patient care through AI-driven symptom analysis, medication management, adherence monitoring, medical report interpretation, and emergency health alerts. It received outstanding feedback from the judges for its practical healthcare impact, technical innovation, and potential to improve patient safety and treatment compliance, earning a place among the event's top three projects.",
-    image: "/team_medtech.jpeg",
-    teamPhoto: "/medtech.jpeg",
-    badgeText: "MedTech",
+    story: "the team received the Rising Star Award at MATE ROV Egypt 2025 in recognition of their outstanding performance and promising potential in underwater robotics.",
+    description: "Competing as ROVENGERS, the team earned the Rising Star Award for their remarkable performance and rapid development throughout the competition. Despite the technical challenges, they demonstrated strong engineering capabilities, effective collaboration, and a commitment to continuous improvement, establishing themselves as one of the competition's most promising emerging teams.",
+    badgeText: "Rovengers",
     badgeClass: "badge-competition",
-    achievement: "Best Project — FENG Scientific Day",
-    competition: "Scientific Day",
-    organizer: "Benha National University",
-    date: "Dec 6, 2025",
-    teamMembers: [
-      "Abdelrahman Nayef", "Ammar Ashraf", "Adham Abdelkader",
-      "Pierre Samir", "Salma Samer", "Farida Zyada"
-    ]
+    competition: "Mate ROV",
+    date: "2025",
+    image: "/rovengers_rov.jpeg"
   },
+  {
+    id: "aquaventures",
+    category: "projects",
+    title: "Team Spirit — Mate ROV 2026",
+    subcategory: "awarded-outstanding-projects",
+    story: "The team demonstrated outstanding teamwork while designing, building, and operating their ROV, consistently supporting one another under challenging conditions. Their positive attitude, dedication, and cooperative spirit distinguished them among the participating teams and earned them this special recognition.",
+    description: "Competing as AquaVentures, the team received the Best Team Spirit Award for their exceptional cooperation, communication, and positive attitude throughout the event. Their ability to work together under pressure, support one another during every stage of the competition, and maintain a high level of professionalism distinguished them from the other participating teams and earned them this special recognition.",
+    badgeText: "aquaventures",
+    badgeClass: "badge-competition",
+    competition: "Mate ROV",
+    date: "2026",
+    image: "/aquaventures/WhatsApp Image 2026-07-12 at 11.52.29 AM.jpeg",
+    teamPhoto: "/aquaventures/WhatsApp Image 2026-07-12 at 11.52.52 AM.jpeg"
+  },
+  
   {
     id: "medtech_ugraf_top_5_nile_university",
     category: "projects",
@@ -220,7 +306,6 @@ export const projectsData = [
     description: "MedTech secured a Top 5 position at the UGRAF competition hosted by Nile University, standing out for its innovative approach in healthcare technology.",
     story: "Continuing its success, MedTech impressed the judges at Nile University's UGRAF competition. The team demonstrated their AI-driven healthcare platform's potential, earning them a well-deserved spot among the top 5 projects.",
     image: "/team_medtech.jpeg",
-    teamPhoto: "/medtech_ugraf_top_5_nile_university/team.jpeg",
     badgeText: "MedTech",
     badgeClass: "badge-competition",
     achievement: "Top 5",
@@ -238,6 +323,82 @@ export const projectsData = [
       "/medtech_ugraf_top_5_nile_university/WhatsApp Image 2026-08-01 at 7.34.19 PM (3).jpeg"
     ]
   },
+  {
+    id: "medtech",
+    category: "projects",
+    title: "Best Project — FENG Scientific Day",
+    subcategory: "awarded-outstanding-projects",
+    description: "one of the Best Projects at FENG Scientific Day, the Faculty of Engineering's annual scientific event, where the most innovative student projects are showcased and the top three projects are selected.",
+    story: "MedTech stood out for its comprehensive approach to improving patient care through AI-driven symptom analysis, medication management, adherence monitoring, medical report interpretation, and emergency health alerts. It received outstanding feedback from the judges for its practical healthcare impact, technical innovation, and potential to improve patient safety and treatment compliance, earning a place among the event's top three projects.",
+    image: "/med.jpeg",
+    badgeText: "MedTech",
+    badgeClass: "badge-competition",
+    achievement: "Best Project — FENG Scientific Day",
+    competition: "Scientific Day",
+    organizer: "Benha National University",
+    date: "Dec 6, 2025",
+    teamMembers: [
+      "Abdelrahman Nayef", "Ammar Ashraf", "Adham Abdelkader",
+      "Pierre Samir", "Salma Samer", "Farida Zyada"
+    ]
+  },
+  
+{
+  id: "apcb-project",
+  category: "projects",
+  subcategory: "awarded-outstanding-projects",
+  title: "1st Place — BNU Innovation Week",
+  description: "APCB Technology is a smart irrigation system designed for large-scale agricultural areas, using soil moisture sensors, solar energy, wireless power transmission, and AI to optimize irrigation and detect crop and soil problems.",
+  story: "APCB Technology combines smart sensing, renewable energy, wireless power transmission, and artificial intelligence to provide efficient irrigation management, identify the best irrigation times, and detect potential crop and soil problems through data analysis.",
+  image: "/apcb.jpeg",
+  badgeText: "APCB Technology",
+  badgeClass: "badge-competition",
+  achievement: "1st Place",
+  competition: "Innovation Week",
+  organizer: "Benha National University",
+  date: "2026",
+  teamMembers: [
+    "Karim Wael"
+  ]
+},
+{
+  id: "apcb-project",
+  category: "projects",
+  title: "1st Place — Innovation Forum of Benha National University & ISF",
+  subcategory: "awarded-outstanding-projects",
+  description: "APCB Technology is a smart irrigation system designed for large-scale agricultural areas using soil moisture sensors, solar energy, wireless power transmission, and artificial intelligence to analyze crop data, optimize irrigation times, and detect crop and soil problems.",
+  story: "APCB Technology combines smart irrigation, renewable energy, wireless power transmission, and artificial intelligence to provide an efficient solution for managing irrigation in large agricultural areas. The system analyzes crop and soil data to determine the most suitable irrigation times and detect potential problems affecting crops or soil.",
+  image: "/apcb1.jpeg",
+  badgeText: "APCB Technology",
+  badgeClass: "badge-competition",
+  achievement: "1st Place",
+  competition: "Innovation Forum of Benha National University & ISF",
+  organizer: "Benha National University & ISF",
+  date: "2026",
+  teamMembers: [
+    "Karim Wael — Engineering",
+    "Moaz Hossam — Engineering",
+    "Aser Hashem — Dentistry"
+  ]
+},
+{
+  id: "apcb-project",
+  category: "projects",
+  title: "1st Place — Eco-Friendly Initiative",
+  subcategory: "awarded-outstanding-projects",
+  description: "APCB Technology is a smart irrigation system designed for large-scale agricultural areas using soil moisture sensors, solar energy, wireless power transmission, and artificial intelligence to analyze crop data, determine the optimal irrigation times, and detect potential crop or soil problems.",
+  story: "APCB Technology combines smart irrigation, renewable energy, wireless power transmission, and artificial intelligence to provide an efficient solution for managing irrigation in large agricultural areas. The system analyzes soil and crop data to determine the most suitable irrigation times while detecting potential problems affecting the crops or soil.",
+  image: "/apcb2.jpeg",
+  badgeText: "APCB Technology",
+  badgeClass: "badge-competition",
+  achievement: "1st Place",
+  competition: "Eco-Friendly Initiative",
+  organizer: "Benha National University",
+  date: "2026",
+  teamMembers: [
+    "Karim Wael"
+  ]
+},
   {
     id: "plastic threads",
     category: "projects",
@@ -340,6 +501,22 @@ export const projectsData = [
     date: "2026",
     teamMembers: ["Khadija Mohsen Abdelwahab"]
   },
+    {
+  id: "mohamed-hisham-karate",
+  category: "sports-tournaments",
+  subcategory: "competitions",
+  title: "Egyptian Universities Karate Championship 2026",
+  description: "3rd Place at the Egyptian Universities Karate Championship 2026, proudly representing Benha National University.",
+  story: "Mohamed Hisham Sobhy's achievement at the Egyptian Universities Karate Championship 2026 reflects his dedication, discipline, and commitment to excellence in karate, proudly representing Benha National University on the university sports stage.",
+  image: "/MO.jpeg",
+  badgeText: "Karate",
+  badgeClass: "badge-sports",
+  achievement: "3rd Place",
+  competition: "Egyptian Universities Karate Championship 2026",
+  organizer: "Egyptian Universities Sports Federation",
+  date: "2026",
+  teamMembers: ["Mohamed Hisham Sobhy"]
+},
   {
     id: "mohamed-kickboxing",
     category: "sports-tournaments",
@@ -1219,5 +1396,45 @@ export const projectsData = [
     supervisors: [
       { name: "Asso. Prof. Essam El-Elimy", role: "Supervisor" }
     ]
-  }
+  },
+  {
+  id: "wattsup",
+  category: "projects",
+  subcategory: "graduation-projects",
+  title: "WATTSUP - Intelligent Energy Meter Control",
+  description: "WATTSUP is an IoT-based smart energy management system that enables real-time electricity monitoring, remote load control, and intelligent overcurrent protection through a low-cost embedded hardware and mobile application platform.",
+  story: "WATTSUP was developed to overcome the limitations of traditional electricity meters by integrating voltage and current sensing, an ESP32-based embedded system, an Arduino-controlled relay circuit, and a Flutter mobile application with Firebase. The system continuously measures electrical parameters, calculates power and energy consumption, displays results locally and remotely, and allows users to monitor and control connected electrical loads through a mobile application. It also features an intelligent overcurrent protection mechanism that detects abnormal current conditions, protects connected loads, and restores normal operation when conditions become safe. The final design combines embedded systems, IoT communication, cloud services, and electrical protection into a practical, low-cost, and scalable energy management solution.",
+  image: "/wattsup.jpeg",
+  badgeText: "Embedded Systems & IoT",
+  badgeClass: "badge-innovation",
+  teamMembers: [
+    "Galal Elsadek Mohamed Galal",
+    "Yahia Mohamed Abdel Razek Ibrahim",
+    "Youssef Saeed Abdallah Abdel Aziz",
+    "Malak Diaa Abdel Salam Mohamed",
+    "Sondos Ossama Fikry Waly"
+  ],
+  supervisors: [
+    { name: "Dr. Maha Raouf", role: "Supervisor" },
+    { name: "Dr. Shimaa Ibrahim", role: "Volunteer Supervisor" }
+  ]
+},
+  {
+  id: "sports-talent-hub",
+  category: "projects",
+  title: "Sports Talent Hub — EnTlaqa 4 Hackathon",
+  subcategory: "awarded-outstanding-projects",
+  description: "Sports Talent Hub is an AI-assisted platform designed to discover and identify promising sports talents across multiple disciplines, including football, basketball, handball, boxing, swimming, and other sports.",
+  story: "Sports Talent Hub uses artificial intelligence as a supporting tool to help identify promising athletes based on their skills and performance. The platform aims to make sports talent discovery more accessible and organized by connecting young talents with opportunities to develop their abilities across different sports.",
+  image: "/entlaqa.jpeg",
+  badgeText: "Sports Talent Hub",
+  badgeClass: "badge-competition",
+  achievement: "EnTlaqa 4 Hackathon",
+  competition: "EnTlaqa 4 Hackathon",
+  organizer: "Higher Technological Institute in Beni Suef",
+  date: "2026",
+  teamMembers: [
+    "Team Members"
+  ]
+}
 ];
