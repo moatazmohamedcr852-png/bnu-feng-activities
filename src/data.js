@@ -102,7 +102,6 @@ export const projectsData = [
     description: "The Next Generation Hackathon, hosted by EME Giza, brought together more than 200 teams, with only 20 finalists selected to compete in the final round. Through continuous development, innovation, and teamwork, Re-Move advanced to the finals and earned 1st Place, demonstrating its potential as an innovative rehabilitation solution.",
     story: "For the competition, the project underwent significant upgrades, including an AI-powered facial expression analysis system for pain detection, an enhanced mobile application database, a redesigned mechanical system with an optimized gearbox, and a custom PCB with improved electronics and hardware integration. These enhancements transformed Re-Move into a more reliable and intelligent rehabilitation device that bridges the gap between clinic and home.",
     image: "/re.jpeg",
-    teamPhoto: "/nahed_tamer.jpeg",
     badgeText: "Re-Move",
     badgeClass: "badge-competition",
     achievement: "1st Place",
@@ -128,7 +127,6 @@ export const projectsData = [
     description: "Re-Move participated in the Creativa Benha Hackathon under the Healthcare and Assistive Technology track. The project impressed the judges with its innovative approach to making physical therapy more accessible through a robotic rehabilitation exoskeleton powered by AI.",
     story: "By combining wearable robotics with intelligent motion tracking, the team demonstrated a practical solution that enables patients to continue their rehabilitation safely at home. The project received excellent feedback for its technical innovation, real-world impact, and strong potential for commercialization, earning the team a top-ranking position in the competition.",
     image: "/team_nahed.jpeg",
-    teamPhoto: "/nahed_tamer_2.jpeg",
     badgeText: "Re-Move",
     badgeClass: "badge-competition",
     achievement: "3rd Place",
@@ -358,11 +356,13 @@ export const projectsData = [
   organizer: "Benha National University",
   date: "2026",
   teamMembers: [
-    "Karim Wael"
+    "Karim Wael — Engineering",
+    "Moaz Hossam — Engineering",
+    "Aser Hashem — Dentistry"
   ]
 },
 {
-  id: "apcb-project",
+  id: "apcb-project-2",
   category: "projects",
   title: "1st Place — Innovation Forum of Benha National University & ISF",
   subcategory: "awarded-outstanding-projects",
@@ -382,7 +382,7 @@ export const projectsData = [
   ]
 },
 {
-  id: "apcb-project",
+  id: "apcb-project-3",
   category: "projects",
   title: "1st Place — Eco-Friendly Initiative",
   subcategory: "awarded-outstanding-projects",
@@ -396,7 +396,9 @@ export const projectsData = [
   organizer: "Benha National University",
   date: "2026",
   teamMembers: [
-    "Karim Wael"
+    "Karim Wael — Engineering",
+    "Moaz Hossam — Engineering",
+    "Aser Hashem — Dentistry"
   ]
 },
   {
