@@ -1,9 +1,100 @@
 export const projectsData = [
   {
+  id: "cupra",
+  category: "projects",
+  subcategory: "awarded-outstanding-projects",
+  title: "2nd Place - Smart Builder - 2nd Benha Robotics Championship",
+  description: "CUPRA is a manually controlled robotic system for the Smart Builder track, designed to compete head-to-head against another team and complete two timed construction challenges: building the tallest tower possible and creating a randomly selected shape, all within 4 minutes per round. The championship consisted of three rounds, with the team achieving the highest overall score winning the competition.",
+  story: "The team designed and built CUPRA completely from scratch in just two weeks. Despite the extremely limited development time, the robot was able to compete head-to-head against the other teams and successfully perform the required competition tasks. A motor failure prevented the team from competing in the second round, but with the support of the U-Turn team, the issue was resolved and CUPRA returned to compete in the third round. The final scores were extremely close, with only a small difference separating CUPRA from the first-place team.",
+  image: "/cu.jpeg",
+  badgeText: "cupra",
+  badgeClass: "badge-robotics",
+  achievement: "2nd Place — 2nd Benha Robotics Championship",
+  competition: "2nd Benha Robotics Championship",
+  organizer: "Benha Robotics",
+  date: "Sep 13, 2026",
+  extraCompetition: "Smart Builder Track",
+  extraDate: "2026",
+  teamMembers: [
+    "Nahed Tamer Fawzy",
+    "Raghd Ashraf El-Saadawy",
+    "Abdelrahman Ahmed Nayef",
+    "Ziad Amr Tesen",
+    "Ammar Ahmed Wafaa"
+  ] ,
+  gallery: [
+    "/cu2.jpeg",
+    "/cu8.jpeg",
+    "/cu5.jpeg",
+    "/cu3.jpeg",
+    "/cu6.jpeg",
+    "/cu7.jpeg"
+  ]
+},
+{
+  id: "u-turn",
+  category: "projects",
+  subcategory: "awarded-outstanding-projects",
+  title: "3rd Place -Smart Medic - 2nd Benha Robotics Championship",
+  description: "U-Turn is an autonomous robotic system for the Smart Medic track, designed to complete the required competition tasks autonomously in the shortest possible time while collecting points throughout the challenge. The robot combines autonomous navigation and task execution to maximize the team's overall score across the competition.",
+  story: "The team developed U-Turn as a fully autonomous robot capable of navigating the competition field and completing the required tasks without manual control. The team focused on optimizing the robot's movement and task execution to complete challenges as quickly as possible while maximizing the points earned. U-Turn successfully competed in the Smart Medic track and achieved 3rd place in its category at the 2nd Benha Robotics Championship.",
+  image: "/u.jpeg",
+  badgeText: "u-turn",
+  badgeClass: "badge-robotics",
+  achievement: "3rd Place — 2nd Benha Robotics Championship",
+  competition: "2nd Benha Robotics Championship",
+  organizer: "Benha Robotics",
+  date: "Sep 13, 2026",
+  teamMembers: [
+    "Tony Tarek Abu El-Dahab",
+    "Mohamed Shaker Ibrahim",
+    "John Isaac Nagah",
+    "Shorouk Ayman Ahmed",
+    "Mohamed El-Sayed Ibrahim",
+    "Youssef Mohamed El-Mallahy",
+    "Omar Mamdouh Refai",
+    "Ali Mahmoud Abdel Aziz"
+  ],
+
+  gallery: [
+    "/u4.jpeg",
+    "/u3.jpeg",
+    "/u2.jpeg",
+    "/u5.jpeg"
+  ]
+},
+
+  {
+  id: "removee-itc",
+  category: "projects",
+  title: "2nd Place - ITC 6th International Telecommunications Conference ",
+  subcategory: "awarded-outstanding-projects",
+  description: "Re-Move achieved 2nd Place at the 6th International Telecommunications Conference (ITC), competing against more than 2,000 teams. Only 86 teams were selected to participate in the conference, making Re-Move one of the top-performing projects in the competition.",
+  story: "Re-Move participated in the 6th International Telecommunications Conference (ITC), a four-day international conference that brought together innovative projects, experts, and academic and industry leaders. From more than 2,000 competing teams, only 86 were selected to participate. The conference featured distinguished attendees including the Ministers of Defense, Health, Higher Education and Scientific Research, Industry, and Education, along with lectures delivered by experts and academics from NASA, IEEE, and British universities. Re-Move ultimately achieved 2nd Place, highlighting its innovation and potential as an advanced rehabilitation solution.",
+  image: "/ree.jpeg",
+  badgeText: "Re-Move",
+  badgeClass: "badge-competition",
+  achievement: "2nd Place",
+  competition: "6th International Telecommunications Conference (ITC)",
+  organizer: "Air Defense College",
+  date: "2026",
+  teamMembers: [
+    "Nahed Tamer",
+    "Mohamed Alaa",
+    "Abdelrahman Nayef",
+    "Omar Othman"
+  ],
+  gallery: [
+    "/ree1.jpeg",
+    "/ree3.jpeg",
+    "/ree5.jpeg"
+  ]
+},
+  {
     id: "samu",
     category: "projects",
     subcategory: "awarded-outstanding-projects",
-    title: "2nd Place — Benha University Hackathon",
+    title: "2nd Place - Benha University Hackathon",
     description: "Developed a smart university management app featuring secure attendance tracking, AI assistance, student activities, and campus communication tools.",
     story: "The team noticed the inefficiencies in university administration and attendance tracking. They developed SAMU to act as an all-in-one assistant for both students and faculty, integrating AI to provide real-time assistance and a seamless university experience.",
     image: "/team_samu.jpeg",
@@ -66,34 +157,6 @@ export const projectsData = [
       { name: "Dr.Moataz Elsherbiny ", role: "Supervisor" }
     ]
   },
-  
-  {
-  id: "removee-itc",
-  category: "projects",
-  title: "2nd Place —ITC 6th International Telecommunications Conference ",
-  subcategory: "awarded-outstanding-projects",
-  description: "Re-Move achieved 2nd Place at the 6th International Telecommunications Conference (ITC), competing against more than 2,000 teams. Only 86 teams were selected to participate in the conference, making Re-Move one of the top-performing projects in the competition.",
-  story: "Re-Move participated in the 6th International Telecommunications Conference (ITC), a four-day international conference that brought together innovative projects, experts, and academic and industry leaders. From more than 2,000 competing teams, only 86 were selected to participate. The conference featured distinguished attendees including the Ministers of Defense, Health, Higher Education and Scientific Research, Industry, and Education, along with lectures delivered by experts and academics from NASA, IEEE, and British universities. Re-Move ultimately achieved 2nd Place, highlighting its innovation and potential as an advanced rehabilitation solution.",
-  image: "/ree.jpeg",
-  badgeText: "Re-Move",
-  badgeClass: "badge-competition",
-  achievement: "2nd Place",
-  competition: "6th International Telecommunications Conference (ITC)",
-  organizer: "Air Defense College",
-  date: "2026",
-  teamMembers: [
-    "Nahed Tamer",
-    "Mohamed Alaa",
-    "Abdelrahman Nayef",
-    "Omar Othman"
-  ],
-  gallery: [
-    "/ree1.jpeg",
-    "/ree3.jpeg",
-    "/ree5.jpeg"
-  ]
-},
-
   {
     id: "removee",
     category: "projects",
@@ -700,15 +763,6 @@ export const projectsData = [
 
   },
   {
-    id: "engineering-scientific-day-2025",
-    category: "events",
-    title: "Engineering Scientific Day (2025)",
-    description: "Engineering Scientific Day in 2025.",
-    image: "",
-    badgeText: "Event",
-    badgeClass: "badge-seminar"
-  },
-  {
     id: "engineering-scientific-day-2026",
     category: "events",
     title: "Engineering Scientific Day (2026)",
@@ -724,33 +778,6 @@ export const projectsData = [
       "/ori7.jpeg",
       "/ori8.jpeg"
     ]
-  },
-  {
-    id: "ramadan-decorations-2025",
-    category: "events",
-    title: "Ramadan Decorations (2025)",
-    description: "Ramadan Decorations in 2025.",
-    image: "",
-    badgeText: "Event",
-    badgeClass: "badge-seminar"
-  },
-  {
-    id: "ramadan-decorations-2026",
-    category: "events",
-    title: "Ramadan Decorations (2026)",
-    description: "Ramadan Decorations in 2026.",
-    image: "",
-    badgeText: "Event",
-    badgeClass: "badge-seminar"
-  },
-  {
-    id: "christmas-decorations-2025",
-    category: "events",
-    title: "Christmas Decorations (2025)",
-    description: "Christmas Decorations in 2025.",
-    image: "",
-    badgeText: "Event",
-    badgeClass: "badge-seminar"
   },
   {
     id: "ideal-student-competition-2025",
@@ -820,15 +847,6 @@ export const projectsData = [
     description: "Elevator Systems Workshop in 2024.",
     image: "",
     badgeText: "Workshop",
-    badgeClass: "badge-seminar"
-  },
-  {
-    id: "administrative-capital-visit-2023",
-    category: "events",
-    title: "Administrative Capital Field Visit (2023)",
-    description: "Administrative Capital Field Visit in 2023 (زيارة ميدانية للعاصمة الإدارية).",
-    image: "",
-    badgeText: "Field Visit",
     badgeClass: "badge-seminar"
   },
   {
