@@ -40,6 +40,7 @@ const Home = () => {
 
         {[
           { id: 'awarded-outstanding-projects', title: 'Awarded & Outstanding Projects' },
+          { id: 'bnu-competitions', title: 'BNU Competitions' },
           { id: 'academic-projects', title: 'Academic Projects' },
           { id: 'graduation-projects', title: 'Graduation Projects' }
         ].map((subcategory, index) => (
